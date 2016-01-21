@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Glue:GlueDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Glue="http://www.glueframework.com/activitydiagram/" id="0" location="20,20" size="100,100">
+  <child xsi:type="Glue:InitialState" id="0" location="324,120" size="-1,-1" output="//@wire.0"/>
+  <child xsi:type="Glue:RouterActivity" id="1" location="144,180" size="397,-1" input="//@wire.0" output="//@wire.2 //@wire.4 //@wire.5" name="ROUTER">
+    <property key="class" value="com.posdata.glue.biz.activity.PosDefaultRouter"/>
+    <property key="description" value="해당화면의 Event에 따라 Routing을 하는 Activity입니다.&#xD;&#xA;PosContext는 pageEvent, find.x, modify.x, delete.x, customcall 중에 한개의 key를 갖고 있습니다. &#xD;&#xA;- success transition을 추가해주십시요"/>
+  </child>
+  <child xsi:type="Glue:FinalState" id="6" location="420,360" size="-1,-1" input="//@wire.1 //@wire.3"/>
+  <child xsi:type="Glue:DinaActivity" id="37254" location="360,264" size="181,-1" input="//@wire.4 //@wire.5" output="//@wire.1" name="GET_INFO">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearchPaging"/>
+    <property key="dao" value="dao"/>
+    <property key="page-size" value="5"/>
+    <property key="resultkey" value="RS_RESULT"/>
+    <property key="sqlkey" value="News.GET_LIST"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="64618" location="144,264" size="181,-1" input="//@wire.2" output="//@wire.3" name="GET_DTL_INFO">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT"/>
+    <property key="sqlkey" value="News.GET_DETAIL"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <property key="tx" value="true"/>
+  <property key="description" value="sample 화면의 ad입니다. &#xD;&#xA;- TransactionManager 에 대한 설정을 추가하십시요"/>
+  <wire id="4075" guardcondition="success" firstRelativePoint="342,137" lastRelativePoint="342,180"/>
+  <wire id="4100" guardcondition="success" firstRelativePoint="430,330" lastRelativePoint="430,359"/>
+  <wire id="6659" guardcondition="search_dtl" firstRelativePoint="238,210" lastRelativePoint="238,264"/>
+  <wire id="6660" guardcondition="success" firstRelativePoint="237,294" lastRelativePoint="419,369">
+    <bendpoint weight="0.5" firstDimension="3,89" secondDimension="-193,-2"/>
+  </wire>
+  <wire id="6662" guardcondition="search" firstRelativePoint="473,210" lastRelativePoint="473,264">
+    <bendpoint weight="0.5" firstDimension="131,42" secondDimension="23,-42"/>
+    <bendpoint weight="0.5" firstDimension="131,37" secondDimension="23,-47"/>
+    <bendpoint weight="0.5" firstDimension="131,38" secondDimension="23,-46"/>
+  </wire>
+  <wire id="6663" guardcondition="success" firstRelativePoint="414,210" lastRelativePoint="414,264">
+    <bendpoint weight="0.5" firstDimension="72,42" secondDimension="-36,-42"/>
+  </wire>
+</Glue:GlueDiagram>

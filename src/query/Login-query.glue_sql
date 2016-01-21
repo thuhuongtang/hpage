@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<queryMap desc="Login"> 
+	 <query id="Login.Check" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT 
+	COUNT(*) CHK
+FROM 
+	users
+WHERE
+	usernm=:username
+	AND passwd=:passwd
+		 ]]> 
+	 </query>
+</queryMap>

@@ -1,0 +1,273 @@
+.seachWrap {
+	MARGIN-LEFT: 240px
+}
+.seachWrap .total {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 0px; WIDTH: 95px; PADDING-RIGHT: 0px; HEIGHT: 24px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 1px
+}
+.seachWrap .subj {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 0px; WIDTH: 95px; PADDING-RIGHT: 0px; HEIGHT: 24px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid; PADDING-TOP: 1px
+}
+.seachWrap .entry01 {
+	BORDER-BOTTOM: #d5d5d5 1px solid; BORDER-LEFT: #d5d5d5 1px solid; LINE-HEIGHT: 22px; PADDING-LEFT: 5px; WIDTH: 250px; HEIGHT: 22px; FONT-SIZE: 12px; BORDER-TOP: #d5d5d5 1px solid; BORDER-RIGHT: #d5d5d5 1px solid
+}
+.seachWrap .btn {
+	PADDING-LEFT: 10px; WIDTH: 24px; CURSOR: pointer
+}
+.tableType01 {
+	PADDING-BOTTOM: 30px; PADDING-LEFT: 0px; WIDTH: 695px; PADDING-RIGHT: 0px; MARGIN-LEFT: 37px; PADDING-TOP: 20px
+}
+.tableType01 TABLE {
+	WIDTH: 100%; BORDER-TOP: #0552a9 3px solid
+}
+.tableType01 TH {
+	BORDER-BOTTOM: #707580 1px solid; TEXT-ALIGN: center; HEIGHT: 36px; COLOR: #000
+}
+.tableType01 TD {
+	BORDER-BOTTOM: #e5e5e5 1px solid; TEXT-ALIGN: center; HEIGHT: 36px; COLOR: #666
+}
+.tableType01 A {
+	COLOR: #333
+}
+.tableType01 A:hover {
+	COLOR: #0552a9; TEXT-DECORATION: underline
+}
+.tableType01 .alignLeft {
+	TEXT-ALIGN: left; PADDING-LEFT: 10px
+}
+.tableType01 .end {
+	BORDER-BOTTOM: #707580 1px solid
+}
+.tableType01 .imgView {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; WORD-BREAK: break-all; PADDING-TOP: 30px
+}
+.tableType01 .rightLine {
+	BACKGROUND: url(/kor/_images/common/bul_th_bar01.gif) no-repeat right center
+}
+.tableType01 .btmPadding5 {
+	PADDING-BOTTOM: 10px
+}
+.tableType01 .btmPadding20 {
+	PADDING-BOTTOM: 20px
+}
+.tableType01 .contents {
+	TEXT-ALIGN: justify; PADDING-BOTTOM: 50px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; WORD-BREAK: break-all; PADDING-TOP: 30px
+}
+.tableType01 TD.fileadd {
+	TEXT-ALIGN: right; PADDING-RIGHT: 20px
+}
+.tableType01 TD.fileadd IMG {
+	MARGIN-BOTTOM: -3px; MARGIN-RIGHT: 5px
+}
+.tableType01 TD.fileadd A {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.listBtn {
+	TEXT-ALIGN: right; MARGIN-TOP: 20px; HEIGHT: 29px
+}
+.pageBtns {
+	TEXT-ALIGN: center; MARGIN-TOP: 16px; HEIGHT: 26px; FONT-SIZE: 12px
+}
+.pageBtns A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 26px; MARGIN: 0px 1px; WIDTH: 26px; DISPLAY: inline-block; HEIGHT: 26px; VERTICAL-ALIGN: top
+}
+.pageBtns A:hover {
+	BACKGROUND-POSITION: 0px -36px; TEXT-DECORATION: none
+}
+.pageBtns A.on {
+	BACKGROUND-POSITION: 0px 0px; COLOR: #fff; FONT-WEIGHT: bold
+}
+.pageBtns .prevBtn {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(/kor/_images/common/btn_pageNextPrev.png) no-repeat 0px 0px; MARGIN-RIGHT: 16px; PADDING-TOP: 0px
+}
+.pageBtns .prevBtn:hover {
+	BACKGROUND-POSITION: 0px -36px
+}
+.pageBtns .nextBtn {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(/kor/_images/common/btn_pageNextPrev.png) no-repeat -36px 0px; MARGIN-LEFT: 16px; PADDING-TOP: 0px
+}
+.pageBtns .nextBtn:hover {
+	BACKGROUND-POSITION: -36px -36px
+}
+.pageBtns .numBtn {
+	BACKGROUND: url(/kor/_images/common/btn_pageNum.png) no-repeat 0px -72px
+}
+.brochureContainer {
+	WIDTH: 695px; PADDING-TOP: 20px
+}
+.brochureContainer .brochureList {
+	PADDING-BOTTOM: 30px; PADDING-LEFT: 0px; WIDTH: 695px; PADDING-RIGHT: 0px; MARGIN-LEFT: 37px; BORDER-TOP: #0552a9 3px solid; PADDING-TOP: 0px
+}
+.brochureContainer .brochureList .item {
+	BORDER-BOTTOM: #e5e5e5 1px solid; PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; WIDTH: 695px; PADDING-RIGHT: 0px; DISPLAY: inline-block; PADDING-TOP: 20px
+}
+.brochureContainer .brochureList .item .thum {
+	FLOAT: left; HEIGHT: 107px
+}
+.brochureContainer .brochureList .item .listContainer {
+	POSITION: relative; PADDING-LEFT: 20px; FLOAT: left; PADDING-TOP: 10px
+}
+.brochureContainer .brochureList .item .listContainer .h3Title {
+	PADDING-BOTTOM: 20px; COLOR: #0552a9; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.brochureContainer .brochureList .item .listContainer .listType01 {
+	WIDTH: 380px; FLOAT: left
+}
+.brochureContainer .brochureList .item .listContainer .listType01 LI {
+	PADDING-LEFT: 8px; BACKGROUND: url(/kor/_images/common/bul_box01.gif) no-repeat 0px 8px
+}
+.brochureContainer .brochureList .item .listContainer .btn {
+	MARGIN-TOP: 10px; FLOAT: right; MARGIN-LEFT: 50px
+}
+.tapMenuContainer {
+	POSITION: relative; DISPLAY: inline-block; TOP: -22px
+}
+.tapMenuContainer .tapM {
+	BORDER-BOTTOM: #d6d6d6 1px solid; TEXT-ALIGN: center; PADDING-BOTTOM: 16px; PADDING-LEFT: 0px; WIDTH: 191px; PADDING-RIGHT: 0px; FLOAT: left; BORDER-RIGHT: #d6d6d6 1px solid; PADDING-TOP: 16px
+}
+.tapMenuContainer .on.tapM {
+	BORDER-BOTTOM: 0px; WIDTH: 191px; BORDER-RIGHT: #d6d6d6 1px solid
+}
+.tapMenuContainer .on.tapM A {
+	COLOR: #0552a9
+}
+.tapMenuContainer .tapM A {
+	COLOR: #333; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.tapMenuContainer .end {
+	BORDER-RIGHT: 0px
+}
+.infoPosoco {
+	WIDTH: 695px; DISPLAY: inline-block; MARGIN-LEFT: 37px
+}
+.infoPosoco .h3Title {
+	MARGIN-TOP: 20px; COLOR: #000; FONT-SIZE: 20px
+}
+.infoPosoco .subj {
+	MARGIN-TOP: 20px; COLOR: #666
+}
+.infoPosoco .imgInfo {
+	TEXT-ALIGN: center; MARGIN-TOP: 8px; DISPLAY: block; COLOR: #707580; FONT-WEIGHT: bold
+}
+.jopc .thumType01 {
+	PADDING-BOTTOM: 40px; MARGIN-TOP: 20px; DISPLAY: inline-block
+}
+.jopc .thumType01 .thumList {
+	MARGIN-TOP: 20px; FLOAT: left
+}
+.jopc .thumType01 .info {
+	MARGIN-TOP: 20px; MAX-WIDTH: 330px; FLOAT: left; COLOR: #666; MARGIN-LEFT: 20px
+}
+.jepc .thumType02 {
+	PADDING-BOTTOM: 40px; MARGIN-TOP: 20px; DISPLAY: inline-block
+}
+.jepc .thumType02 .list LI.item {
+	MARGIN-TOP: 20px
+}
+.jepc .thumType02 .list LI .h4Title {
+	PADDING-LEFT: 20px; ZOOM: 1; MARGIN-BOTTOM: 16px; BACKGROUND: url(/kor/_images/common/bul_ring.gif) no-repeat 0px center; CLEAR: both; FONT-SIZE: 15px
+}
+.jepc .thumType02 .list LI .thumList {
+	PADDING-RIGHT: 10px; FLOAT: left
+}
+.jepc .thumType02 .list LI .paddingNone.thumList {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.jepc .thumType02 .list LI .info1 {
+	MARGIN-TOP: 20px; ZOOM: 1; DISPLAY: inline-block; COLOR: #666; CLEAR: both
+}
+.jepc .thumType02 .list LI .info2 {
+	MAX-WIDTH: 320px; FLOAT: left; COLOR: #666; MARGIN-LEFT: 20px
+}
+.jkpc .thumType03 {
+	PADDING-BOTTOM: 40px; MARGIN-TOP: 20px; DISPLAY: inline-block
+}
+.jkpc .thumType03 .thumList {
+	MARGIN-TOP: 20px; PADDING-RIGHT: 10px; FLOAT: left
+}
+.jkpc .thumType03 .paddingNone.thumList {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.jkpc .thumType03 .info {
+	MARGIN-TOP: 20px; ZOOM: 1; DISPLAY: inline-block; COLOR: #666; CLEAR: both
+}
+.jwpc .thumType03 {
+	PADDING-BOTTOM: 40px; MARGIN-TOP: 20px; DISPLAY: inline-block
+}
+.jwpc .thumType03 .thumList {
+	MARGIN-TOP: 20px; PADDING-RIGHT: 10px; FLOAT: left
+}
+.jwpc .thumType03 .paddingNone.thumList {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.jwpc .thumType03 .info {
+	MARGIN-TOP: 20px; ZOOM: 1; DISPLAY: inline-block; COLOR: #666; CLEAR: both
+}
+.jwpc .thumType03 .h4Title {
+	MARGIN-TOP: 16px; PADDING-LEFT: 20px; ZOOM: 1; MARGIN-BOTTOM: 0px; BACKGROUND: url(/jpn/_images/common/bul_ring.gif) no-repeat 0px center; CLEAR: both; FONT-SIZE: 15px
+}
+.genesis .thumType04 {
+	PADDING-BOTTOM: 100px; MARGIN-TOP: 20px; DISPLAY: inline-block
+}
+.genesis .thumType04 .thumList {
+	MARGIN-TOP: 20px; PADDING-RIGHT: 10px; FLOAT: left
+}
+.genesis .thumType04 .paddingNone.thumList {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.genesis .thumType04 .info {
+	MARGIN-TOP: 20px; ZOOM: 1; DISPLAY: inline-block; COLOR: #666; CLEAR: both
+}
+.genesis .thumType04 UL.addressList {
+	ZOOM: 1; DISPLAY: inline-block; CLEAR: both
+}
+.genesis .thumType04 UL.addressList LI.item {
+	DISPLAY: block
+}
+.genesis .thumType04 UL.addressList LI.item H4.title {
+	MARGIN-TOP: 20px; PADDING-LEFT: 15px; DISPLAY: block; BACKGROUND: url(/kor/_images/common/bul_line01.gif) no-repeat 0px 50%; COLOR: #333; FONT-SIZE: 15px; FONT-WEIGHT: bold
+}
+.genesis .thumType04 UL.addressList LI.item P {
+	LINE-HEIGHT: 1.7; COLOR: #666
+}
+.ppm .thumType05 {
+	PADDING-BOTTOM: 40px; DISPLAY: inline-block; OVERFLOW: hidden
+}
+.ppm .thumType05 .thumList {
+	MARGIN-TOP: 20px; FLOAT: left
+}
+.ppm .thumType05 .info {
+	MARGIN-TOP: 20px; MAX-WIDTH: 320px; FLOAT: left; COLOR: #666; MARGIN-LEFT: 30px; WORD-BREAK: break-all
+}
+.addressContainer {
+	ZOOM: 1; DISPLAY: inline-block; CLEAR: both
+}
+.addressContainer .addressTitle {
+	MARGIN-TOP: 30px; PADDING-LEFT: 15px; DISPLAY: block; BACKGROUND: url(/kor/_images/common/bul_line01.gif) no-repeat 0px 50%; COLOR: #333; FONT-SIZE: 15px; FONT-WEIGHT: bold
+}
+.addressContainer .addressInfoGroup {
+	MARGIN-TOP: 10px; ZOOM: 1; COLOR: #333; CLEAR: both
+}
+.addressContainer .addressInfoGroup .infoTop {
+	BACKGROUND: url(/kor/_images/common/bg_sub_top_rect2.gif) no-repeat 0px 0px; HEIGHT: 9px
+}
+.addressContainer .addressInfoGroup .infoMiddle {
+	BORDER-LEFT: #ddd 1px solid; WIDTH: 692px; BORDER-RIGHT: #ddd 1px solid
+}
+.addressContainer .addressInfoGroup .infoMiddle UL.infoList {
+	LINE-HEIGHT: 1.8; DISPLAY: inline-block; MARGIN-LEFT: 25px
+}
+.addressContainer .addressInfoGroup .infoMiddle UL.infoList LI.innerTxt {
+	PADDING-LEFT: 5px; BACKGROUND: url(/kor/_images/common/bul_box01.gif) no-repeat 0px 50%
+}
+.addressContainer .addressInfoGroup .infoBottom {
+	BACKGROUND: url(/kor/_images/common/bg_sub_bottom_rect2.gif) no-repeat 0px 0px; HEIGHT: 9px
+}
+.addressContainer .addressInfoGroup .infoMiddle UL.infoList LI.floatLeft {
+	FLOAT: left !important
+}
+.addressContainer .addressInfoGroup .infoMiddle UL.infoList LI.marginLeft20 {
+	MARGIN-LEFT: 20px !important
+}
+.addressContainer .addressInfoGroup .infoMiddle SPAN.definedTxt {
+	COLOR: #333; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}

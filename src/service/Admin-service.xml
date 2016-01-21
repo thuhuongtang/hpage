@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="Admin-service" initial="ROUTER">
+  <transaction-manager id="tx" commit="true" />
+  <activity name="GET_NEWS_VI" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="GET_NEWS_KR" />
+    <property name="resultkey" value="RS_RESULT_VI" />
+    <property name="sqlkey" value="Admin.GET_NEWS_VI" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="UPDATE_NEWS" class="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet">
+    <transition name="success" value="GET_NEWS_EN" />
+    <property name="insert-sqlkey" value="Admin.UPDATE_NN" />
+    <property name="resultkey" value="insertCnt" />
+    <property name="dao" value="dao" />
+    <property name="posRowSet" value="RS_PARAM" />
+    <property name="isAudit" value="false" />
+  </activity>
+  <activity name="GET_NEWS_KR" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="end" />
+    <property name="resultkey" value="RS_RESULT_KR" />
+    <property name="sqlkey" value="Admin.GET_NEWS_KR" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="ROUTER" class="com.posdata.glue.biz.activity.PosDefaultRouter">
+    <transition name="get_NN" value="GET_NEWS_EN" />
+    <transition name="get_RC" value="GET_NEWS_EN" />
+    <transition name="insert_NN" value="GET_PARAM_NEWS_I" />
+    <transition name="update_NN" value="GET_PARAM_NEWS_U" />
+    <transition name="delete_NN" value="GET_DELETE_PARAM" />
+    <transition name="success" value="GET_CONTENT" />
+    <transition name="update" value="GET_UPDATE_PARAM" />
+    <transition name="get_AU" value="GET_AUTHORITY" />
+    <transition name="update_AU" value="GET_PARAM_AU" />
+  </activity>
+  <activity name="GET_AUTHORITY" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="end" />
+    <property name="resultkey" value="RS_RESULT" />
+    <property name="dao" value="dao" />
+    <property name="sqlkey" value="Admin.GET_AUTH" />
+  </activity>
+  <activity name="DELETE_BY_ID" class="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet">
+    <transition name="success" value="GET_NEWS_EN" />
+    <property name="resultkey" value="deleteCnt" />
+    <property name="dao" value="dao" />
+    <property name="posRowSet" value="RS_PARAM" />
+    <property name="isAudit" value="false" />
+    <property name="delete-sqlkey" value="Admin.DELETE_BY_ID" />
+  </activity>
+  <activity name="GET_PARAM_NEWS_U" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="UPDATE_NEWS" />
+    <property name="resultkey" value="RS_PARAM" />
+    <property name="sqlkey" value="Admin.GET_UPDATE_NN" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="GET_PARAM_NEWS_I" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="INSERT_NEWS" />
+    <property name="resultkey" value="RS_PARAM" />
+    <property name="sqlkey" value="Admin.GET_INSERT_NN" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="GET_UPDATE_PARAM" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="UPDATE_CONTENT" />
+    <property name="resultkey" value="RS_PARAM" />
+    <property name="sqlkey" value="Admin.GET_UPDATE_PARAM" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="GET_NEW_CONTENT" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="end" />
+    <property name="resultkey" value="RS_RESULT" />
+    <property name="sqlkey" value="Admin.GET_CONTENT" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="GET_DELETE_PARAM" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="DELETE_BY_ID" />
+    <property name="resultkey" value="RS_PARAM" />
+    <property name="sqlkey" value="Admin.GET_DELETE_PARAM" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="INSERT_NEWS" class="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet">
+    <transition name="success" value="GET_NEWS_EN" />
+    <property name="insert-sqlkey" value="Admin.INSERT_NN" />
+    <property name="resultkey" value="insertCnt" />
+    <property name="dao" value="dao" />
+    <property name="posRowSet" value="RS_PARAM" />
+    <property name="isAudit" value="false" />
+  </activity>
+  <activity name="UPDATE_CONTENT" class="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet">
+    <transition name="success" value="GET_NEW_CONTENT" />
+    <property name="resultkey" value="updateCnt" />
+    <property name="update-sqlkey" value="Admin.UPDATE_CONTENT" />
+    <property name="dao" value="dao" />
+    <property name="posRowSet" value="RS_PARAM" />
+    <property name="isAudit" value="false" />
+  </activity>
+  <activity name="UPDATE_AU" class="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet">
+    <transition name="success" value="GET_AUTHORITY" />
+    <property name="isAudit" value="false" />
+    <property name="resultkey" value="insertCnt" />
+    <property name="dao" value="dao" />
+    <property name="insert-sqlkey" value="Admin.UPDATE_AU" />
+    <property name="posRowSet" value="RS_PARAM" />
+  </activity>
+  <activity name="GET_PARAM_AU" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="UPDATE_AU" />
+    <property name="resultkey" value="RS_PARAM" />
+    <property name="dao" value="dao" />
+    <property name="sqlkey" value="Admin.GET_AU" />
+  </activity>
+  <activity name="GET_CONTENT" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="end" />
+    <property name="resultkey" value="RS_RESULT" />
+    <property name="sqlkey" value="Admin.GET_CONTENT" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="GET_NEWS_EN" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="GET_NEWS_VI" />
+    <property name="resultkey" value="RS_RESULT_EN" />
+    <property name="sqlkey" value="Admin.GET_NEWS_EN" />
+    <property name="dao" value="dao" />
+  </activity>
+</service>
+

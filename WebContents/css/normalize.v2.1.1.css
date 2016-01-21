@@ -1,0 +1,233 @@
+
+article {
+	DISPLAY: block
+}
+aside {
+	DISPLAY: block
+}
+details {
+	DISPLAY: block
+}
+figcaption {
+	DISPLAY: block
+}
+figure {
+	DISPLAY: block
+}
+footer {
+	DISPLAY: block
+}
+header {
+	DISPLAY: block
+}
+hgroup {
+	DISPLAY: block
+}
+main {
+	DISPLAY: block
+}
+nav {
+	DISPLAY: block
+}
+section {
+	DISPLAY: block
+}
+summary {
+	DISPLAY: block
+}
+audio {
+	DISPLAY: inline-block
+}
+canvas {
+	DISPLAY: inline-block
+}
+video {
+	DISPLAY: inline-block
+}
+[hidden] {
+	DISPLAY: none
+}
+HTML {
+	FONT-FAMILY: sans-serif; BACKGROUND: #fff; COLOR: #000; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%
+}
+BODY {
+	MARGIN: 0px
+}
+A:focus {
+	OUTLINE-STYLE: dotted; OUTLINE-COLOR: invert; OUTLINE-WIDTH: thin
+}
+A:active {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px
+}
+A:hover {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px
+}
+H1 {
+	MARGIN: 0.67em 0px; FONT-SIZE: 2em
+}
+ABBR[title] {
+	BORDER-BOTTOM: 1px dotted
+}
+B {
+	FONT-WEIGHT: bold
+}
+STRONG {
+	FONT-WEIGHT: bold
+}
+DFN {
+	FONT-STYLE: italic
+}
+HR {
+	BOX-SIZING: content-box; HEIGHT: 0px; -moz-box-sizing: content-box
+}
+mark {
+	BACKGROUND: #ff0; COLOR: #000
+}
+CODE {
+	FONT-FAMILY: monospace, serif; FONT-SIZE: 1em
+}
+KBD {
+	FONT-FAMILY: monospace, serif; FONT-SIZE: 1em
+}
+PRE {
+	FONT-FAMILY: monospace, serif; FONT-SIZE: 1em
+}
+SAMP {
+	FONT-FAMILY: monospace, serif; FONT-SIZE: 1em
+}
+PRE {
+	WHITE-SPACE: pre-wrap
+}
+Q {
+	QUOTES: "\201C" "\201D" "\2018" "\2019"
+}
+SMALL {
+	FONT-SIZE: 80%
+}
+SUB {
+	POSITION: relative; LINE-HEIGHT: 0; FONT-SIZE: 75%; VERTICAL-ALIGN: baseline
+}
+SUP {
+	POSITION: relative; LINE-HEIGHT: 0; FONT-SIZE: 75%; VERTICAL-ALIGN: baseline
+}
+SUP {
+	TOP: -0.5em
+}
+SUB {
+	BOTTOM: -0.25em
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+figure {
+	MARGIN: 0px
+}
+FIELDSET {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 0.75em; MARGIN: 0px 2px; PADDING-LEFT: 0.62em; PADDING-RIGHT: 0.62em; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 0.35em
+}
+LEGEND {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+BUTTON {
+	MARGIN: 0px; FONT-FAMILY: inherit; FONT-SIZE: 100%
+}
+INPUT {
+	MARGIN: 0px; FONT-FAMILY: inherit; FONT-SIZE: 100%
+}
+SELECT {
+	MARGIN: 0px; FONT-FAMILY: inherit; FONT-SIZE: 100%
+}
+TEXTAREA {
+	MARGIN: 0px; FONT-FAMILY: inherit; FONT-SIZE: 100%
+}
+BUTTON {
+	LINE-HEIGHT: normal
+}
+INPUT {
+	LINE-HEIGHT: normal
+}
+BUTTON {
+	TEXT-TRANSFORM: none
+}
+SELECT {
+	TEXT-TRANSFORM: none
+}
+BUTTON {
+	CURSOR: pointer; -webkit-appearance: button
+}
+HTML INPUT[type='button'] {
+	CURSOR: pointer; -webkit-appearance: button
+}
+INPUT[type='reset'] {
+	CURSOR: pointer; -webkit-appearance: button
+}
+INPUT[type='submit'] {
+	CURSOR: pointer; -webkit-appearance: button
+}
+BUTTON[disabled] {
+	CURSOR: default
+}
+HTML INPUT[disabled] {
+	CURSOR: default
+}
+INPUT[type='checkbox'] {
+	BOX-SIZING: border-box; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+/*
+INPUT[type='radio'] {
+	BOX-SIZING: border-box; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+*/
+INPUT[type='search'] {
+	BOX-SIZING: content-box; -moz-box-sizing: content-box; -webkit-appearance: textfield; -webkit-box-sizing: content-box
+}
+
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + label {
+    color: #444;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+input[type="radio"] + label span {
+
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+	
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input[type="radio"] + label span {
+     background-color:#444;
+}
+
+input[type="radio"]:checked + label span{
+     background-color:#FD7A25;
+}
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span {
+  -webkit-transition:background-color 0.4s linear;
+  -o-transition:background-color 0.4s linear;
+  -moz-transition:background-color 0.4s linear;
+  transition:background-color 0.4s linear;
+}
+
+
+TEXTAREA {
+	VERTICAL-ALIGN: top; OVERFLOW: auto
+}
+TABLE {
+	BORDER-SPACING: 0; BORDER-COLLAPSE: collapse
+}

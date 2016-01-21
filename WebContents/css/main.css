@@ -1,0 +1,96 @@
+#content {
+	/* POSITION: relative; MARGIN: 0px auto; WIDTH: 963px */ 
+	POSITION: relative;  WIDTH: 963px 
+}
+.mainSlider {
+	/* Z-INDEX: 0; POSITION: relative; WIDTH: 963px; HEIGHT: 553px; OVERFLOW: hidden */
+	Z-INDEX: 0; POSITION: relative; WIDTH: 963px; HEIGHT: 443px; OVERFLOW: hidden; vertical-align: middle
+}
+.submainSlider {
+	/* Z-INDEX: 0; POSITION: relative; WIDTH: 963px; HEIGHT: 553px; OVERFLOW: hidden */
+	Z-INDEX: 0; POSITION: relative; WIDTH: 1010px; HEIGHT: 152px; OVERFLOW: hidden;LEFT: 190px; vertical-align: middle
+}
+#slideImgs {
+	POSITION: absolute; HEIGHT: 1659px
+}
+#subslideImgs {
+	POSITION: absolute; HEIGHT: 152px
+}
+.mainSlider .item {
+	POSITION: relative; TOP: 0px; LEFT: 0px
+}
+.mainSlider .item .mainImg {
+	
+}
+.mainSlider .item .sentence1 {
+	POSITION: absolute; WIDTH: 270px; HEIGHT: 200px; TOP: 84px; LEFT: 54px
+}
+.mainSlider .item .sentence2 {
+	POSITION: absolute; TOP: 120px; LEFT: 50px
+}
+.mainSlider .item .sentence3 {
+	POSITION: absolute; TOP: 300px; LEFT: 54px
+}
+#updownBtns {
+	POSITION: absolute; TOP: 0px; CURSOR: pointer; RIGHT: 0px
+}
+#updownBtns A {
+	PADDING-BOTTOM: 1px; WIDTH: 48px; DISPLAY: block; HEIGHT: 48px
+}
+.middleBanners {
+	POSITION: relative; MARGIN-TOP: 8px; WIDTH: 963px; HEIGHT: 114px
+}
+.middleBanners .item {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 7px; FLOAT: left; HEIGHT: 114px; PADDING-TOP: 0px
+}
+.middleBanners .end {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.bottomBanners {
+	POSITION: relative; MARGIN-TOP: 8px; WIDTH: 963px; HEIGHT: 159px
+}
+.bottomBanners .newsTableBanner {
+	POSITION: relative; WIDTH: 381px; PADDING-RIGHT: 7px; BACKGROUND: url(/kor/_images/main/banner_btm_back01.gif) no-repeat; FLOAT: left; HEIGHT: 159px
+}
+.bottomBanners .newsTableBanner H4 {
+	POSITION: relative; PADDING-LEFT: 15px; COLOR: #0552a9; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 15px
+}
+.bottomBanners .newsTableBanner TABLE {
+	BORDER-BOTTOM: 0px; POSITION: relative; BORDER-LEFT: 0px; MARGIN: 8px 0px 0px 15px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.bottomBanners .newsTableBanner TD {
+	TEXT-ALIGN: left; HEIGHT: 34px; COLOR: #666; FONT-SIZE: 11px; BORDER-TOP: #ececec 1px solid; FONT-WEIGHT: normal
+}
+.bottomBanners .newsTableBanner .list {
+	TEXT-ALIGN: left; PADDING-LEFT: 10px; BACKGROUND: url(/kor/_images/common/bul_list01.gif) no-repeat 0px 7px; COLOR: #000; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.bottomBanners .recruitBanner {
+	POSITION: relative; WIDTH: 381px; PADDING-RIGHT: 7px; BACKGROUND: url(/kor/_images/main/banner_btm_back01.gif) no-repeat; FLOAT: left; HEIGHT: 159px
+}
+.bottomBanners .recruitBanner .icon {
+	POSITION: absolute; TOP: 18px; LEFT: 23px
+}
+.bottomBanners .recruitBanner .txtGroup {
+	POSITION: relative; WIDTH: 290px; HEIGHT: 70px
+}
+.bottomBanners .recruitBanner .title {
+	POSITION: absolute; COLOR: #0552a9; FONT-SIZE: 14px; TOP: 22px; LEFT: 77px
+}
+.bottomBanners .recruitBanner .subj {
+	POSITION: absolute; WIDTH: 290px; TOP: 44px; LEFT: 77px
+}
+.bottomBanners .recruitBanner .btn {
+	POSITION: absolute; TOP: 90px; LEFT: 77px
+}
+.bottomBanners .btmImg {
+	PADDING-RIGHT: 7px; FLOAT: left; CURSOR: pointer
+}
+.bottomBanners .prCenterBanner {
+	FLOAT: left
+}
+.bottomBanners .prCenterBanner .item {
+	MARGIN-BOTTOM: 6px
+}
+.bottomBanners .prCenterBanner .end {
+	MARGIN-BOTTOM: 0px
+}

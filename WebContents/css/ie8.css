@@ -1,0 +1,31 @@
+@font-face {
+	font-family: NG;
+	src:url(/font/nanumGothic.eot?#iefix) format("embedded-opentype"), url(/font/nanumGothic.woff) format("woff"), url(/font/nanumGothic.ttf) format("truetype");
+}
+.container {
+	
+}
+.flt {
+	
+}
+.footer {
+	
+}
+.flt:after {
+	DISPLAY: block; CLEAR: both; CONTENT: " "
+}
+.header_w {
+	BORDER-BOTTOM: #ddd 2px solid; PADDING-BOTTOM: 0px
+}
+.container:after {
+	DISPLAY: block; CLEAR: both; CONTENT: " "
+}
+.footer:after {
+	DISPLAY: block; CLEAR: both; CONTENT: " "
+}
+.footer .f_menu LI A {
+	LINE-HEIGHT: 15px
+}
+.tab LI A {
+	MIN-WIDTH: 118px
+}

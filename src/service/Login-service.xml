@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="Login-service" initial="ROUTER">
+  <transaction-manager id="tx" commit="true" />
+  <activity name="ROUTER" class="com.posdata.glue.biz.activity.PosDefaultRouter">
+    <transition name="search" value="LOGIN" />
+    <transition name="success" value="LOGIN" />
+  </activity>
+  <activity name="LOGIN" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="end" />
+    <property name="resultkey" value="RS_RESULT" />
+    <property name="dao" value="dao" />
+    <property name="sqlkey" value="Login.Check" />
+  </activity>
+</service>
+

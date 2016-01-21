@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<queryMap desc="Recruitment"> 
+	 <query id="Recruitment.SEARCH" desc="" fetchSize="10" isNamed="true">
+		 <![CDATA[ 
+select 
+	content_seq
+	, concat(sub_title_1,'') TITLE 
+	, concat(content_details,'') JOB_DESC
+from 
+	hpage_contents
+where 
+	content_tp='RC'
+	and content_seq > 0
+	and use_yn = 'y'
+	and lang = if(:lang is null or :lang ='','en',:lang)
+order by
+	content_seq
+		 ]]> 
+	 </query>
+	 <query id="Recruitment.GET_INFO" desc="" fetchSize="10" isNamed="true">
+		 <![CDATA[ 
+select	
+	title
+	, sub_title
+	, content_details
+from 
+	hpage_contents
+where 
+	content_tp='RC'
+	and content_seq = 0
+	and use_yn = 'y'
+	and lang = if(:lang is null or :lang ='','en',:lang)
+		 ]]> 
+	 </query>
+</queryMap>

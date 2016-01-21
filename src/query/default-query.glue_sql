@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<queryMap desc="INDEX"> 
+	 <query id="INDEX.SEARCH" desc="Find weighing result" fetchSize="10" isNamed="true">
+		 <![CDATA[ 
+SELECT * FROM `recruitment` ORDER BY Title
+		 ]]> 
+	 </query>
+</queryMap>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Glue:GlueDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Glue="http://www.glueframework.com/activitydiagram/" id="0" location="20,20" size="100,100">
+  <child xsi:type="Glue:InitialState" id="0" location="431,44" size="-1,-1" output="//@wire.0"/>
+  <child xsi:type="Glue:RouterActivity" id="1" location="360,96" size="181,-1" input="//@wire.0" output="//@wire.1 //@wire.3" name="ROUTER">
+    <property key="class" value="com.posdata.glue.biz.activity.PosDefaultRouter"/>
+    <property key="description" value="해당화면의 Event에 따라 Routing을 하는 Activity입니다.&#xD;&#xA;PosContext는 pageEvent, find.x, modify.x, delete.x, customcall 중에 한개의 key를 갖고 있습니다. &#xD;&#xA;- success transition을 추가해주십시요"/>
+  </child>
+  <child xsi:type="Glue:FinalState" id="6" location="420,360" size="-1,-1" input="//@wire.2"/>
+  <child xsi:type="Glue:DinaActivity" id="37254" location="360,264" size="181,-1" input="//@wire.4" output="//@wire.2" name="GET_DETAILS">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT"/>
+    <property key="sqlkey" value="Recruitment.SEARCH"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="64611" location="360,168" size="181,-1" input="//@wire.1 //@wire.3" output="//@wire.4" name="GET_INFO">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT1"/>
+    <property key="sqlkey" value="Recruitment.GET_INFO"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <property key="tx" value="true"/>
+  <property key="description" value="sample 화면의 ad입니다. &#xD;&#xA;- TransactionManager 에 대한 설정을 추가하십시요"/>
+  <wire id="4075" guardcondition="success" firstRelativePoint="426,42" lastRelativePoint="426,180"/>
+  <wire id="4099" guardcondition="search" firstRelativePoint="467,126" lastRelativePoint="467,168"/>
+  <wire id="4100" guardcondition="success" firstRelativePoint="448,329" lastRelativePoint="448,392"/>
+  <wire id="6625" guardcondition="success" firstRelativePoint="408,126" lastRelativePoint="408,168"/>
+  <wire id="6657" guardcondition="success" firstRelativePoint="444,198" lastRelativePoint="444,264"/>
+</Glue:GlueDiagram>

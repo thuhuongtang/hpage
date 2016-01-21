@@ -1,0 +1,176 @@
+BODY {
+	OVERFLOW-X: hidden;
+	/* BORDER-TOP: #0552a9 4px solid */
+}
+#header {
+	Z-INDEX: 1000; POSITION: relative; MARGIN: 15px auto; WIDTH: 963px; HEIGHT: 86px
+}
+#header H1 {
+	POSITION: absolute; WIDTH: 89px; TOP: 29px; LEFT: 0px
+}
+#gnb {
+	/* POSITION: absolute; TOP: 30px; LEFT: 129px */
+}
+.depth1 {
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 9px; PADDING-LEFT: 0px; PADDING-RIGHT: 25px; FLOAT: left; HEIGHT: 25px; CURSOR: pointer; PADDING-TOP: 5px
+}
+.depth1 .txt {
+	COLOR: #000; FONT-SIZE: 15px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.depth1 .subBarGroup {
+	Z-INDEX: 50; POSITION: absolute; DISPLAY: none; TOP: 0px; LEFT: -20px
+}
+.depth1 .subBarGroup .barArrow {
+	POSITION: absolute; WIDTH: 19px; BACKGROUND: url(img/gnb_subbar_arrow.png) no-repeat; HEIGHT: 9px; TOP: 30px; LEFT: 50px
+}
+.depth1 .subBarGroup .barLeftRect {
+	POSITION: absolute; WIDTH: 14px; BACKGROUND: url(img/gnb_subbar_left.png) no-repeat; HEIGHT: 40px; TOP: 39px; LEFT: 0px
+}
+.depth1 .subBarGroup .barCenterRect {
+	POSITION: absolute; BACKGROUND: url(img/gnb_subbar_center.png) repeat-x 0px 0px; HEIGHT: 40px; TOP: 39px; LEFT: 14px
+}
+.depth1 .subBarGroup .barRightRect {
+	POSITION: absolute; WIDTH: 14px; BACKGROUND: url(img/gnb_subbar_right.png) no-repeat; HEIGHT: 40px; TOP: 39px; LEFT: 514px
+}
+.depth1 .depth2 {
+	Z-INDEX: 70; POSITION: absolute; WIDTH: 600px; DISPLAY: none; HEIGHT: 50px; OVERFLOW: hidden; TOP: 42px; LEFT: 5px
+}
+.depth1 .depth2 LI {
+	PADDING-BOTTOM: 9px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; FLOAT: left; PADDING-TOP: 9px
+}
+.depth1 .depth2 LI .subTxt {
+	COLOR: #fff; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.topUtilMenus {
+	/* POSITION: absolute; TOP: 35px; RIGHT: 0px */
+	POSITION: absolute; TOP: 5px; RIGHT: 0px
+}
+.topUtilMenus .menuItem {
+	/* PADDING-BOTTOM: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 8px; DISPLAY: block; FLOAT: left; HEIGHT: 12px; COLOR: #666; FONT-SIZE: 11px; PADDING-TOP: 3px */
+	DISPLAY: block; FLOAT: left; HEIGHT: 12px; COLOR: #666; FONT-SIZE: 11px
+}
+.topUtilMenus .langGroup {
+	/* WIDTH: 102px; BACKGROUND: url(img/top_line.gif) no-repeat 5px 5px; FLOAT: left; HEIGHT: 18px */
+	BACKGROUND: url(img/top_line.gif) no-repeat 5px 5px; FLOAT: left; HEIGHT: 18px
+}
+.topUtilMenus .langGroup IMG.flag {
+	/* MARGIN: -1px 8px 0px 15px; VERTICAL-ALIGN: middle */
+	MARGIN: -1px 0px 0px 15px; VERTICAL-ALIGN: middle 
+}
+#contentsContainer {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 963px
+}
+#lnb {
+	WIDTH: 183px; FLOAT: left
+}
+#lnb .lnbTop {
+	POSITION: relative; WIDTH: 183px; DISPLAY: inline-block; BACKGROUND: url(/kor/_images/common/bg_lnb_top.gif) no-repeat; HEIGHT: 132px
+}
+#lnb .lnbTop .titleImg {
+	POSITION: absolute; TOP: 40px; LEFT: 20px
+}
+#lnb .lnbTop .lnbTitle {
+	LINE-HEIGHT: 1; MARGIN: 40px 0px 0px 22px; COLOR: #fff; FONT-SIZE: 25px; FONT-WEIGHT: bold
+}
+#lnb .lnbTop .lnbSubj {
+	LINE-HEIGHT: 1; MARGIN: 15px 0px 0px 22px; COLOR: #fff; FONT-SIZE: 12px
+}
+#lnb .menuList {
+	WIDTH: 183px; BACKGROUND: url(/kor/_images/common/bg_lnb_middle.gif) repeat-y
+}
+#lnb .menuList .smenu {
+	POSITION: relative; WIDTH: 183px; DISPLAY: block; BACKGROUND: url(/kor/_images/common/bg_lnb_bottom_line.gif) no-repeat 0px bottom
+}
+#lnb .menuList .smenu .txt {
+	PADDING-BOTTOM: 16px; PADDING-LEFT: 20px; WIDTH: 150px; PADDING-RIGHT: 0px; DISPLAY: block; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 16px
+}
+#lnb .menuList .smenu .on.txt {
+	BACKGROUND: url(/kor/_images/common/bg_lnb_arrow01.gif) no-repeat 147px center; COLOR: #0552a9
+}
+#lnb .menuList .smenu .txt:hover {
+	BACKGROUND: url(/kor/_images/common/bg_lnb_arrow01.gif) no-repeat 147px center; COLOR: #0552a9; TEXT-DECORATION: none
+}
+#lnb .menuList .end.smenu {
+	PADDING-BOTTOM: 4px; BACKGROUND: url(/kor/_images/common/bg_lnb_bottom.gif) no-repeat 0px bottom
+}
+#lnb .menuList .open.smenu {
+	PADDING-BOTTOM: 7px; MARGIN-BOTTOM: -7px; BACKGROUND: url(/kor/_images/common/bg_lnb_lastM_bottom.gif) no-repeat 0px bottom
+}
+#lnb .menuList .smenu .lastMenuList {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 5px 1px 2px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: #f6f7fa; PADDING-TOP: 0px
+}
+#lnb .menuList .smenu .lastMenuList .lastM {
+	BORDER-TOP: #d9dfe7 1px solid
+}
+#lnb .menuList .smenu .lastMenuList .lastM .lastTxt {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 1.5; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #666; FONT-SIZE: 12px; PADDING-TOP: 6px
+}
+#lnb .menuList .smenu .lastMenuList .lastM .on.lastTxt {
+	BACKGROUND: url(/kor/_images/common/bg_lnb_arrow02.gif) no-repeat 0px center; COLOR: #0552a9; FONT-WEIGHT: bold
+}
+#lnb .menuList .smenu .lastMenuList .lastM .lastTxt:hover {
+	BACKGROUND: url(/kor/_images/common/bg_lnb_arrow02.gif) no-repeat 0px center; COLOR: #0552a9; FONT-WEIGHT: bold
+}
+#lnb .menuList .smenu .lastMenuList .begin.lastM {
+	BORDER-TOP: 0px
+}
+.contentsViewer {
+	WIDTH: 771px; FLOAT: right
+}
+.contentsViewer .contentTop {
+	POSITION: relative; WIDTH: 771px; MARGIN-BOTTOM: 12px; BACKGROUND: url(/kor/_images/common/bg_sub_top_rect.gif) no-repeat 0px 0px; HEIGHT: 123px
+}
+.contentsViewer .contentTop .h2Title {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 37px; PADDING-RIGHT: 0px; HEIGHT: 48px; PADDING-TOP: 50px
+}
+.contentsViewer .contentTop .map {
+	POSITION: absolute; HEIGHT: 18px; COLOR: #666; TOP: 24px; RIGHT: 30px
+}
+.contentsViewer .contentTop .map A {
+	COLOR: #666
+}
+.contentsViewer .contentTop .map STRONG {
+	COLOR: #333
+}
+.contentsViewer .contentTop .map .home {
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 0; PADDING-LEFT: 0px; PADDING-RIGHT: 13px; DISPLAY: inline-block; BACKGROUND: url(/kor/_images/common/ico_home.gif) no-repeat; FONT-SIZE: 0px; TOP: 10px; MARGIN-RIGHT: 2px; PADDING-TOP: 20px
+}
+.contentsViewer .contentTop .map .home SPAN {
+	POSITION: absolute; LINE-HEIGHT: 0; WIDTH: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; TOP: 0px; LEFT: -10000px
+}
+.contentsViewer .bottomItem {
+	WIDTH: 771px; DISPLAY: block
+}
+.contentsViewer .bottomItem .topRect {
+	WIDTH: 771px; BACKGROUND: url(/kor/_images/common/bg_roundRect_top.gif) no-repeat; HEIGHT: 24px
+}
+.contentsViewer .bottomItem .h5.topRect {
+	HEIGHT: 5px
+}
+.contentsViewer .bottomItem .middleRect {
+	WIDTH: 771px; DISPLAY: block; BACKGROUND: url(/kor/_images/common/bg_roundRect_middle.gif) repeat-y 0px 0px
+}
+.contentsViewer .bottomItem .bottomRect {
+	POSITION: relative; WIDTH: 771px; BACKGROUND: url(/kor/_images/common/bg_roundRect_bottom.gif) no-repeat; HEIGHT: 21px
+}
+#footer {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 963px; ZOOM: 1; HEIGHT: 96px; CLEAR: both
+}
+#footer .logo {
+	POSITION: absolute; WIDTH: 83px; TOP: 26px; LEFT: 0px
+}
+#footer .copyright {
+	POSITION: absolute; WIDTH: 258px; TOP: 26px; LEFT: 118px
+}
+#footer .comboBtnGroup {
+	POSITION: absolute; WIDTH: 150px; TOP: 26px; RIGHT: 3px
+}
+#footer .comboBtnGroup .btnCon {
+	POSITION: relative; WIDTH: 150px; BACKGROUND: url(/kor/_images/common/btn_combo_family.gif) no-repeat 0px 0px; HEIGHT: 26px
+}
+#footer .comboBtnGroup .arrowCon {
+	POSITION: relative; HEIGHT: 8px; OVERFLOW: hidden; TOP: -15px; LEFT: 130px
+}
+#footer .comboBtnGroup .arrowCon .arrow {
+	POSITION: absolute; TOP: -10px
+}

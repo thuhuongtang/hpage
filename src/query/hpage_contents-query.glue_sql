@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<queryMap desc="hpage_contents"> 
+	 <query id="hpage_contents.GET_LIST" desc="" fetchSize="10" isNamed="true">
+		 <![CDATA[ 
+SELECT 
+	content_id
+    , content_seq
+    , sub_title
+    , sub_title_1
+    , sub_title_2
+    , content_details
+    , represent_resource
+    , date_format(posted_date,'%Y/%m/%d') posted_date
+FROM 
+	hpage_contents
+WHERE
+	content_tp = :content_tp
+    and lang = if(:lang is null or :lang ='','en',:lang)
+    and use_yn = 'Y'
+ORDER BY
+	content_seq
+		 ]]> 
+	 </query>
+	 <query id="hpage_contents.GET_DETAIL" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT 
+	content_id
+    , content_seq
+    , sub_title
+    , sub_title_1
+    , sub_title_2
+    , content_details
+    , represent_resource
+    , date_format(posted_date,'%Y/%m/%d') posted_date
+FROM 
+	hpage_contents
+WHERE
+	content_id = :content_id
+		 ]]> 
+	 </query>
+	 <query id="hpage_contents.GET_DETAIL_2" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT 
+	content_id
+    , content_seq
+    , sub_title
+    , sub_title_1
+    , sub_title_2
+    , content_details
+    , represent_resource
+    , date_format(posted_date,'%Y/%m/%d') posted_date
+FROM 
+	hpage_contents
+WHERE
+	content_seq = :content_id
+	and content_tp = :content_tp
+	and lang =if(:lang is null or :lang ='','en',:lang)
+		 ]]> 
+	 </query>
+</queryMap>

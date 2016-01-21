@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Glue:GlueDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Glue="http://www.glueframework.com/activitydiagram/" id="0" location="20,20" size="100,100">
+  <child xsi:type="Glue:InitialState" id="0" location="288,60" size="-1,-1" output="//@wire.0"/>
+  <child xsi:type="Glue:RouterActivity" id="1" location="156,120" size="313,-1" input="//@wire.0" output="//@wire.2 //@wire.3 //@wire.4 //@wire.6" name="ROUTER">
+    <property key="class" value="com.posdata.glue.biz.activity.PosDefaultRouter"/>
+    <property key="description" value="해당화면의 Event에 따라 Routing을 하는 Activity입니다.&#xD;&#xA;PosContext는 pageEvent, find.x, modify.x, delete.x, customcall 중에 한개의 key를 갖고 있습니다. &#xD;&#xA;- success transition을 추가해주십시요"/>
+  </child>
+  <child xsi:type="Glue:FinalState" id="6" location="216,300" size="-1,-1" input="//@wire.1"/>
+  <child xsi:type="Glue:DinaActivity" id="37254" location="156,204" size="133,-1" input="//@wire.2 //@wire.3 //@wire.5 //@wire.7" output="//@wire.1" name="GET_INFO">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT"/>
+    <property key="sqlkey" value="hpage_contents.GET_LIST"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="37255" location="336,204" size="133,-1" input="//@wire.4" output="//@wire.5" name="GET_DETAIL">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT1"/>
+    <property key="sqlkey" value="hpage_contents.GET_DETAIL"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91443" location="264,264" size="133,-1" input="//@wire.6" output="//@wire.7" name="GET_DETAIL_2">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT1"/>
+    <property key="sqlkey" value="hpage_contents.GET_DETAIL_2"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <property key="tx" value="true"/>
+  <property key="description" value="sample 화면의 ad입니다. &#xD;&#xA;- TransactionManager 에 대한 설정을 추가하십시요"/>
+  <wire id="4075" guardcondition="success" firstRelativePoint="305,77" lastRelativePoint="305,120"/>
+  <wire id="4100" guardcondition="success" firstRelativePoint="430,330" lastRelativePoint="430,359"/>
+  <wire id="6663" guardcondition="success" firstRelativePoint="200,150" lastRelativePoint="200,204"/>
+  <wire id="6664" guardcondition="search" firstRelativePoint="242,150" lastRelativePoint="242,204">
+    <bendpoint weight="0.5" firstDimension="-70,46" secondDimension="14,-38"/>
+  </wire>
+  <wire id="6665" guardcondition="get_detail" firstRelativePoint="413,150" lastRelativePoint="413,204">
+    <bendpoint weight="0.5" firstDimension="101,42" secondDimension="5,-42"/>
+  </wire>
+  <wire id="6666" guardcondition="success" firstRelativePoint="336,219" lastRelativePoint="289,219"/>
+  <wire id="7670" guardcondition="pdtl" firstRelativePoint="317,150" lastRelativePoint="317,264"/>
+  <wire id="7671" guardcondition="success" firstRelativePoint="279,264" lastRelativePoint="274,234"/>
+</Glue:GlueDiagram>

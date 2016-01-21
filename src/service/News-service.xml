@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="News-service" initial="ROUTER">
+  <transaction-manager id="tx" commit="true" />
+  <activity name="GET_DTL_INFO" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="end" />
+    <property name="resultkey" value="RS_RESULT" />
+    <property name="sqlkey" value="News.GET_DETAIL" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="ROUTER" class="com.posdata.glue.biz.activity.PosDefaultRouter">
+    <transition name="search_dtl" value="GET_DTL_INFO" />
+    <transition name="search" value="GET_INFO" />
+    <transition name="success" value="GET_INFO" />
+  </activity>
+  <activity name="GET_INFO" class="com.posco.ict.hp.common.activity.PictvnHpWebSearchPaging">
+    <transition name="success" value="end" />
+    <property name="resultkey" value="RS_RESULT" />
+    <property name="page-size" value="5" />
+    <property name="dao" value="dao" />
+    <property name="sqlkey" value="News.GET_LIST" />
+  </activity>
+</service>
+

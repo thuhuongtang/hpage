@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<queryMap desc="Admin"> 
+	 <query id="Admin.GET_CONTENT" desc="" fetchSize="10" isNamed="true">
+		 <![CDATA[ 
+select 
+	* 
+from (
+	(
+		select
+			title
+			,concat(content_id,'') id_kr
+			,concat(sub_title,'') sub_title_kr
+			,concat(content_details,'') content_details_kr
+		from
+			hpage_contents
+		where
+			content_tp = :reqTp
+			and lang='kr'
+			and use_yn = 'y'
+	) a join
+	(
+		select
+			concat(content_id,'') id_vn
+			,concat(sub_title,'') sub_title_vn
+			,concat(content_details,'') content_details_vn
+		from
+			hpage_contents
+		where
+			content_tp = :reqTp
+			and lang='vn'
+			and use_yn = 'y'
+	) b join 
+	(
+		select
+			concat(content_id,'') id_en
+			,concat(sub_title,'') sub_title_en
+			,concat(content_details,'') content_details_en
+		from
+			hpage_contents
+		where
+			content_tp = :reqTp
+			and lang='en'
+			and use_yn = 'y'
+	)c
+)
+		 ]]> 
+	 </query>
+	 <query id="Admin.UPDATE_CONTENT" desc="" isNamed="true">
+		 <![CDATA[ 
+update
+	hpage_contents
+set
+	sub_title=:new_sub_title
+    , content_details=:content_details 
+where
+	content_id=:content_id
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_UPDATE_PARAM" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT
+	:new_sub_title new_sub_title
+	,:content_details content_details
+	,:content_id content_id
+FROM
+	DUAL
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_DELETE_PARAM" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT
+	:content_id content_id
+FROM
+	DUAL
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_NEWS_EN" desc="" isNamed="true">
+		 <![CDATA[ 
+select
+	sub_title
+	, if(sub_title_1 = '',sub_title, sub_title_1) sub_title_1
+	, sub_title_2
+	, content_details
+	, represent_resource
+	, content_id
+	, content_seq
+from 
+	hpage_contents
+where 
+	content_tp=:reqTp
+	and lang='en'
+	and use_yn = 'y'
+order by
+	content_seq desc
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_NEWS_VI" desc="" isNamed="true">
+		 <![CDATA[ 
+select
+	sub_title
+	, if(sub_title_1 = '',sub_title, sub_title_1) sub_title_1
+	, sub_title_2
+	, content_details
+	, represent_resource
+	, content_id
+	, content_seq
+from 
+	hpage_contents
+where 
+	content_tp=:reqTp
+	and lang='vn'
+	and use_yn = 'y'
+order by
+	content_seq desc
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_NEWS_KR" desc="" isNamed="true">
+		 <![CDATA[ 
+select
+	sub_title
+	, if(sub_title_1 = '',sub_title, sub_title_1) sub_title_1
+	, sub_title_2
+	, content_details
+	, represent_resource
+	, content_id
+	, content_seq
+from 
+	hpage_contents
+where 
+	content_tp=:reqTp
+	and lang='kr'
+	and use_yn = 'y'
+order by
+	content_seq desc
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_INSERT_NN" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT
+	:reqTp content_tp
+	, :sub_title_1 sub_title_1
+	,:sub_title_2 sub_title_2
+	,:content_details content_details
+	,:represent_resource represent_resource
+	,(select max(content_seq)+1 from hpage_contents where content_tp=:reqTp) content_seq
+FROM
+	DUAL
+		 ]]> 
+	 </query>
+	 <query id="Admin.INSERT_NN" desc="" isNamed="true">
+		 <![CDATA[ 
+insert into hpage_contents
+(
+	content_tp
+	,content_seq
+	,sub_title_1
+	,sub_title_2
+	,content_details
+	,represent_resource
+	,posted_date
+	,use_yn
+	,lang
+	,last_update_id
+	,last_update_date
+	,create_id
+	,creation_date
+)
+select
+	:content_tp
+	,:content_seq
+	,:sub_title_1
+	,:sub_title_2
+	,:content_details
+	,:represent_resource
+	,now()
+	,'y'
+	,'en'
+	,''
+	,now()
+	,''
+	,now()
+from
+	dual
+union all
+select
+	:content_tp
+	,:content_seq
+	,:sub_title_1
+	,:sub_title_2
+	,:content_details
+	,:represent_resource
+	,now()
+	,'y'
+	,'kr'
+	,''
+	,now()
+	,''
+	,now()
+from
+	dual
+union all
+select
+	:content_tp
+	,:content_seq
+	,:sub_title_1
+	,:sub_title_2
+	,:content_details
+	,:represent_resource
+	,now()
+	,'y'
+	,'vn'
+	,''
+	,now()
+	,''
+	,now()
+from
+	dual
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_UPDATE_NN" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT
+	:sub_title_1 sub_title_1
+	,:sub_title_2 sub_title_2
+	,:content_details content_details
+	,:represent_resource represent_resource
+	,:content_id content_id
+FROM
+	DUAL
+		 ]]> 
+	 </query>
+	 <query id="Admin.UPDATE_NN" desc="" isNamed="true">
+		 <![CDATA[ 
+update
+	hpage_contents
+set
+	sub_title_1 =:sub_title_1
+	,sub_title_2 =:sub_title_2
+	,content_details =:content_details
+	,represent_resource =:represent_resource
+where
+	content_id=:content_id
+		 ]]> 
+	 </query>
+	 <query id="Admin.DELETE_BY_ID" desc="" isNamed="true">
+		 <![CDATA[ 
+delete from
+	hpage_contents
+where
+	content_id=:content_id
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_NEWS_D" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT
+	:content_id content_id
+FROM
+	DUAL
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_CI" desc="" isNamed="true">
+		 <![CDATA[ 
+select * from ((
+select
+	title
+	,concat(content_id,' ') id_kr
+	,concat(sub_title,' ') sub_title_kr
+	,concat(content_details,' ') content_details_kr
+from
+	hpage_contents
+where
+	content_tp='CI'
+	and lang='kr'
+	and use_yn = 'y'
+	and content_seq='0'
+) a join(
+select
+	concat(content_id,' ') id_vn
+	,concat(sub_title,' ') sub_title_vn
+	,concat(content_details,' ') content_details_vn
+from
+	hpage_contents
+where
+	content_tp='CI'
+	and lang='vn'
+	and use_yn = 'y'
+	and content_seq='0'
+) b join (
+select
+	concat(content_id,' ') id_en
+	,concat(sub_title,' ') sub_title_en
+	,concat(content_details,' ') content_details_en
+from
+	hpage_contents
+where
+	content_tp='CI'
+	and lang='en'
+	and use_yn = 'y'
+	and content_seq='0'
+)c
+)
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_SD" desc="" isNamed="true">
+		 <![CDATA[ 
+select * from ((
+select
+	title
+	,concat(content_id,' ') id_kr
+	,concat(sub_title,' ') sub_title_kr
+	,concat(content_details,' ') content_details_kr
+from
+	hpage_contents
+where
+	content_tp='SD'
+	and lang='kr'
+	and use_yn = 'y'
+) a join(
+select
+	concat(content_id,' ') id_vn
+	,concat(sub_title,' ') sub_title_vn
+	,concat(content_details,' ') content_details_vn
+from
+	hpage_contents
+where
+	content_tp='SD'
+	and lang='vn'
+	and use_yn = 'y'
+) b join (
+select
+	concat(content_id,' ') id_en
+	,concat(sub_title,' ') sub_title_en
+	,concat(content_details,' ') content_details_en
+from
+	hpage_contents
+where
+	content_tp='SD'
+	and lang='en'
+	and use_yn = 'y'
+)c
+)
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_AT" desc="" isNamed="true">
+		 <![CDATA[ 
+select * from ((
+select
+	title
+	,concat(content_id,' ') id_kr
+	,concat(sub_title,' ') sub_title_kr
+	,concat(content_details,' ') content_details_kr
+from
+	hpage_contents
+where
+	content_tp='AT'
+	and lang='kr'
+	and use_yn = 'y'
+) a join(
+select
+	concat(content_id,' ') id_vn
+	,concat(sub_title,' ') sub_title_vn
+	,concat(content_details,' ') content_details_vn
+from
+	hpage_contents
+where
+	content_tp='AT'
+	and lang='vn'
+	and use_yn = 'y'
+) b join (
+select
+	concat(content_id,' ') id_en
+	,concat(sub_title,' ') sub_title_en
+	,concat(content_details,' ') content_details_en
+from
+	hpage_contents
+where
+	content_tp='AT'
+	and lang='en'
+	and use_yn = 'y'
+)c
+)
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_AUTH" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT 
+	userno
+	,usernm
+	,passwd
+FROM 
+	users
+		 ]]> 
+	 </query>
+	 <query id="Admin.GET_AU" desc="" isNamed="true">
+		 <![CDATA[ 
+SELECT
+	:userNm usernm
+	,:userPass passwd
+	,:userId userno
+FROM
+	DUAL
+		 ]]> 
+	 </query>
+	 <query id="Admin.UPDATE_AU" desc="" isNamed="true">
+		 <![CDATA[ 
+update
+	users
+set
+	usernm =:usernm
+	,passwd =:passwd
+where
+	userno=:userno
+		 ]]> 
+	 </query>
+</queryMap>

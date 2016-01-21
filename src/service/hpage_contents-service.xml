@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="hpage_contents-service" initial="ROUTER">
+  <transaction-manager id="tx" commit="true" />
+  <activity name="ROUTER" class="com.posdata.glue.biz.activity.PosDefaultRouter">
+    <transition name="success" value="GET_INFO" />
+    <transition name="search" value="GET_INFO" />
+    <transition name="get_detail" value="GET_DETAIL" />
+    <transition name="pdtl" value="GET_DETAIL_2" />
+  </activity>
+  <activity name="GET_INFO" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="end" />
+    <property name="resultkey" value="RS_RESULT" />
+    <property name="sqlkey" value="hpage_contents.GET_LIST" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="GET_DETAIL" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="GET_INFO" />
+    <property name="resultkey" value="RS_RESULT1" />
+    <property name="sqlkey" value="hpage_contents.GET_DETAIL" />
+    <property name="dao" value="dao" />
+  </activity>
+  <activity name="GET_DETAIL_2" class="com.posco.ict.hp.common.activity.PictvnHpWebSearch">
+    <transition name="success" value="GET_INFO" />
+    <property name="resultkey" value="RS_RESULT1" />
+    <property name="dao" value="dao" />
+    <property name="sqlkey" value="hpage_contents.GET_DETAIL_2" />
+  </activity>
+</service>
+

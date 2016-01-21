@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <action-mappings>
+     <action path="/index" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/index.jsp"/>
+    </action>
+    <action path="/editor" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/testEditor.jsp"/>
+    </action>
+    <action path="/newsDtl" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/NewsDetail.jsp"/>
+    </action>
+    <action path="/news" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/NewsNotices.jsp"/>
+    </action>
+    
+    <action path="/overview" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/Overview.jsp"/>
+    </action>
+    <action path="/message" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/GDMessage.jsp"/>
+    </action>
+    <action path="/pglobal" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/GlobalPosco.jsp"/>
+    </action>
+    <action path="/headquarters" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/ICTHeadquarters.jsp"/>
+    </action>
+    <action path="/ictvietnam" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/ICTVietnam.jsp"/>
+    </action>
+    <action path="/itsbrt" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/ITSBRT.jsp"/>
+    </action>
+    <action path="/airportmgt" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/AirportManagement.jsp"/>
+    </action>
+    <action path="/elceng" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/ElectricalEngineering.jsp"/>
+    </action>
+    <action path="/infra" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/Infrastructure.jsp"/>
+    </action>
+    <action path="/softdev" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/Software.jsp"/>
+    </action>
+    <action path="/act" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/Activities.jsp"/>
+    </action>
+    <action path="/actDtl" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/ActivityDetail.jsp"/>
+    </action>
+    <action path="/recruit" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/Recruitment.jsp"/>
+    </action>
+    <action path="/cont" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/Contact.jsp"/>
+    </action>
+    <action path="/sitemap" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/SiteMap.jsp"/>
+    </action>
+    <action path="/login" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/Login.jsp"/>
+    </action>    
+    <action path="/admin" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/Admin.jsp"/>
+    </action>
+    <action path="/project" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/project.jsp"/>
+    </action>    
+    <action path="/testGet" type="com.posdata.glue.web.control.PosStrutsAction">
+     	 <forward name="success" path="/jsp/testGetEditor.jsp"/>
+    </action>
+  </action-mappings>
+</struts-config>

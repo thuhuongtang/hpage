@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+
+<project name="HPAGE_BUILD" >
+	<property file="build.properties"/>
+	 
+	<!-- Delete ${WEB_NAME}.war file -->
+	<target name="clean">
+		<echo message="Removing build directory contents..."/>
+		<delete dir="${build.dir}/${WEB_NAME}.war"/>
+	</target>
+	
+	<!-- Compile the JAVA file -->
+	<target name="compile" description="Compiles the source code">
+		<echo>Delete Class Dir and Buid Dir</echo>
+		<delete dir="${WebContent.class.dir}"/>
+		<delete dir="${build.dir}/${WEB_NAME}.war"/>
+		
+		<echo>Create Class Dir and Build Dir</echo>
+		<mkdir dir="${WebContent.class.dir}"/>
+		
+		<echo>Compile Java File</echo>
+		<javac destdir="${WebContent.class.dir}" encoding="utf-8" debug="on">
+			<src path="${src.dir}"/>
+			<classpath>
+				<fileset dir="${GlueSDK.dir}/lib/gluestd">
+					<include name="*.jar"/>
+				</fileset>
+				<fileset dir="${GlueSDK.dir}/lib/gluelib">
+					<include name="*.jar"/>
+				</fileset>
+				<fileset dir="${WebContent.lib.dir}">
+					<include name="*.jar"/>
+				</fileset>
+			</classpath>
+		</javac>
+		
+		<echo>Copy Class and XML File</echo>
+		<!-- Copy any other needed files over -->
+		<copy todir="${WebContent.class.dir}">
+			<fileset dir="${src.dir}">
+				<patternset>
+					<include name="query/*.*"/>
+					<include name="service/*.*"/>
+					<include name="cache.ccf"/>					
+					<include name="*.properties"/>
+				</patternset>
+			</fileset>
+		</copy>
+	</target>
+	
+	<!-- ReDeploy DEV Server -->
+	<target name="ReDeployPoscossVina_DEV" depends="bulidPoscossVina_DEV" description="ReDeploy POSCOSS VINA Project">		
+		<echo>Complete Build ${WEB_NAME}.war file. Please Copy ${WEB_NAME}.war file to Dev Server</echo>		
+	</target>
+	
+	<!-- Create the WAR file on DEV Server -->
+	<target name="bulidPoscossVina_DEV" depends="compile" description="Create the WAR file">
+		<echo>Start Build WAR to ${build.dir} WAR Name is ${WEB_NAME}.war</echo>
+		<copy file="${src.dir}/applicationContext.xml" tofile="${WebContent.class.dir}/applicationContext.xml" overwrite="true"/>
+		<copy file="${src.dir}/log4j_TST.xml" tofile="${WebContent.class.dir}/log4j.xml" overwrite="true"/>
+		<copy file="${WebContent.dir}/WEB-INF/web_TST.xml" tofile="${WebContent.dir}/WEB-INF/web.xml" overwrite="true"/>
+		
+		
+		<war destfile="${build.dir}/${WEB_NAME}.war" webxml="${WebContent.dir}/WEB-INF/web.xml">
+			<fileset dir="${WebContent.dir}">
+				<patternset>
+					<include name="*.*"/>
+					<include name="**/*.jsp"/>
+                    <include name="css/**"/>
+					<include name="fonts/*.*"/>
+                    <include name="js/*.js"/>
+                    <include name="img/*.*"/>					
+				</patternset>
+			</fileset>
+			<webinf dir="${WebContent.dir}/WEB-INF/">
+				<patternset>
+					<include name="*.*"/>
+					<exclude name="web_LOCAL.xml"/>
+					<exclude name="web_TST.xml"/>
+				</patternset>
+			</webinf>
+			<classes dir="${WebContent.class.dir}">
+				<patternset>
+					<include name="**/*.*"/>
+					<include name="*.*"/>
+				</patternset>
+			</classes>
+			<lib dir="${WebContent.lib.dir}">
+				<include name="*.*"/>
+			</lib>
+			<lib dir="${GlueSDK.dir}/lib/gluestd">
+				<include name="backport-util-concurrent.jar"/>
+				<include name="commons-beanutils.jar"/>
+				<include name="commons-codec-1.2.jar"/>
+				<include name="commons-collections.jar"/>
+				<include name="commons-configuration-1.7.jar"/>
+				<include name="commons-dbcp.jar"/>
+				<include name="commons-digester.jar"/>
+				<include name="commons-httpclient-3.1.jar"/>
+				<include name="commons-lang.jar"/>
+				<include name="commons-logging.jar"/>
+				<include name="commons-pool.jar"/>
+				<include name="concurrent.jar"/>
+				<include name="jbossall-client-4.0.3.SP1.jar"/>
+				<include name="jcs-1.2.7.7.jar"/>
+				<include name="log4j-1.2.13.jar"/>
+				<include name="mina-core-1.0.10.jar"/>
+				<include name="oro-2.0.8.jar"/>
+				<include name="poi-3.0.2-FINAL-20080204.jar"/>
+				<include name="quartz-1.8.6.jar"/>
+				<include name="slf4j-api-1.6.4.jar"/>
+				<include name="slf4j-log4j12-1.6.4.jar"/>
+				<include name="spring.jar"/>
+				<include name="struts.jar"/>
+				<include name="xmlbeans-2.4.0.jar"/>
+				<include name="xplatform-xapi-1.0.jar"/>
+			</lib>
+			<lib dir="${GlueSDK.dir}/lib/gluelib">
+				<include name="glue-globaltag-jdk1.6.jar"/>
+				<include name="glue-jdk1.6.jar"/>
+				<include name="glue-master-jdk1.6.jar"/>
+				<include name="glue-security-jdk1.6.jar"/>
+				<include name="glue-tag-jdk1.6.jar"/>
+				<include name="glue-xplatform.jar"/>
+			</lib>
+		</war>
+		<echo>Create Complete the WAR file</echo>
+	</target>
+	
+	<!-- ReDeploy LOCAL Server -->
+	<target name="ReDeployPoscossVina_LOCAL" depends="buildPoscossVina_LOCAL" description="ReDeploy POSCOSS VINA Project">
+		<echo>Start Copy ${WEB_NAME}.war file from ${build.dir} to ${target.WebContent.dir}</echo>
+		<copy todir="${target.WebContent.dir}">
+			<fileset dir="${build.dir}">
+				<include name="*.war"/>
+			</fileset>
+		</copy>		
+	</target>
+	
+	<!-- Create the WAR file on LOCAL Server -->
+	<target name="buildPoscossVina_LOCAL" depends="clean,compile" description="Create the WAR file">
+		<echo>Start Build WAR to ${build.dir} WAR Name is ${WEB_NAME}.war</echo>
+		<copy file="${src.dir}/applicationContext.xml" tofile="${WebContent.class.dir}/applicationContext.xml" overwrite="true"/>
+		<copy file="${src.dir}/log4j_LOCAL.xml" tofile="${WebContent.class.dir}/log4j.xml" overwrite="true"/>
+		<copy file="${WebContent.dir}/WEB-INF/web_LOCAL.xml" tofile="${WebContent.dir}/WEB-INF/web.xml" overwrite="true"/>
+		<war destfile="${build.dir}/${WEB_NAME}.war" webxml="${WebContent.dir}/WEB-INF/web.xml">
+			
+			<fileset dir="${WebContent.dir}">
+                <patternset>
+                    <include name="*.*"/>
+                    <include name="**/*.jsp"/>
+                    <include name="css/**"/>
+                	<include name="fonts/*.*"/>
+                	<include name="js/*.js"/>
+                    <include name="img/*.*"/>
+                	<include name="/*.*"/>
+                	<include name="ckeditor/**"/>
+                </patternset>
+            </fileset>
+			<webinf dir="${WebContent.dir}/WEB-INF/">
+				<patternset>
+					<include name="*.*"/>
+					<include name="tags/*.*"/>
+					<exclude name="web_LOCAL.xml"/>
+				</patternset>
+			</webinf>
+			<classes dir="${WebContent.class.dir}">
+				<patternset>
+					<include name="**/*.*"/>
+					<include name="*.*"/>
+				</patternset>
+			</classes>
+			<lib dir="${WebContent.lib.dir}">
+				<include name="*.*"/>
+			</lib>
+			<lib dir="${GlueSDK.dir}/lib/gluestd">
+				<include name="backport-util-concurrent.jar"/>
+				<include name="commons-beanutils.jar"/>
+				<include name="commons-codec-1.2.jar"/>
+				<include name="commons-collections.jar"/>
+				<include name="commons-configuration-1.7.jar"/>
+				<include name="commons-dbcp.jar"/>
+				<include name="commons-digester.jar"/>
+				<include name="commons-httpclient-3.1.jar"/>
+				<include name="commons-lang.jar"/>
+				<include name="commons-logging.jar"/>
+				<include name="commons-pool.jar"/>
+				<include name="concurrent.jar"/>
+				<include name="jbossall-client-4.0.3.SP1.jar"/>
+				<include name="jcs-1.2.7.7.jar"/>
+				<include name="log4j-1.2.13.jar"/>
+				<include name="mina-core-1.0.10.jar"/>
+				<include name="oro-2.0.8.jar"/>
+				<include name="poi-3.0.2-FINAL-20080204.jar"/>
+				<include name="quartz-1.8.6.jar"/>
+				<include name="slf4j-api-1.6.4.jar"/>
+				<include name="slf4j-log4j12-1.6.4.jar"/>
+				<include name="spring.jar"/>
+				<include name="struts.jar"/>
+				<include name="xmlbeans-2.4.0.jar"/>
+				<include name="xplatform-xapi-1.0.jar"/>
+			</lib>
+			<lib dir="${GlueSDK.dir}/lib/gluelib">
+				<include name="glue-globaltag-jdk1.6.jar"/>
+				<include name="glue-jdk1.6.jar"/>
+				<include name="glue-master-jdk1.6.jar"/>
+				<include name="glue-security-jdk1.6.jar"/>
+				<include name="glue-tag-jdk1.6.jar"/>
+				<include name="glue-xplatform.jar"/>
+			</lib>
+		</war>
+		<echo>Create Complete the WAR file</echo>
+	</target>
+	
+</project>

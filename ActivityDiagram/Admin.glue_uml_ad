@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Glue:GlueDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Glue="http://www.glueframework.com/activitydiagram/" id="0" location="20,20" size="100,100">
+  <child xsi:type="Glue:InitialState" id="0" location="528,-264" size="-1,-1" output="//@wire.0"/>
+  <child xsi:type="Glue:RouterActivity" id="1" location="504,96" size="181,-1" input="//@wire.0" output="//@wire.1 //@wire.3 //@wire.6 //@wire.9 //@wire.12 //@wire.15 //@wire.18 //@wire.21 //@wire.23" name="ROUTER">
+    <property key="class" value="com.posdata.glue.biz.activity.PosDefaultRouter"/>
+    <property key="description" value="해당화면의 Event에 따라 Routing을 하는 Activity입니다.&#xD;&#xA;PosContext는 pageEvent, find.x, modify.x, delete.x, customcall 중에 한개의 key를 갖고 있습니다. &#xD;&#xA;- success transition을 추가해주십시요"/>
+  </child>
+  <child xsi:type="Glue:FinalState" id="6" location="348,468" size="-1,-1" input="//@wire.2"/>
+  <child xsi:type="Glue:DinaActivity" id="37254" location="264,396" size="181,-1" input="//@wire.5" output="//@wire.2" name="GET_NEWS_KR">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT_KR"/>
+    <property key="sqlkey" value="Admin.GET_NEWS_KR"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91242" location="264,276" size="181,-1" input="//@wire.1 //@wire.8 //@wire.11 //@wire.14 //@wire.3" output="//@wire.4" name="GET_NEWS_EN">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT_EN"/>
+    <property key="sqlkey" value="Admin.GET_NEWS_EN"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91243" location="264,336" size="181,-1" input="//@wire.4" output="//@wire.5" name="GET_NEWS_VI">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT_VI"/>
+    <property key="sqlkey" value="Admin.GET_NEWS_VI"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91244" location="24,156" size="181,-1" input="//@wire.6" output="//@wire.7" name="GET_PARAM_NEWS_I">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_PARAM"/>
+    <property key="sqlkey" value="Admin.GET_INSERT_NN"/>
+    <property key="description" value=""/>
+  </child>
+  <child xsi:type="Glue:InsertActivity" id="91245" location="24,216" size="181,-1" input="//@wire.7" output="//@wire.8" name="INSERT_NEWS">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet"/>
+    <property key="dao" value="dao"/>
+    <property key="insert-sqlkey" value="Admin.INSERT_NN"/>
+    <property key="isAudit" value="false"/>
+    <property key="posRowSet" value="RS_PARAM"/>
+    <property key="resultkey" value="insertCnt"/>
+    <property key="description" value=""/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91359" location="-216,156" size="181,-1" input="//@wire.9" output="//@wire.10" name="GET_PARAM_NEWS_U">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_PARAM"/>
+    <property key="sqlkey" value="Admin.GET_UPDATE_NN"/>
+    <property key="description" value=""/>
+  </child>
+  <child xsi:type="Glue:InsertActivity" id="91360" location="-216,216" size="181,-1" input="//@wire.10" output="//@wire.11" name="UPDATE_NEWS">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet"/>
+    <property key="dao" value="dao"/>
+    <property key="insert-sqlkey" value="Admin.UPDATE_NN"/>
+    <property key="isAudit" value="false"/>
+    <property key="posRowSet" value="RS_PARAM"/>
+    <property key="resultkey" value="insertCnt"/>
+    <property key="description" value=""/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91361" location="-456,156" size="181,-1" input="//@wire.12" output="//@wire.13" name="GET_DELETE_PARAM">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_PARAM"/>
+    <property key="sqlkey" value="Admin.GET_DELETE_PARAM"/>
+    <property key="description" value=""/>
+  </child>
+  <child xsi:type="Glue:InsertActivity" id="91362" location="-456,216" size="181,-1" input="//@wire.13" output="//@wire.14" name="DELETE_BY_ID">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet"/>
+    <property key="dao" value="dao"/>
+    <property key="delete-sqlkey" value="Admin.DELETE_BY_ID"/>
+    <property key="isAudit" value="false"/>
+    <property key="posRowSet" value="RS_PARAM"/>
+    <property key="resultkey" value="deleteCnt"/>
+    <property key="description" value=""/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91392" location="552,276" size="181,-1" input="//@wire.15" output="//@wire.16" name="GET_CONTENT">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT"/>
+    <property key="sqlkey" value="Admin.GET_CONTENT"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:FinalState" id="91393" location="636,348" size="-1,-1" input="//@wire.16 //@wire.22"/>
+  <child xsi:type="Glue:InsertActivity" id="91408" location="-696,216" size="181,-1" input="//@wire.17" output="//@wire.19" name="UPDATE_CONTENT">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet"/>
+    <property key="dao" value="dao"/>
+    <property key="isAudit" value="false"/>
+    <property key="posRowSet" value="RS_PARAM"/>
+    <property key="resultkey" value="updateCnt"/>
+    <property key="update-sqlkey" value="Admin.UPDATE_CONTENT"/>
+    <property key="description" value=""/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91410" location="-696,156" size="181,-1" input="//@wire.18" output="//@wire.17" name="GET_UPDATE_PARAM">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_PARAM"/>
+    <property key="sqlkey" value="Admin.GET_UPDATE_PARAM"/>
+    <property key="description" value=""/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91436" location="-696,288" size="181,-1" input="//@wire.19" output="//@wire.20" name="GET_NEW_CONTENT">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT"/>
+    <property key="sqlkey" value="Admin.GET_CONTENT"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:FinalState" id="91437" location="-616,355" size="-1,-1" input="//@wire.20"/>
+  <child xsi:type="Glue:DinaActivity" id="91715" location="840,276" size="181,-1" input="//@wire.21 //@wire.25" output="//@wire.22" name="GET_AUTHORITY">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_RESULT"/>
+    <property key="sqlkey" value="Admin.GET_AUTH"/>
+    <property key="description" value="1. Activity Definition&#xD;&#xA;  - 이 Activity는 Xplatform의 DataSet으로부터 한 건의 Data를 받아 Search하는 공통 Activity이다.&#xD;&#xA;&#xD;&#xA;2. Detail Description&#xD;&#xA;  - 목적 : 프로그램관리 조회&#xD;&#xA;  - 조건 : 업무구분&#xD;&#xA;  - 소스 : 프로그램"/>
+  </child>
+  <child xsi:type="Glue:DinaActivity" id="91785" location="1080,156" size="181,-1" input="//@wire.23" output="//@wire.24" name="GET_PARAM_AU">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSearch"/>
+    <property key="dao" value="dao"/>
+    <property key="resultkey" value="RS_PARAM"/>
+    <property key="sqlkey" value="Admin.GET_AU"/>
+    <property key="description" value=""/>
+  </child>
+  <child xsi:type="Glue:InsertActivity" id="91786" location="1080,216" size="181,-1" input="//@wire.24" output="//@wire.25" name="UPDATE_AU">
+    <property key="class" value="com.posco.ict.hp.common.activity.PictvnHpWebSaveFromPosRowSet"/>
+    <property key="dao" value="dao"/>
+    <property key="insert-sqlkey" value="Admin.UPDATE_AU"/>
+    <property key="isAudit" value="false"/>
+    <property key="posRowSet" value="RS_PARAM"/>
+    <property key="resultkey" value="insertCnt"/>
+    <property key="description" value=""/>
+  </child>
+  <property key="tx" value="true"/>
+  <property key="description" value="sample 화면의 ad입니다. &#xD;&#xA;- TransactionManager 에 대한 설정을 추가하십시요"/>
+  <wire id="4075" guardcondition="success" firstRelativePoint="426,42" lastRelativePoint="426,180"/>
+  <wire id="4099" guardcondition="get_NN" firstRelativePoint="507,120" lastRelativePoint="359,276">
+    <bendpoint weight="0.5" firstDimension="-235,9" secondDimension="5,-171"/>
+  </wire>
+  <wire id="4100" guardcondition="success" firstRelativePoint="358,426" lastRelativePoint="358,467"/>
+  <wire id="7588" guardcondition="get_RC" firstRelativePoint="528,126" lastRelativePoint="445,290">
+    <bendpoint weight="0.5" firstDimension="-66,179" secondDimension="174,-1"/>
+  </wire>
+  <wire id="7602" guardcondition="success" firstRelativePoint="359,306" lastRelativePoint="359,336">
+    <bendpoint weight="0.5" firstDimension="5,37" secondDimension="5,-23"/>
+  </wire>
+  <wire id="7603" guardcondition="success" firstRelativePoint="358,366" lastRelativePoint="358,396">
+    <bendpoint weight="0.5" firstDimension="4,31" secondDimension="4,-29"/>
+  </wire>
+  <wire id="7604" guardcondition="insert_NN" firstRelativePoint="504,113" lastRelativePoint="109,156">
+    <bendpoint weight="0.5" firstDimension="-485,2" secondDimension="-5,-58"/>
+  </wire>
+  <wire id="7605" guardcondition="success" firstRelativePoint="101,186" lastRelativePoint="101,216"/>
+  <wire id="7606" guardcondition="success" firstRelativePoint="116,246" lastRelativePoint="272,278">
+    <bendpoint weight="0.5" firstDimension="2,47" secondDimension="-238,-13"/>
+  </wire>
+  <wire id="7607" guardcondition="update_NN" firstRelativePoint="505,106" lastRelativePoint="-118,156">
+    <bendpoint weight="0.5" firstDimension="-712,-5" secondDimension="8,-65"/>
+  </wire>
+  <wire id="7608" guardcondition="success" firstRelativePoint="-96,186" lastRelativePoint="-96,216"/>
+  <wire id="7609" guardcondition="success" firstRelativePoint="-120,246" lastRelativePoint="265,287">
+    <bendpoint weight="0.5" firstDimension="6,56" secondDimension="-474,-4"/>
+  </wire>
+  <wire id="7610" guardcondition="delete_NN" firstRelativePoint="509,100" lastRelativePoint="-365,156">
+    <bendpoint weight="0.5" firstDimension="-959,-11" secondDimension="1,-71"/>
+  </wire>
+  <wire id="7611" guardcondition="success" firstRelativePoint="-338,186" lastRelativePoint="-338,216"/>
+  <wire id="7612" guardcondition="success" firstRelativePoint="-365,246" lastRelativePoint="265,297">
+    <bendpoint weight="0.5" firstDimension="1,66" secondDimension="-719,6"/>
+  </wire>
+  <wire id="7613" guardcondition="success" firstRelativePoint="644,126" lastRelativePoint="644,276">
+    <bendpoint weight="0.5" firstDimension="50,90" secondDimension="2,-90"/>
+  </wire>
+  <wire id="7614" guardcondition="success" firstRelativePoint="1678,306" lastRelativePoint="1678,407"/>
+  <wire id="7633" guardcondition="success" firstRelativePoint="-608,186" lastRelativePoint="-608,216"/>
+  <wire id="7637" guardcondition="update" firstRelativePoint="680,100" lastRelativePoint="1389,276">
+    <bendpoint weight="0.5" firstDimension="-101,-58" secondDimension="1099,-118"/>
+    <bendpoint weight="0.5" firstDimension="-1194,-59" secondDimension="6,-119"/>
+  </wire>
+  <wire id="7668" guardcondition="success" firstRelativePoint="-611,246" lastRelativePoint="-611,288"/>
+  <wire id="7669" guardcondition="success" firstRelativePoint="-606,318" lastRelativePoint="-606,354"/>
+  <wire id="7697" guardcondition="get_AU" firstRelativePoint="681,121" lastRelativePoint="936,276">
+    <bendpoint weight="0.5" firstDimension="342,10" secondDimension="6,-170"/>
+  </wire>
+  <wire id="7698" guardcondition="success" firstRelativePoint="932,306" lastRelativePoint="655,357">
+    <bendpoint weight="0.5" firstDimension="2,52" secondDimension="286,-15"/>
+  </wire>
+  <wire id="7699" guardcondition="update_AU" firstRelativePoint="685,113" lastRelativePoint="1176,156">
+    <bendpoint weight="0.5" firstDimension="582,2" secondDimension="6,-58"/>
+  </wire>
+  <wire id="7700" guardcondition="success" firstRelativePoint="1174,186" lastRelativePoint="1174,216"/>
+  <wire id="7701" guardcondition="success" firstRelativePoint="1173,246" lastRelativePoint="1021,289">
+    <bendpoint weight="0.5" firstDimension="3,58" secondDimension="243,-2"/>
+  </wire>
+</Glue:GlueDiagram>

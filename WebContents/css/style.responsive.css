@@ -1,0 +1,285 @@
+.responsive BODY {
+	MIN-WIDTH: 240px
+}
+.responsive IMG {
+	BOX-SIZING: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.responsive .art-content-layout IMG {
+	MAX-WIDTH: 100%; HEIGHT: auto !important
+}
+.responsive .art-content-layout video {
+	MAX-WIDTH: 100%; HEIGHT: auto !important
+}
+.responsive-phone.responsive .art-content-layout IMG {
+	MARGIN: 1%
+}
+.responsive-phone.responsive .art-collage {
+	MARGIN: 0px
+}
+.responsive-tablet.responsive .art-collage {
+	MARGIN: 0px
+}
+.responsive .art-content-layout .art-sidebar0 {
+	WIDTH: auto !important
+}
+.responsive .art-content-layout .art-sidebar1 {
+	WIDTH: auto !important
+}
+.responsive .art-content-layout .art-sidebar2 {
+	WIDTH: auto !important
+}
+.responsive .art-content-layout {
+	DISPLAY: block
+}
+.responsive .art-content-layout-row {
+	DISPLAY: block
+}
+.responsive .art-layout-cell {
+	DISPLAY: block
+}
+.responsive .art-content-layout {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.responsive .art-content-layout-row {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.responsive .image-caption-wrapper {
+	WIDTH: auto
+}
+.responsive-tablet.responsive .art-vmenublock {
+	BOX-SIZING: border-box; WIDTH: 48%; FLOAT: left; MARGIN-LEFT: 1%; MARGIN-RIGHT: 1%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.responsive-tablet.responsive .art-block {
+	BOX-SIZING: border-box; WIDTH: 48%; FLOAT: left; MARGIN-LEFT: 1%; MARGIN-RIGHT: 1%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.responsive .art-responsive-embed {
+	POSITION: relative; PADDING-BOTTOM: 56.25%; HEIGHT: 0px
+}
+.responsive .art-responsive-embed IFRAME {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.responsive .art-responsive-embed OBJECT {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.responsive .art-responsive-embed EMBED {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+.responsive .art-header {
+	MIN-WIDTH: 0px !important; TEXT-ALIGN: center; MIN-HEIGHT: 100px !important; WIDTH: auto !important; MAX-WIDTH: none !important
+}
+.default-responsive .art-header {
+	HEIGHT: auto
+}
+.default-responsive .art-header * {
+	POSITION: relative; TEXT-ALIGN: center; -webkit-transform: none; -moz-transform: none; -o-transform: none; -ms-transform: none; transform: none
+}
+.default-responsive .art-header .art-headline {
+	TEXT-ALIGN: center !important; MARGIN: 2%; DISPLAY: block !important; TOP: 0px !important; LEFT: 0px !important
+}
+.default-responsive .art-header .art-slogan {
+	TEXT-ALIGN: center !important; MARGIN: 2%; DISPLAY: block !important; TOP: 0px !important; LEFT: 0px !important
+}
+.default-responsive .art-header .art-headline A {
+	WHITE-SPACE: normal !important
+}
+.default-responsive .art-header .art-slogan {
+	WHITE-SPACE: normal !important
+}
+.default-responsive .art-header .art-logo {
+	MARGIN: auto; WIDTH: auto; DISPLAY: inline-block; HEIGHT: auto; TOP: auto !important; LEFT: auto
+}
+.responsive .art-header .art-slidenavigator {
+	POSITION: absolute
+}
+.default-responsive .art-header .art-positioncontrol {
+	POSITION: relative !important; MARGIN: 2% auto; WIDTH: auto !important; BOTTOM: auto !important; DISPLAY: block !important; HEIGHT: auto !important; TOP: auto !important; RIGHT: auto !important; LEFT: auto !important
+}
+.responsive .art-header #art-flash-area {
+	DISPLAY: none
+}
+.default-responsive .art-header > .art-textblock {
+	POSITION: relative !important; MARGIN: 1% auto; WIDTH: 75% !important; BOTTOM: auto !important; DISPLAY: block !important; TOP: auto !important; RIGHT: auto !important; LEFT: auto !important
+}
+.default-responsive .art-header .art-textblock {
+	BACKGROUND-IMAGE: none; POSITION: relative !important; MARGIN: auto; WIDTH: auto; DISPLAY: block !important; HEIGHT: auto !important; TOP: auto !important; RIGHT: 0px !important; LEFT: 0px !important
+}
+.responsive .art-header .art-textblock * {
+	TEXT-ALIGN: center !important
+}
+.default-responsive .art-header .art-shapes > .art-textblock {
+	DISPLAY: none !important
+}
+.default-responsive .art-header .art-slide-item > .art-textblock {
+	DISPLAY: none !important
+}
+.default-responsive .art-header .art-shapes > .art-textblock * {
+	TEXT-ALIGN: center !important; WIDTH: auto !important; DISPLAY: block; HEIGHT: auto !important
+}
+.default-responsive .art-header .art-slider .art-textblock * {
+	TEXT-ALIGN: center !important; WIDTH: auto !important; DISPLAY: block; HEIGHT: auto !important
+}
+.responsive .art-header > .art-textblock > DIV {
+	WIDTH: 100%
+}
+.responsive nav.art-nav {
+	POSITION: relative !important; MIN-WIDTH: 0px; TEXT-ALIGN: right !important; MARGIN-TOP: 0px; WIDTH: auto !important; BOTTOM: auto !important; MARGIN-BOTTOM: 0px; TOP: auto !important; RIGHT: auto !important; LEFT: auto !important
+}
+.responsive .art-nav-inner {
+	POSITION: relative !important; MIN-WIDTH: 0px; TEXT-ALIGN: right !important; MARGIN-TOP: 0px; WIDTH: auto !important; BOTTOM: auto !important; MARGIN-BOTTOM: 0px; TOP: auto !important; RIGHT: auto !important; LEFT: auto !important
+}
+.responsive nav.art-nav {
+	MIN-WIDTH: 1%; MARGIN-TOP: 1%
+}
+.responsive .art-nav {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 20px
+}
+.responsive .art-nav UL.art-hmenu {
+	TEXT-ALIGN: center; DISPLAY: none; FLOAT: none
+}
+.responsive .art-nav UL.art-hmenu LI {
+	FLOAT: none
+}
+.responsive .art-hmenu-extra1 {
+	FLOAT: none
+}
+.responsive .art-hmenu-extra2 {
+	FLOAT: none
+}
+.responsive .art-nav UL.art-hmenu > LI:before {
+	DISPLAY: none
+}
+.responsive .art-nav UL.art-hmenu A {
+	MARGIN-TOP: 1px !important; WHITE-SPACE: normal; MARGIN-BOTTOM: 1px !important; HEIGHT: auto
+}
+.responsive .art-nav UL.art-hmenu > LI:first-child > A {
+	MARGIN-TOP: 0px !important
+}
+.responsive .art-nav .ext {
+	WIDTH: auto !important
+}
+.responsive .art-nav UL.art-hmenu > LI > UL {
+	WIDTH: auto !important
+}
+.responsive .art-nav UL.art-hmenu > LI > UL > LI {
+	WIDTH: auto !important
+}
+.responsive .art-nav UL.art-hmenu > LI > UL > LI A {
+	WIDTH: auto !important
+}
+.responsive .art-nav UL.art-hmenu UL {
+	POSITION: relative !important; BOTTOM: auto !important; DISPLAY: none !important; VISIBILITY: visible !important; TOP: auto !important; RIGHT: auto !important; LEFT: auto !important
+}
+.responsive .art-nav UL.art-hmenu LI.active > UL {
+	DISPLAY: block !important
+}
+.responsive .art-nav UL.art-hmenu UL LI.active > A {
+	FONT-WEIGHT: bold
+}
+.art-nav .art-menu-btn {
+	BORDER-BOTTOM: #404040 1px solid; POSITION: relative; BORDER-LEFT: #404040 1px solid; PADDING-BOTTOM: 5px; MARGIN: 3px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 5px; OUTLINE-WIDTH: medium; WIDTH: 20px; PADDING-RIGHT: 5px; DISPLAY: none; VERTICAL-ALIGN: bottom; BORDER-TOP: #404040 1px solid; BORDER-RIGHT: #404040 1px solid; PADDING-TOP: 5px; -svg-background: linear-gradient(to bottom, #707070 0, #000 100%); border-radius: 3px; box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2)
+}
+.art-nav .art-menu-btn SPAN {
+	POSITION: relative; MARGIN: 3px 1px; DISPLAY: block; BACKGROUND: #e0e0e0; HEIGHT: 3px; border-radius: 2px; -moz-transition: background .2s; -o-transition: background .2s; -webkit-transition: background .2s; transition: background .2s
+}
+.art-nav .art-menu-btn:hover SPAN {
+	BACKGROUND: #f3f3f3
+}
+.responsive .art-nav .art-menu-btn {
+	DISPLAY: inline-block
+}
+.responsive .art-nav .visible.art-hmenu {
+	DISPLAY: block
+}
+.responsive .art-nav UL.art-hmenu > LI > UL > LI:first-child:after {
+	DISPLAY: none
+}
+.responsive .art-nav UL.art-hmenu UL A {
+	PADDING-LEFT: 4% !important
+}
+.responsive .art-nav UL.art-hmenu UL UL A {
+	PADDING-LEFT: 6% !important
+}
+.responsive .art-nav UL.art-hmenu UL UL UL A {
+	PADDING-LEFT: 8% !important
+}
+.responsive .art-nav UL.art-hmenu UL UL UL UL A {
+	PADDING-LEFT: 10% !important
+}
+.responsive .art-nav UL.art-hmenu UL UL UL UL UL A {
+	PADDING-LEFT: 12% !important
+}
+.responsive .art-nav UL.art-hmenu > LI > UL {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.responsive .art-nav UL.art-hmenu > LI > UL:before {
+	BOTTOM: 0px; TOP: 0px; RIGHT: 0px; LEFT: 0px
+}
+.responsive .art-sheet {
+	MIN-WIDTH: 240px !important; WIDTH: auto !important; MAX-WIDTH: none !important; MARGIN-LEFT: 1% !important; MARGIN-RIGHT: 1% !important
+}
+#art-resp {
+	DISPLAY: none
+}
+#art-resp-desktop {
+	DISPLAY: none
+}
+#art-resp-tablet-landscape {
+	DISPLAY: none
+}
+#art-resp-tablet-portrait {
+	DISPLAY: none
+}
+#art-resp-phone-landscape {
+	DISPLAY: none
+}
+#art-resp-phone-portrait {
+	DISPLAY: none
+}
+.responsive .art-content-layout {
+	DISPLAY: block
+}
+.responsive .art-content-layout-row {
+	DISPLAY: block
+}
+.responsive .art-layout-cell {
+	DISPLAY: block
+}
+.responsive .art-layout-cell {
+	WIDTH: auto !important; HEIGHT: auto !important
+}
+.responsive .art-content-layout:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.responsive .art-content-layout-row:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.responsive .art-layout-cell:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.responsive .responsive-tablet-layout-cell {
+	BOX-SIZING: border-box; MARGIN: 1%; WIDTH: 98% !important; FLOAT: left; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.responsive-tablet.responsive .art-footer .art-content-layout .art-layout-cell {
+	BOX-SIZING: border-box; MARGIN: 1%; WIDTH: 98% !important; FLOAT: left; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.responsive .responsive-layout-row-2 .responsive-tablet-layout-cell {
+	WIDTH: 48% !important
+}
+.responsive-tablet.responsive .art-footer .art-content-layout .responsive-layout-row-2 .art-layout-cell {
+	WIDTH: 48% !important
+}
+.responsive .responsive-layout-row-3 .responsive-tablet-layout-cell {
+	WIDTH: 31% !important
+}
+.responsive-tablet.responsive .art-footer .art-content-layout .responsive-layout-row-3 .art-layout-cell {
+	WIDTH: 31% !important
+}
+.responsive .art-post {
+	border-radius: 0
+}
+.responsive .art-footer-inner {
+	MIN-WIDTH: 0px
+}
+.responsive .art-footer {
+	MARGIN-TOP: 1%
+}

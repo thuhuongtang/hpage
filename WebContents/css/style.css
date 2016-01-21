@@ -1,0 +1,2474 @@
+#art-main {
+	POSITION: relative; FONT-STYLE: normal; MARGIN: 0px auto; MIN-HEIGHT: 100%; WIDTH: 100%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; BACKGROUND: url(images/page.png) #eaf2f5 fixed; FONT-SIZE: 13px; OVERFLOW: hidden; TOP: 0px; CURSOR: default; FONT-WEIGHT: normal; LEFT: 0px; -svg-background: linear-gradient(top, rgba(249, 251, 252, 0.13) 0, rgba(202, 222, 230, 0.05) 1050px) no-repeat, url(images/page.png), linear-gradient(top, #F1F6F8 0, #D2E3EA 1050px) no-repeat
+}
+TABLE {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: normal
+}
+UL.art-hmenu {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: normal
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-button {
+	BORDER-BOTTOM: #639eb6 1px solid; BORDER-LEFT: #639eb6 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; BORDER-COLLAPSE: separate; BACKGROUND: #639eb6; HEIGHT: 23px; BORDER-TOP: #639eb6 1px solid; BORDER-RIGHT: #639eb6 1px solid; PADDING-TOP: 0px; -svg-background: linear-gradient(top, #5F9CB4 0, #71A7BC 50%, #5998B1 50%, #6AA2B9 100%) no-repeat; -webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.art-postcontent {
+	TEXT-ALIGN: left
+}
+.art-postheadericons {
+	TEXT-ALIGN: left
+}
+.art-postfootericons {
+	TEXT-ALIGN: left
+}
+.art-blockcontent {
+	TEXT-ALIGN: left
+}
+UL.art-vmenu A {
+	TEXT-ALIGN: left
+}
+.art-postcontent {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-postcontent LI {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-postcontent TABLE {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-postcontent A {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-postcontent A:link {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-postcontent A:visited {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-postcontent A.visited {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-postcontent A:hover {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-postcontent A.hovered {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-postcontent P {
+	MARGIN: 13px 0px
+}
+.art-postcontent H1 {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H1 A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H1 A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H1 A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H1 A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H2 {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H2 A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H2 A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H2 A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H2 A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+/*
+.art-postcontent H3 {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+*/
+.art-postcontent H3 {
+    color: #808080;
+    font-family: Oswald,Arial,"Arial Unicode MS",Helvetica,sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+    margin: -5px 0 0;
+}
+.art-postcontent H3 A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H3 A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H3 A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H3 A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H4 {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H4 A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H4 A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H4 A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H4 A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H5 {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H5 A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H5 A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H5 A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H5 A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H6 {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H6 A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H6 A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H6 A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent H6 A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-blockheader .t {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-blockheader .t A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-blockheader .t A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-blockheader .t A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-blockheader .t A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-vmenublockheader .t {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-vmenublockheader .t A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-vmenublockheader .t A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-vmenublockheader .t A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-vmenublockheader .t A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-headline {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-headline A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-headline A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-headline A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-headline A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-slogan {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-slogan A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-slogan A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-slogan A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-slogan A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postheader {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postheader A {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postheader A:link {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postheader A:visited {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postheader A:hover {
+	LINE-HEIGHT: 120%; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 22px; FONT-WEIGHT: normal
+}
+.art-postcontent A {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #8ec936; TEXT-DECORATION: underline
+}
+.art-postcontent A:link {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #8ec936; TEXT-DECORATION: underline
+}
+.art-postcontent A:visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9c9c9c; TEXT-DECORATION: none
+}
+.art-postcontent A.visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9c9c9c; TEXT-DECORATION: none
+}
+.art-postcontent A:hover {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a7d562; TEXT-DECORATION: underline
+}
+.art-postcontent A.hover {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a7d562; TEXT-DECORATION: underline
+}
+.art-postcontent H1 {
+	MARGIN: 10px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5293ad; FONT-SIZE: 26px
+}
+.art-blockcontent H1 {
+	MARGIN: 10px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px
+}
+.art-postcontent H1 A {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px
+}
+.art-postcontent H1 A:link {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px
+}
+.art-postcontent H1 A:hover {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px
+}
+.art-postcontent H1 A:visited {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px
+}
+.art-blockcontent H1 A {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px
+}
+.art-blockcontent H1 A:link {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px
+}
+.art-blockcontent H1 A:hover {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px
+}
+.art-blockcontent H1 A:visited {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px
+}
+.art-postcontent H2 {
+	FONT-STYLE: normal; MARGIN: 15px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #000000; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H2 {
+	FONT-STYLE: normal; MARGIN: 15px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H2 A {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H2 A:link {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H2 A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H2 A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H2 A {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H2 A:link {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H2 A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H2 A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H3 {
+	FONT-STYLE: normal; MARGIN: -5px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #808080; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H3 {
+	FONT-STYLE: normal; MARGIN: -5px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H3 A {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H3 A:link {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H3 A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H3 A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H3 A {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H3 A:link {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H3 A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-blockcontent H3 A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 26px; FONT-WEIGHT: bold
+}
+.art-postcontent H4 {
+	MARGIN: 10px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #696969; FONT-SIZE: 18px
+}
+.art-blockcontent H4 {
+	MARGIN: 10px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 18px
+}
+.art-postcontent H4 A {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 18px
+}
+.art-postcontent H4 A:link {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 18px
+}
+.art-postcontent H4 A:hover {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 18px
+}
+.art-postcontent H4 A:visited {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 18px
+}
+.art-blockcontent H4 A {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 18px
+}
+.art-blockcontent H4 A:link {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 18px
+}
+.art-blockcontent H4 A:hover {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 18px
+}
+.art-blockcontent H4 A:visited {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 18px
+}
+.art-postcontent H5 {
+	FONT-STYLE: normal; MARGIN: 10px 0px 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #000000; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-blockcontent H5 {
+	FONT-STYLE: normal; MARGIN: 10px 0px 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-postcontent H5 A {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-postcontent H5 A:link {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-postcontent H5 A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-postcontent H5 A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-blockcontent H5 A {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-blockcontent H5 A:link {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-blockcontent H5 A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-blockcontent H5 A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.art-postcontent H6 {
+	FONT-STYLE: italic; MARGIN: 10px 0px 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5293ad; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.art-blockcontent H6 {
+	FONT-STYLE: italic; MARGIN: 10px 0px 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.art-postcontent H6 A {
+	FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.art-postcontent H6 A:link {
+	FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.art-postcontent H6 A:hover {
+	FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.art-postcontent H6 A:visited {
+	FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.art-blockcontent H6 A {
+	FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.art-blockcontent H6 A:link {
+	FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.art-blockcontent H6 A:hover {
+	FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.art-blockcontent H6 A:visited {
+	FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+header {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+footer {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+article {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+nav {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+#art-hmenu-bg {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+.art-sheet {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+.art-hmenu A {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+.art-vmenu A {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+.art-slidenavigator > A {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+.art-checkbox:before {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+.art-radiobutton:before {
+	-webkit-background-origin: border; -moz-background-origin: border; background-origin: border-box
+}
+header {
+	BOX-SIZING: border-box; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+footer {
+	BOX-SIZING: border-box; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+article {
+	BOX-SIZING: border-box; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+nav {
+	BOX-SIZING: border-box; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+#art-hmenu-bg {
+	BOX-SIZING: border-box; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.art-sheet {
+	BOX-SIZING: border-box; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.art-slidenavigator > A {
+	BOX-SIZING: border-box; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.art-checkbox:before {
+	BOX-SIZING: border-box; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.art-radiobutton:before {
+	BOX-SIZING: border-box; DISPLAY: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+OL {
+	LIST-STYLE-POSITION: inside
+}
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	HEIGHT: 100%
+}
+HTML {
+	-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%
+}
+BODY {
+	MIN-WIDTH: 900px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #878787; PADDING-TOP: 0px
+}
+.art-header:before {
+	BORDER-SPACING: 0; WIDTH: 100%; DISPLAY: table; BORDER-COLLAPSE: collapse; CONTENT: " "
+}
+#art-header-bg:before {
+	BORDER-SPACING: 0; WIDTH: 100%; DISPLAY: table; BORDER-COLLAPSE: collapse; CONTENT: " "
+}
+.art-layout-cell:before {
+	BORDER-SPACING: 0; WIDTH: 100%; DISPLAY: table; BORDER-COLLAPSE: collapse; CONTENT: " "
+}
+.art-layout-wrapper:before {
+	BORDER-SPACING: 0; WIDTH: 100%; DISPLAY: table; BORDER-COLLAPSE: collapse; CONTENT: " "
+}
+.art-footer:before {
+	BORDER-SPACING: 0; WIDTH: 100%; DISPLAY: table; BORDER-COLLAPSE: collapse; CONTENT: " "
+}
+.art-nav:before {
+	BORDER-SPACING: 0; WIDTH: 100%; DISPLAY: table; BORDER-COLLAPSE: collapse; CONTENT: " "
+}
+#art-hmenu-bg:before {
+	BORDER-SPACING: 0; WIDTH: 100%; DISPLAY: table; BORDER-COLLAPSE: collapse; CONTENT: " "
+}
+.art-sheet:before {
+	BORDER-SPACING: 0; WIDTH: 100%; DISPLAY: table; BORDER-COLLAPSE: collapse; CONTENT: " "
+}
+.art-header:after {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+#art-header-bg:after {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+.art-layout-cell:after {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+.art-layout-wrapper:after {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+.art-footer:after {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+.art-nav:after {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+#art-hmenu-bg:after {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+.art-sheet:after {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+.cleared {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+.clearfix:after {
+	DISPLAY: block; FONT: 0px/0 serif; CLEAR: both; CONTENT: " "
+}
+FORM {
+	PADDING-BOTTOM: 0px !important; MARGIN: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+TABLE.position {
+	POSITION: relative; WIDTH: 100%; TABLE-LAYOUT: fixed
+}
+LI H1 {
+	MARGIN: 1px
+}
+.art-postcontent LI H1 {
+	MARGIN: 1px
+}
+.art-blockcontent LI H1 {
+	MARGIN: 1px
+}
+LI H2 {
+	MARGIN: 1px
+}
+.art-postcontent LI H2 {
+	MARGIN: 1px
+}
+.art-blockcontent LI H2 {
+	MARGIN: 1px
+}
+LI H3 {
+	MARGIN: 1px
+}
+.art-postcontent LI H3 {
+	MARGIN: 1px
+}
+.art-blockcontent LI H3 {
+	MARGIN: 1px
+}
+LI H4 {
+	MARGIN: 1px
+}
+.art-postcontent LI H4 {
+	MARGIN: 1px
+}
+.art-blockcontent LI H4 {
+	MARGIN: 1px
+}
+LI H5 {
+	MARGIN: 1px
+}
+.art-postcontent LI H5 {
+	MARGIN: 1px
+}
+.art-blockcontent LI H5 {
+	MARGIN: 1px
+}
+LI H6 {
+	MARGIN: 1px
+}
+.art-postcontent LI H6 {
+	MARGIN: 1px
+}
+.art-blockcontent LI H6 {
+	MARGIN: 1px
+}
+LI P {
+	MARGIN: 1px
+}
+.art-postcontent LI P {
+	MARGIN: 1px
+}
+.art-blockcontent LI P {
+	MARGIN: 1px
+}
+.art-shapes {
+	Z-INDEX: 0; POSITION: absolute; BOTTOM: 0px; OVERFLOW: hidden; TOP: 0px; RIGHT: 0px; LEFT: 0px
+}
+.art-slider-inner {
+	POSITION: relative; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden
+}
+.art-slidenavigator > A {
+	OUTLINE-STYLE: none; DISPLAY: inline-block; FONT-SIZE: 1px; VERTICAL-ALIGN: middle
+}
+.art-object1347461650 {
+	BACKGROUND-IMAGE: url(images/object1347461650.png); Z-INDEX: 1; POSITION: absolute; WIDTH: 80px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; HEIGHT: 83px; MARGIN-LEFT: -4px; TOP: -4px; LEFT: 0%
+}
+.default-responsive .art-object1347461650 {
+	DISPLAY: none
+}
+.art-object941698167 {
+	BACKGROUND-IMAGE: url(images/object941698167.png); Z-INDEX: 2; POSITION: absolute; WIDTH: 531px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; HEIGHT: 371px; MARGIN-LEFT: -531px; TOP: 79px; LEFT: 100%
+}
+.default-responsive .art-object941698167 {
+	DISPLAY: none
+}
+.art-object1649129568 H1 {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 H2 {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 H3 {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 H4 {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 H5 {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 H6 {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 P {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 A {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 UL {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 OL {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 LI {
+	LINE-HEIGHT: 100%
+}
+.art-object1649129568 {
+	BACKGROUND-IMAGE: url(images/object1649129568.png); Z-INDEX: 3; POSITION: absolute; WIDTH: 394px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; HEIGHT: 185px; MARGIN-LEFT: -10px !important; OVERFLOW: hidden; TOP: 119px; LEFT: 2.77%; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg)
+}
+.default-responsive .art-object1649129568 {
+	BACKGROUND-IMAGE: none
+}
+.art-object1649129568-text-container {
+	DISPLAY: table
+}
+.art-object1649129568-text {
+	PADDING-BOTTOM: 0px !important; OUTLINE-STYLE: none; PADDING-LEFT: 0px !important; WIDTH: 394px; PADDING-RIGHT: 0px !important; DISPLAY: table-cell; WORD-WRAP: break-word; HEIGHT: 185px; PADDING-TOP: 0px !important
+}
+.default-responsive .art-object1649129568-text {
+	HEIGHT: auto
+}
+.art-object1649129568-text {
+	TEXT-ALIGN: left; LINE-HEIGHT: 100%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, Sans-Serif; COLOR: #3c6d80 !important; FONT-SIZE: 48px
+}
+.art-object1649129568-text A.art-rss-tag-icon {
+	TEXT-ALIGN: left; LINE-HEIGHT: 100%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, Sans-Serif; COLOR: #3c6d80 !important; FONT-SIZE: 48px
+}
+.art-object1649129568-text A.art-facebook-tag-icon {
+	TEXT-ALIGN: left; LINE-HEIGHT: 100%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, Sans-Serif; COLOR: #3c6d80 !important; FONT-SIZE: 48px
+}
+.art-object1649129568-text A.art-twitter-tag-icon {
+	TEXT-ALIGN: left; LINE-HEIGHT: 100%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, Sans-Serif; COLOR: #3c6d80 !important; FONT-SIZE: 48px
+}
+.art-object1649129568-text A.art-tumblr-tag-icon {
+	TEXT-ALIGN: left; LINE-HEIGHT: 100%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, Sans-Serif; COLOR: #3c6d80 !important; FONT-SIZE: 48px
+}
+.art-object1649129568-text A.art-pinterest-tag-icon {
+	TEXT-ALIGN: left; LINE-HEIGHT: 100%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, Sans-Serif; COLOR: #3c6d80 !important; FONT-SIZE: 48px
+}
+.art-object1649129568-text A.art-vimeo-tag-icon {
+	TEXT-ALIGN: left; LINE-HEIGHT: 100%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, Sans-Serif; COLOR: #3c6d80 !important; FONT-SIZE: 48px
+}
+.art-object1649129568-text A.art-youtube-tag-icon {
+	TEXT-ALIGN: left; LINE-HEIGHT: 100%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, Sans-Serif; COLOR: #3c6d80 !important; FONT-SIZE: 48px
+}
+.art-object1649129568-text A.art-linkedin-tag-icon {
+	TEXT-ALIGN: left; LINE-HEIGHT: 100%; TEXT-TRANSFORM: uppercase; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, Sans-Serif; COLOR: #3c6d80 !important; FONT-SIZE: 48px
+}
+.art-object1649129568-text A.art-rss-tag-icon {
+	WIDTH: 100%
+}
+.art-object1649129568-text A.art-facebook-tag-icon {
+	WIDTH: 100%
+}
+.art-object1649129568-text A.art-twitter-tag-icon {
+	WIDTH: 100%
+}
+.art-object1649129568-text A.art-tumblr-tag-icon {
+	WIDTH: 100%
+}
+.art-object1649129568-text A.art-pinterest-tag-icon {
+	WIDTH: 100%
+}
+.art-object1649129568-text A.art-vimeo-tag-icon {
+	WIDTH: 100%
+}
+.art-object1649129568-text A.art-youtube-tag-icon {
+	WIDTH: 100%
+}
+.art-object1649129568-text A.art-linkedin-tag-icon {
+	WIDTH: 100%
+}
+.default-responsive .art-object1649129568-text A.art-rss-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1649129568-text A.art-facebook-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1649129568-text A.art-twitter-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1649129568-text A.art-tumblr-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1649129568-text A.art-pinterest-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1649129568-text A.art-vimeo-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1649129568-text A.art-youtube-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1649129568-text A.art-linkedin-tag-icon {
+	WIDTH: auto
+}
+.art-textblock UL > LI {
+	BACKGROUND-POSITION-Y: 17px !important
+}
+.art-object885734864 H1 {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 H2 {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 H3 {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 H4 {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 H5 {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 H6 {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 P {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 A {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 UL {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 OL {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 LI {
+	LINE-HEIGHT: 100%
+}
+.art-object885734864 {
+	BACKGROUND-IMAGE: url(images/object885734864.png); Z-INDEX: 4; POSITION: absolute; WIDTH: 203px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; HEIGHT: 88px; MARGIN-LEFT: -47px !important; OVERFLOW: hidden; TOP: 252px; LEFT: 23.53%; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg)
+}
+.default-responsive .art-object885734864 {
+	BACKGROUND-IMAGE: none
+}
+.art-object885734864-text-container {
+	DISPLAY: table
+}
+.art-object885734864-text {
+	PADDING-BOTTOM: 0px !important; OUTLINE-STYLE: none; PADDING-LEFT: 0px !important; WIDTH: 203px; PADDING-RIGHT: 0px !important; DISPLAY: table-cell; WORD-WRAP: break-word; HEIGHT: 88px; PADDING-TOP: 0px !important
+}
+.default-responsive .art-object885734864-text {
+	HEIGHT: auto
+}
+.art-object885734864-text {
+	TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9ac1d0 !important; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-object885734864-text A.art-rss-tag-icon {
+	TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9ac1d0 !important; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-object885734864-text A.art-facebook-tag-icon {
+	TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9ac1d0 !important; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-object885734864-text A.art-twitter-tag-icon {
+	TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9ac1d0 !important; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-object885734864-text A.art-tumblr-tag-icon {
+	TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9ac1d0 !important; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-object885734864-text A.art-pinterest-tag-icon {
+	TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9ac1d0 !important; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-object885734864-text A.art-vimeo-tag-icon {
+	TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9ac1d0 !important; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-object885734864-text A.art-youtube-tag-icon {
+	TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9ac1d0 !important; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-object885734864-text A.art-linkedin-tag-icon {
+	TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #9ac1d0 !important; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-object885734864-text A.art-rss-tag-icon {
+	WIDTH: 100%
+}
+.art-object885734864-text A.art-facebook-tag-icon {
+	WIDTH: 100%
+}
+.art-object885734864-text A.art-twitter-tag-icon {
+	WIDTH: 100%
+}
+.art-object885734864-text A.art-tumblr-tag-icon {
+	WIDTH: 100%
+}
+.art-object885734864-text A.art-pinterest-tag-icon {
+	WIDTH: 100%
+}
+.art-object885734864-text A.art-vimeo-tag-icon {
+	WIDTH: 100%
+}
+.art-object885734864-text A.art-youtube-tag-icon {
+	WIDTH: 100%
+}
+.art-object885734864-text A.art-linkedin-tag-icon {
+	WIDTH: 100%
+}
+.default-responsive .art-object885734864-text A.art-rss-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object885734864-text A.art-facebook-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object885734864-text A.art-twitter-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object885734864-text A.art-tumblr-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object885734864-text A.art-pinterest-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object885734864-text A.art-vimeo-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object885734864-text A.art-youtube-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object885734864-text A.art-linkedin-tag-icon {
+	WIDTH: auto
+}
+.art-textblock UL > LI {
+	BACKGROUND-POSITION-Y: 3px !important
+}
+.art-object1004705267 H1 {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 H2 {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 H3 {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 H4 {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 H5 {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 H6 {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 P {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 A {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 UL {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 OL {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 LI {
+	LINE-HEIGHT: 100%
+}
+.art-object1004705267 {
+	BACKGROUND-IMAGE: url(images/object1004705267.png); Z-INDEX: 5; POSITION: absolute; WIDTH: 429px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; HEIGHT: 126px; MARGIN-LEFT: -19px !important; OVERFLOW: hidden; TOP: 300px; LEFT: 4.46%; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg)
+}
+.default-responsive .art-object1004705267 {
+	BACKGROUND-IMAGE: none
+}
+.art-object1004705267-text-container {
+	DISPLAY: table
+}
+.art-object1004705267-text {
+	PADDING-BOTTOM: 0px !important; OUTLINE-STYLE: none; PADDING-LEFT: 0px !important; WIDTH: 429px; PADDING-RIGHT: 0px !important; DISPLAY: table-cell; WORD-WRAP: break-word; HEIGHT: 126px; PADDING-TOP: 0px !important
+}
+.default-responsive .art-object1004705267-text {
+	HEIGHT: auto
+}
+.art-object1004705267-text {
+	TEXT-ALIGN: left; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #71a7bc !important; FONT-SIZE: 36px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-object1004705267-text A.art-rss-tag-icon {
+	TEXT-ALIGN: left; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #71a7bc !important; FONT-SIZE: 36px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-object1004705267-text A.art-facebook-tag-icon {
+	TEXT-ALIGN: left; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #71a7bc !important; FONT-SIZE: 36px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-object1004705267-text A.art-twitter-tag-icon {
+	TEXT-ALIGN: left; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #71a7bc !important; FONT-SIZE: 36px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-object1004705267-text A.art-tumblr-tag-icon {
+	TEXT-ALIGN: left; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #71a7bc !important; FONT-SIZE: 36px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-object1004705267-text A.art-pinterest-tag-icon {
+	TEXT-ALIGN: left; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #71a7bc !important; FONT-SIZE: 36px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-object1004705267-text A.art-vimeo-tag-icon {
+	TEXT-ALIGN: left; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #71a7bc !important; FONT-SIZE: 36px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-object1004705267-text A.art-youtube-tag-icon {
+	TEXT-ALIGN: left; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #71a7bc !important; FONT-SIZE: 36px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-object1004705267-text A.art-linkedin-tag-icon {
+	TEXT-ALIGN: left; TEXT-TRANSFORM: uppercase; FONT-STYLE: normal; MARGIN: -20px 0px 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #71a7bc !important; FONT-SIZE: 36px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-object1004705267-text A.art-rss-tag-icon {
+	WIDTH: 100%
+}
+.art-object1004705267-text A.art-facebook-tag-icon {
+	WIDTH: 100%
+}
+.art-object1004705267-text A.art-twitter-tag-icon {
+	WIDTH: 100%
+}
+.art-object1004705267-text A.art-tumblr-tag-icon {
+	WIDTH: 100%
+}
+.art-object1004705267-text A.art-pinterest-tag-icon {
+	WIDTH: 100%
+}
+.art-object1004705267-text A.art-vimeo-tag-icon {
+	WIDTH: 100%
+}
+.art-object1004705267-text A.art-youtube-tag-icon {
+	WIDTH: 100%
+}
+.art-object1004705267-text A.art-linkedin-tag-icon {
+	WIDTH: 100%
+}
+.default-responsive .art-object1004705267-text A.art-rss-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1004705267-text A.art-facebook-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1004705267-text A.art-twitter-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1004705267-text A.art-tumblr-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1004705267-text A.art-pinterest-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1004705267-text A.art-vimeo-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1004705267-text A.art-youtube-tag-icon {
+	WIDTH: auto
+}
+.default-responsive .art-object1004705267-text A.art-linkedin-tag-icon {
+	WIDTH: auto
+}
+.art-textblock UL > LI {
+	BACKGROUND-POSITION-Y: 11px !important
+}
+.art-headline {
+	Z-INDEX: 101; POSITION: absolute; MIN-WIDTH: 50px; LINE-HEIGHT: 100%; DISPLAY: inline-block; MARGIN-LEFT: -15px !important; TOP: 19px; LEFT: 9.48%; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg)
+}
+.art-headline {
+	PADDING-BOTTOM: 0px; FONT-STYLE: normal; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #89c133 !important; FONT-SIZE: 36px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px; text-shadow: 1.4px 1.4px 0px rgba(74, 105, 28, 0.7)
+}
+.art-headline A {
+	PADDING-BOTTOM: 0px; FONT-STYLE: normal; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #89c133 !important; FONT-SIZE: 36px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px; text-shadow: 1.4px 1.4px 0px rgba(74, 105, 28, 0.7)
+}
+.art-headline A:link {
+	PADDING-BOTTOM: 0px; FONT-STYLE: normal; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #89c133 !important; FONT-SIZE: 36px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px; text-shadow: 1.4px 1.4px 0px rgba(74, 105, 28, 0.7)
+}
+.art-headline A:visited {
+	PADDING-BOTTOM: 0px; FONT-STYLE: normal; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #89c133 !important; FONT-SIZE: 36px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px; text-shadow: 1.4px 1.4px 0px rgba(74, 105, 28, 0.7)
+}
+.art-headline A:hover {
+	PADDING-BOTTOM: 0px; FONT-STYLE: normal; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #89c133 !important; FONT-SIZE: 36px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px; text-shadow: 1.4px 1.4px 0px rgba(74, 105, 28, 0.7)
+}
+.art-header {
+	BACKGROUND-IMAGE: url(images/header.png); POSITION: relative; MARGIN: 0px auto; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center top; HEIGHT: 450px
+}
+.custom-responsive .art-header {
+	BACKGROUND-IMAGE: url(images/header.png); BACKGROUND-POSITION: center top
+}
+.default-responsive .art-header {
+	BACKGROUND-IMAGE: url(images/header.png); BACKGROUND-POSITION: center center; background-size: cover
+}
+.default-responsive #art-header-bg {
+	BACKGROUND-IMAGE: url(images/header.png); BACKGROUND-POSITION: center center; background-size: cover
+}
+.art-header-inner {
+	Z-INDEX: auto !important; POSITION: relative; MARGIN: 0px auto; WIDTH: 900px
+}
+.art-header > .widget {
+	Z-INDEX: 101; POSITION: absolute
+}
+.art-nav {
+	Z-INDEX: 100; BORDER-BOTTOM: transparent 1px dotted; POSITION: absolute; PADDING-BOTTOM: 7px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; TOP: 20px; PADDING-TOP: 7px
+}
+UL.art-hmenu A {
+	Z-INDEX: 11; POSITION: relative; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+UL.art-hmenu A:link {
+	Z-INDEX: 11; POSITION: relative; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+UL.art-hmenu A:visited {
+	Z-INDEX: 11; POSITION: relative; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+UL.art-hmenu A:hover {
+	Z-INDEX: 11; POSITION: relative; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+UL.art-hmenu {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.art-hmenu UL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.art-hmenu LI {
+	Z-INDEX: 5; BORDER-BOTTOM: 0px; POSITION: relative; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.art-hmenu LI:hover {
+	Z-INDEX: 10000; WHITE-SPACE: normal
+}
+UL.art-hmenu:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; OVERFLOW: hidden; CONTENT: "."
+}
+UL.art-hmenu UL:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; OVERFLOW: hidden; CONTENT: "."
+}
+UL.art-hmenu {
+	MIN-HEIGHT: 0px
+}
+UL.art-hmenu UL {
+	MIN-HEIGHT: 0px
+}
+UL.art-hmenu {
+	PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block; VERTICAL-ALIGN: middle
+}
+.art-nav-inner:before {
+	CONTENT: ' '
+}
+.art-nav-inner {
+	TEXT-ALIGN: right; MARGIN: 0px auto
+}
+.desktop .art-nav-inner {
+	PADDING-LEFT: 10px; WIDTH: 900px; PADDING-RIGHT: 10px
+}
+.desktop .art-nav {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.art-hmenu-extra1 {
+	POSITION: relative; WIDTH: auto; DISPLAY: block; BACKGROUND-POSITION: center 50%; FLOAT: left; HEIGHT: auto
+}
+.art-hmenu-extra2 {
+	POSITION: relative; WIDTH: auto; DISPLAY: block; BACKGROUND-POSITION: center 50%; FLOAT: right; HEIGHT: auto
+}
+.art-hmenu {
+	FLOAT: right
+}
+.art-menuitemcontainer {
+	MARGIN: 0px auto
+}
+UL.art-hmenu > LI {
+	MARGIN-LEFT: 11px
+}
+UL.art-hmenu > LI:first-child {
+	MARGIN-LEFT: 5px
+}
+UL.art-hmenu > LI > A {
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 31px; MARGIN: 0px auto; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; HEIGHT: 31px; COLOR: #4e8da6; CURSOR: pointer; TEXT-DECORATION: none; PADDING-TOP: 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.art-hmenu > LI > A {
+	TEXT-ALIGN: left; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.art-hmenu > LI > A:link {
+	TEXT-ALIGN: left; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.art-hmenu > LI > A:visited {
+	TEXT-ALIGN: left; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.art-hmenu > LI > A.active {
+	TEXT-ALIGN: left; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.art-hmenu > LI > A:hover {
+	TEXT-ALIGN: left; FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+UL.art-hmenu > LI > A.active {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #95cd42; COLOR: #ffffff; TEXT-DECORATION: none; PADDING-TOP: 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+UL.art-hmenu > LI > A:visited {
+	TEXT-DECORATION: none
+}
+UL.art-hmenu > LI > A:hover {
+	TEXT-DECORATION: none
+}
+UL.art-hmenu > LI:hover > A {
+	TEXT-DECORATION: none
+}
+UL.art-hmenu > LI > A:hover {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.desktop UL.art-hmenu > LI:hover > A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+UL.art-hmenu > LI > A:hover {
+	COLOR: #86bd32; TEXT-DECORATION: none
+}
+.desktop UL.art-hmenu > LI:hover > A {
+	COLOR: #86bd32; TEXT-DECORATION: none
+}
+UL.art-hmenu > LI:before {
+	POSITION: absolute; WIDTH: 11px; DISPLAY: block; BACKGROUND: url(images/menuseparator.png) no-repeat center center; HEIGHT: 31px; CONTENT: ' '; TOP: 0px; LEFT: -11px
+}
+UL.art-hmenu > LI:first-child:before {
+	DISPLAY: none
+}
+UL.art-hmenu LI LI A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+UL.art-hmenu LI LI {
+	MARGIN-TOP: 2px; WIDTH: auto; MARGIN-BOTTOM: 2px; FLOAT: none
+}
+.desktop UL.art-hmenu LI LI UL > LI:first-child {
+	MARGIN-TOP: 0px
+}
+.art-hmenu UL A {
+	BORDER-BOTTOM: transparent 0px solid; MIN-WIDTH: 7em; TEXT-ALIGN: left; BORDER-LEFT: transparent 0px solid; LINE-HEIGHT: 24px; MARGIN: 0px; DISPLAY: block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; HEIGHT: 24px; COLOR: #5090aa; FONT-SIZE: 13px; BORDER-TOP: transparent 0px solid; BORDER-RIGHT: transparent 0px solid; TEXT-DECORATION: none
+}
+.art-hmenu UL A:link {
+	TEXT-ALIGN: left; LINE-HEIGHT: 24px; MARGIN: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5090aa; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.art-hmenu UL A:visited {
+	TEXT-ALIGN: left; LINE-HEIGHT: 24px; MARGIN: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5090aa; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.art-hmenu UL A.active {
+	TEXT-ALIGN: left; LINE-HEIGHT: 24px; MARGIN: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5090aa; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.art-hmenu UL A:hover {
+	TEXT-ALIGN: left; LINE-HEIGHT: 24px; MARGIN: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5090aa; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+UL.art-hmenu LI LI:after {
+	Z-INDEX: 1; BORDER-BOTTOM: #d1d1d1 1px dotted; POSITION: absolute; DISPLAY: block; HEIGHT: 0px; CONTENT: ' '; TOP: -1px; RIGHT: 0px; LEFT: 0px
+}
+.desktop UL.art-hmenu LI LI:first-child:before {
+	DISPLAY: none
+}
+.desktop UL.art-hmenu LI LI:first-child:after {
+	DISPLAY: none
+}
+UL.art-hmenu UL LI A:hover {
+	MARGIN: 0px auto; BACKGROUND: none transparent scroll repeat 0% 0%; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.desktop UL.art-hmenu UL LI:hover > A {
+	MARGIN: 0px auto; BACKGROUND: none transparent scroll repeat 0% 0%; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.art-hmenu UL A:hover {
+	COLOR: #89c133; TEXT-DECORATION: none
+}
+.desktop .art-hmenu UL LI:hover > A {
+	COLOR: #89c133
+}
+UL.art-hmenu UL:before {
+	Z-INDEX: 1; POSITION: absolute; MARGIN: 0px auto; DISPLAY: block; BACKGROUND: #eef4f7; CONTENT: ' '; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.desktop UL.art-hmenu LI:hover > UL {
+	VISIBILITY: visible; TOP: 100%
+}
+.desktop UL.art-hmenu LI LI:hover > UL {
+	TOP: 0px; LEFT: 100%
+}
+UL.art-hmenu UL {
+	BACKGROUND-IMAGE: url(images/spacer.gif); Z-INDEX: 10; POSITION: absolute; VISIBILITY: hidden; TOP: 0px; LEFT: 0px
+}
+.desktop UL.art-hmenu > LI > UL {
+	PADDING-BOTTOM: 36px; MARGIN: -10px 0px 0px -30px; PADDING-LEFT: 36px; PADDING-RIGHT: 36px; PADDING-TOP: 16px
+}
+.desktop UL.art-hmenu UL UL {
+	PADDING-BOTTOM: 36px; MARGIN: -36px 0px 0px -5px; PADDING-LEFT: 18px; PADDING-RIGHT: 36px; PADDING-TOP: 36px
+}
+.desktop UL.art-hmenu UL.art-hmenu-left-to-right {
+	MARGIN: -10px 0px 0px -30px; RIGHT: auto; LEFT: 0px
+}
+.desktop UL.art-hmenu UL.art-hmenu-right-to-left {
+	MARGIN: -10px -30px 0px 0px; RIGHT: 0px; LEFT: auto
+}
+.desktop UL.art-hmenu LI LI:hover > UL.art-hmenu-left-to-right {
+	RIGHT: auto; LEFT: 100%
+}
+.desktop UL.art-hmenu LI LI:hover > UL.art-hmenu-right-to-left {
+	RIGHT: 100%; LEFT: auto
+}
+.desktop UL.art-hmenu UL UL.art-hmenu-left-to-right {
+	PADDING-BOTTOM: 36px; MARGIN: -36px 0px 0px -5px; PADDING-LEFT: 18px; PADDING-RIGHT: 36px; RIGHT: auto; PADDING-TOP: 36px; LEFT: 0px
+}
+.desktop UL.art-hmenu UL UL.art-hmenu-right-to-left {
+	PADDING-BOTTOM: 36px; MARGIN: -36px -5px 0px 0px; PADDING-LEFT: 36px; PADDING-RIGHT: 18px; RIGHT: 0px; PADDING-TOP: 36px; LEFT: auto
+}
+.desktop UL.art-hmenu LI UL > LI:first-child {
+	MARGIN-TOP: 0px
+}
+.desktop UL.art-hmenu UL UL:before {
+	BOTTOM: 30px; TOP: 30px; RIGHT: 30px; LEFT: 12px; border-radius: 3px
+}
+.desktop UL.art-hmenu > LI > UL:before {
+	BOTTOM: 30px; TOP: 10px; RIGHT: 30px; LEFT: 30px
+}
+.desktop UL.art-hmenu > LI > UL.art-hmenu-left-to-right:before {
+	RIGHT: 30px; LEFT: 30px
+}
+.desktop UL.art-hmenu > LI > UL.art-hmenu-right-to-left:before {
+	RIGHT: 30px; LEFT: 30px
+}
+.desktop UL.art-hmenu UL UL.art-hmenu-left-to-right:before {
+	RIGHT: 30px; LEFT: 12px
+}
+.desktop UL.art-hmenu UL UL.art-hmenu-right-to-left:before {
+	RIGHT: 12px; LEFT: 30px
+}
+.desktop UL.art-hmenu > LI.ext > A {
+	WHITE-SPACE: nowrap
+}
+.desktop UL.art-hmenu > LI.ext > A:hover {
+	BORDER-BOTTOM: medium none; POSITION: relative; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #89c133; OVERFLOW: hidden; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px; border-radius: 0; box-shadow: none
+}
+.desktop UL.art-hmenu > LI.ext:hover > A {
+	BORDER-BOTTOM: medium none; POSITION: relative; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #89c133; OVERFLOW: hidden; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px; border-radius: 0; box-shadow: none
+}
+.desktop UL.art-hmenu > LI.ext:hover > A.active {
+	BORDER-BOTTOM: medium none; POSITION: relative; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #89c133; OVERFLOW: hidden; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px; border-radius: 0; box-shadow: none
+}
+.desktop UL.art-hmenu > LI.ext > A:hover:before {
+	Z-INDEX: -1; POSITION: absolute; BACKGROUND-COLOR: #eef4f7; BOTTOM: -1px; CONTENT: ' '; TOP: 0px; RIGHT: 0px; LEFT: 0px; box-shadow: 0 0 0 rgba(0, 0, 0, 0.8); border-top-left-radius: 3px; border-top-right-radius: 3px
+}
+.desktop UL.art-hmenu > LI.ext:hover > A:before {
+	Z-INDEX: -1; POSITION: absolute; BACKGROUND-COLOR: #eef4f7; BOTTOM: -1px; CONTENT: ' '; TOP: 0px; RIGHT: 0px; LEFT: 0px; box-shadow: 0 0 0 rgba(0, 0, 0, 0.8); border-top-left-radius: 3px; border-top-right-radius: 3px
+}
+.desktop UL.art-hmenu > LI.ext:hover > A.active:before {
+	Z-INDEX: -1; POSITION: absolute; BACKGROUND-COLOR: #eef4f7; BOTTOM: -1px; CONTENT: ' '; TOP: 0px; RIGHT: 0px; LEFT: 0px; box-shadow: 0 0 0 rgba(0, 0, 0, 0.8); border-top-left-radius: 3px; border-top-right-radius: 3px
+}
+.desktop UL.art-hmenu > LI.ext:hover > UL {
+	MARGIN-TOP: 0px; PADDING-TOP: 5px
+}
+.desktop UL.art-hmenu > LI.ext:hover > UL:before {
+	CLIP: rect(6px auto auto auto); TOP: -1px; box-shadow: 0 0 0 rgba(0, 0, 0, 0.8); border-top-left-radius: 0; border-top-right-radius: 0
+}
+UL.art-hmenu > LI.ext > .ext-r {
+	Z-INDEX: 12; BOX-SIZING: border-box; DISPLAY: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+UL.art-hmenu > LI.ext > .ext-l {
+	Z-INDEX: 12; BOX-SIZING: border-box; DISPLAY: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+UL.art-hmenu > LI.ext > .ext-m {
+	Z-INDEX: 12; BOX-SIZING: border-box; DISPLAY: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+UL.art-hmenu > LI.ext > .ext-off {
+	Z-INDEX: 12; BOX-SIZING: border-box; DISPLAY: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.desktop UL.art-hmenu > LI.ext > UL {
+	Z-INDEX: 13
+}
+.desktop UL.art-hmenu > LI.ext-r.ext:hover > .ext-r {
+	POSITION: absolute; MARGIN-TOP: -1px; DISPLAY: block; HEIGHT: 6px; OVERFLOW: hidden; TOP: 100%; PADDING-TOP: 1px
+}
+.desktop UL.art-hmenu > LI.ext-l.ext:hover > .ext-l {
+	POSITION: absolute; MARGIN-TOP: -1px; DISPLAY: block; HEIGHT: 6px; OVERFLOW: hidden; TOP: 100%; PADDING-TOP: 1px
+}
+.desktop UL.art-hmenu > LI.ext:hover > .ext-r:before {
+	POSITION: absolute; BACKGROUND-COLOR: #eef4f7; BOTTOM: -1px; CONTENT: ' '; TOP: 0px; box-shadow: 0 0 0 rgba(0, 0, 0, 0.8)
+}
+.desktop UL.art-hmenu > LI.ext:hover > .ext-l:before {
+	POSITION: absolute; BACKGROUND-COLOR: #eef4f7; BOTTOM: -1px; CONTENT: ' '; TOP: 0px; box-shadow: 0 0 0 rgba(0, 0, 0, 0.8)
+}
+.desktop UL.art-hmenu > LI.ext-r.ext:hover > .ext-r {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 1px; MARGIN-LEFT: 0px; RIGHT: auto; MARGIN-RIGHT: -1px; LEFT: 100%
+}
+.desktop UL.art-hmenu > LI.ext-r.ext:hover > .ext-r:before {
+	RIGHT: 0px; LEFT: -1px; border-top-left-radius: 0; border-top-right-radius: 3px
+}
+.desktop UL.art-hmenu > LI.ext-l.ext:hover > .ext-l {
+	PADDING-LEFT: 1px; PADDING-RIGHT: 0px; MARGIN-LEFT: -1px; RIGHT: 100%; MARGIN-RIGHT: 0px; LEFT: auto
+}
+.desktop UL.art-hmenu > LI.ext-l.ext:hover > .ext-l:before {
+	RIGHT: -1px; LEFT: 0px; border-top-left-radius: 3px; border-top-right-radius: 0
+}
+.desktop UL.art-hmenu > LI.ext:hover > .ext-m {
+	POSITION: absolute; DISPLAY: block; HEIGHT: 5px; OVERFLOW: hidden; TOP: 100%
+}
+.desktop UL.art-hmenu > LI.ext:hover > .ext-off {
+	POSITION: absolute; DISPLAY: block; HEIGHT: 5px; OVERFLOW: hidden; TOP: 100%
+}
+.desktop UL.art-hmenu > LI.ext-r.ext:hover > .ext-m {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px; RIGHT: 0px; LEFT: 0px
+}
+.desktop UL.art-hmenu > LI.ext:hover > .ext-off {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px; RIGHT: 0px; LEFT: 0px
+}
+.desktop UL.art-hmenu > LI.ext-l.ext:hover > .ext-m {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px; RIGHT: 0px; LEFT: 0px
+}
+.desktop UL.art-hmenu > LI.ext-r.ext-l.ext:hover > .ext-m {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px; RIGHT: 0px; LEFT: 0px
+}
+.desktop UL.art-hmenu > LI.ext:hover > .ext-m:before {
+	POSITION: absolute; BACKGROUND-COLOR: #eef4f7; BOTTOM: -1px; CONTENT: ' '; TOP: -1px; box-shadow: 0 0 0 rgba(0, 0, 0, 0.8)
+}
+.desktop UL.art-hmenu > LI.ext:hover > .ext-off:before {
+	POSITION: absolute; BACKGROUND-COLOR: #eef4f7; BOTTOM: -1px; CONTENT: ' '; TOP: -1px; box-shadow: 0 0 0 rgba(0, 0, 0, 0.8)
+}
+.desktop UL.art-hmenu > LI.ext-r.ext:hover > .ext-m:before {
+	RIGHT: -1px; LEFT: 0px
+}
+.desktop UL.art-hmenu > LI.ext-l.ext:hover > .ext-m:before {
+	RIGHT: 0px; LEFT: -1px
+}
+.desktop UL.art-hmenu > LI.ext-r.ext-l.ext:hover > .ext-m:before {
+	RIGHT: -1px; LEFT: -1px
+}
+.art-sheet {
+	Z-INDEX: auto !important; BORDER-BOTTOM: #dedede 1px solid; POSITION: relative; BORDER-LEFT: #dedede 1px solid; PADDING-BOTTOM: 10px; MARGIN: 0px auto; PADDING-LEFT: 10px; WIDTH: 900px; PADDING-RIGHT: 10px; BACKGROUND: #ffffff; BORDER-TOP: #dedede 1px solid; CURSOR: auto; BORDER-RIGHT: #dedede 1px solid; PADDING-TOP: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px
+}
+.art-layout-wrapper {
+	Z-INDEX: auto !important; POSITION: relative; MARGIN: 20px auto 0px
+}
+.art-content-layout {
+	WIDTH: 100%; DISPLAY: table; TABLE-LAYOUT: fixed
+}
+.art-content-layout-row {
+	DISPLAY: table-row
+}
+.art-layout-cell {
+	BOX-SIZING: border-box; DISPLAY: table-cell; VERTICAL-ALIGN: top; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.art-postcontent .art-content-layout {
+	BORDER-COLLAPSE: collapse
+}
+.art-block {
+	MARGIN: 3px
+}
+DIV.art-block IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: 0px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.art-blockheader {
+	PADDING-BOTTOM: 6px; MARGIN: 0px auto 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 6px
+}
+.art-blockheader .t {
+	FONT-STYLE: normal; MARGIN: 0px 5px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-blockheader .t A {
+	FONT-STYLE: normal; MARGIN: 0px 5px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-blockheader .t A:link {
+	FONT-STYLE: normal; MARGIN: 0px 5px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-blockheader .t A:visited {
+	FONT-STYLE: normal; MARGIN: 0px 5px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-blockheader .t A:hover {
+	FONT-STYLE: normal; MARGIN: 0px 5px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2; FONT-SIZE: 20px; FONT-WEIGHT: normal
+}
+.art-blockcontent {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 175%; MARGIN: 0px auto; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #404040; FONT-SIZE: 13px; PADDING-TOP: 5px
+}
+.art-blockcontent TABLE {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #404040; FONT-SIZE: 13px
+}
+.art-blockcontent LI {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #404040; FONT-SIZE: 13px
+}
+.art-blockcontent A {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #404040; FONT-SIZE: 13px
+}
+.art-blockcontent A:link {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #404040; FONT-SIZE: 13px
+}
+.art-blockcontent A:visited {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #404040; FONT-SIZE: 13px
+}
+.art-blockcontent A:hover {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #404040; FONT-SIZE: 13px
+}
+.art-blockcontent P {
+	MARGIN: 0px 5px
+}
+.art-blockcontent A {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a7d562
+}
+.art-blockcontent A:link {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a7d562
+}
+.art-blockcontent A:visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #bababa; TEXT-DECORATION: none
+}
+.art-blockcontent A.visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #bababa; TEXT-DECORATION: none
+}
+.art-blockcontent A:hover {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #8ec936; TEXT-DECORATION: none
+}
+.art-blockcontent A.hover {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #8ec936; TEXT-DECORATION: none
+}
+.art-block UL > LI:before {
+	POSITION: relative; LINE-HEIGHT: 0; BOTTOM: 2px; DISPLAY: inline-block; MARGIN-LEFT: -12px; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; CONTENT: url('images/blockbullets.png'); MARGIN-RIGHT: 6px
+}
+.opera .art-block UL > LI:before {
+	BOTTOM: 0px
+}
+.art-block LI {
+	LINE-HEIGHT: 175%; MARGIN: 5px 0px 0px 10px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #696969; FONT-SIZE: 13px
+}
+.art-block UL > LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-block OL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-block UL > LI {
+	PADDING-LEFT: 12px
+}
+.art-breadcrumbs {
+	MARGIN: 0px auto
+}
+A.art-button {
+	BOX-SIZING: content-box; POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 23px; FONT-STYLE: normal; TEXT-INDENT: 0px; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #ffffff; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; OVERFLOW: visible; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box
+}
+A.art-button:link {
+	BOX-SIZING: content-box; POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 23px; FONT-STYLE: normal; TEXT-INDENT: 0px; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #ffffff; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; OVERFLOW: visible; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box
+}
+A.art-button:link {
+	BOX-SIZING: content-box; POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 23px; FONT-STYLE: normal; TEXT-INDENT: 0px; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #ffffff; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; OVERFLOW: visible; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box
+}
+BODY A.art-button:link {
+	BOX-SIZING: content-box; POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 23px; FONT-STYLE: normal; TEXT-INDENT: 0px; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #ffffff; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; OVERFLOW: visible; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box
+}
+A.art-button:visited {
+	BOX-SIZING: content-box; POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 23px; FONT-STYLE: normal; TEXT-INDENT: 0px; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #ffffff; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; OVERFLOW: visible; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box
+}
+BODY A.art-button:visited {
+	BOX-SIZING: content-box; POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 23px; FONT-STYLE: normal; TEXT-INDENT: 0px; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #ffffff; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; OVERFLOW: visible; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box
+}
+INPUT.art-button {
+	BOX-SIZING: content-box; POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 23px; FONT-STYLE: normal; TEXT-INDENT: 0px; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #ffffff; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; OVERFLOW: visible; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box
+}
+BUTTON.art-button {
+	BOX-SIZING: content-box; POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 23px; FONT-STYLE: normal; TEXT-INDENT: 0px; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; WHITE-SPACE: nowrap; COLOR: #ffffff; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; OVERFLOW: visible; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box
+}
+.art-button IMG {
+	MARGIN: 0px; VERTICAL-ALIGN: middle
+}
+.firefox2 .art-button {
+	DISPLAY: block; FLOAT: left
+}
+INPUT {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+SELECT {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+TEXTAREA {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+A.art-search-button SPAN {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.art-block SELECT {
+	WIDTH: 96%
+}
+INPUT.art-button {
+	FLOAT: none !important; -webkit-appearance: none
+}
+.active.art-button {
+	BORDER-BOTTOM: #639eb6 1px solid; BORDER-LEFT: #639eb6 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; BACKGROUND: #8db8c9; BORDER-TOP: #639eb6 1px solid; BORDER-RIGHT: #639eb6 1px solid; PADDING-TOP: 0px; -svg-background: linear-gradient(top, #89B6C8 0, #9AC1D0 50%, #82B2C4 50%, #93BCCC 100%) no-repeat; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.active.art-button:hover {
+	BORDER-BOTTOM: #639eb6 1px solid; BORDER-LEFT: #639eb6 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; BACKGROUND: #8db8c9; BORDER-TOP: #639eb6 1px solid; BORDER-RIGHT: #639eb6 1px solid; PADDING-TOP: 0px; -svg-background: linear-gradient(top, #89B6C8 0, #9AC1D0 50%, #82B2C4 50%, #93BCCC 100%) no-repeat; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.active.art-button {
+	COLOR: #ffffff !important
+}
+.active.art-button:hover {
+	COLOR: #ffffff !important
+}
+.hover.art-button {
+	BORDER-BOTTOM: #8db8c9 1px solid; BORDER-LEFT: #8db8c9 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; BACKGROUND: #639eb6; BORDER-TOP: #8db8c9 1px solid; BORDER-RIGHT: #8db8c9 1px solid; PADDING-TOP: 0px; -svg-background: linear-gradient(top, #5F9CB4 0, #71A7BC 50%, #5998B1 50%, #6AA2B9 100%) no-repeat; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.art-button:hover {
+	BORDER-BOTTOM: #8db8c9 1px solid; BORDER-LEFT: #8db8c9 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; BACKGROUND: #639eb6; BORDER-TOP: #8db8c9 1px solid; BORDER-RIGHT: #8db8c9 1px solid; PADDING-TOP: 0px; -svg-background: linear-gradient(top, #5F9CB4 0, #71A7BC 50%, #5998B1 50%, #6AA2B9 100%) no-repeat; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.hover.art-button {
+	COLOR: #ffffff !important
+}
+.art-button:hover {
+	COLOR: #ffffff !important
+}
+INPUT[type='text'] {
+	/* BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px */
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='password'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='email'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='url'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='color'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='date'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='datetime'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='datetime-local'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='month'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='number'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='range'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='tel'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='time'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='week'] {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+TEXTAREA {
+	BORDER-BOTTOM: #b6d2dd 1px solid; BORDER-LEFT: #b6d2dd 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #b6d2dd 1px solid; BORDER-RIGHT: #b6d2dd 1px solid; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+INPUT[type='text'] {
+	/*PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none*/
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 893px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none;  word-wrap: break-word;
+    word-break: break-word;
+    height: 40px;
+}
+INPUT[type='password'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='email'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='url'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='color'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='date'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='datetime'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='datetime-local'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='month'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='number'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='range'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='tel'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='time'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT[type='week'] {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+TEXTAREA {
+	PADDING-BOTTOM: 4px; FONT-STYLE: normal; PADDING-LEFT: 0px; WIDTH: 181px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal; PADDING-TOP: 4px; text-shadow: none
+}
+INPUT.art-error {
+	BORDER-BOTTOM: #e2341d 1px solid; BORDER-LEFT: #e2341d 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #e2341d 1px solid; BORDER-RIGHT: #e2341d 1px solid
+}
+TEXTAREA.art-error {
+	BORDER-BOTTOM: #e2341d 1px solid; BORDER-LEFT: #e2341d 1px solid; MARGIN: 0px auto; BACKGROUND: #f8fbfc; BORDER-TOP: #e2341d 1px solid; BORDER-RIGHT: #e2341d 1px solid
+}
+INPUT.art-error {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal
+}
+TEXTAREA.art-error {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #525252 !important; FONT-SIZE: 13px; FONT-WEIGHT: normal
+}
+FORM.art-search INPUT[type='text'] {
+	BOX-SIZING: border-box; BORDER-BOTTOM: #c8dde5 1px solid; BORDER-LEFT: #c8dde5 1px solid; PADDING-BOTTOM: 3px; FONT-STYLE: normal; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; BACKGROUND: #ffffff; COLOR: #47651b !important; FONT-SIZE: 13px; BORDER-TOP: #c8dde5 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #c8dde5 1px solid; PADDING-TOP: 3px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+FORM.art-search {
+	BACKGROUND-IMAGE: none; BORDER-BOTTOM: 0px; POSITION: relative; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 0; MARGIN: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BORDER-TOP: 0px; TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; LEFT: 0px
+}
+FORM.art-search INPUT {
+	TOP: 0px; RIGHT: 0px; -webkit-appearance: none
+}
+A.art-search-button {
+	TOP: 0px; RIGHT: 0px; -webkit-appearance: none
+}
+FORM.art-search > INPUT {
+	BOTTOM: 0px; VERTICAL-ALIGN: middle; LEFT: 0px
+}
+A.art-search-button {
+	BOTTOM: 0px; VERTICAL-ALIGN: middle; LEFT: 0px
+}
+FORM.art-search INPUT[type='submit'] {
+	MARGIN: 0px auto; border-radius: 0
+}
+INPUT.art-search-button {
+	MARGIN: 0px auto; border-radius: 0
+}
+A.art-search-button {
+	MARGIN: 0px auto; border-radius: 0
+}
+FORM.art-search INPUT[type='submit'] {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 24px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(images/searchicon.png) no-repeat center center; HEIGHT: 100%; COLOR: #ffffff !important; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: auto
+}
+INPUT.art-search-button {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 24px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(images/searchicon.png) no-repeat center center; HEIGHT: 100%; COLOR: #ffffff !important; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: auto
+}
+A.art-search-button {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 24px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(images/searchicon.png) no-repeat center center; HEIGHT: 100%; COLOR: #ffffff !important; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none; PADDING-TOP: 0px; LEFT: auto
+}
+A.art-search-button SPAN.art-search-button-text {
+	DISPLAY: none
+}
+LABEL.art-checkbox:before {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px auto; WIDTH: 16px; BACKGROUND: #f8fbfc; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 16px; BORDER-LEFT-WIDTH: 0px; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px
+}
+LABEL.art-checkbox {
+	LINE-HEIGHT: 16px; FONT-STYLE: normal; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #47651b !important; FONT-SIZE: 13px; CURSOR: pointer; FONT-WEIGHT: normal
+}
+.art-checkbox > INPUT[type='checkbox'] {
+	MARGIN: 0px 5px 0px 0px
+}
+LABEL.active.art-checkbox:before {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px auto; WIDTH: 16px; DISPLAY: inline-block; BACKGROUND: #a9d666; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 16px; BORDER-LEFT-WIDTH: 0px; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px
+}
+LABEL.hovered.art-checkbox:before {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px auto; WIDTH: 16px; DISPLAY: inline-block; BACKGROUND: #eaf2f5; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 16px; BORDER-LEFT-WIDTH: 0px; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px
+}
+LABEL.art-radiobutton:before {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px auto; WIDTH: 12px; BACKGROUND: #f8fbfc; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 12px; BORDER-LEFT-WIDTH: 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+LABEL.art-radiobutton {
+	LINE-HEIGHT: 12px; FONT-STYLE: normal; DISPLAY: inline-block; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #47651b !important; FONT-SIZE: 13px; CURSOR: pointer; FONT-WEIGHT: normal
+}
+.art-radiobutton > INPUT[type='radio'] {
+	MARGIN: 0px 5px 0px 0px; VERTICAL-ALIGN: baseline
+}
+LABEL.active.art-radiobutton:before {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px auto; WIDTH: 12px; DISPLAY: inline-block; BACKGROUND: #b6d2dd; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 12px; BORDER-LEFT-WIDTH: 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+LABEL.hovered.art-radiobutton:before {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px auto; WIDTH: 12px; DISPLAY: inline-block; BACKGROUND: #eaf2f5; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 12px; BORDER-LEFT-WIDTH: 0px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.art-comments {
+	MARGIN: 25px auto 0px; BORDER-TOP: #8db8c9 1px dotted
+}
+.art-comments H2 {
+	COLOR: #1a2f37
+}
+.art-comment-inner {
+	PADDING-BOTTOM: 5px; MARGIN: 0px auto 0px 94px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 5px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px
+}
+.art-comment-avatar {
+	BORDER-BOTTOM: #e2e8ee 1px solid; BORDER-LEFT: #e2e8ee 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 80px; PADDING-RIGHT: 1px; BACKGROUND: #fff; FLOAT: left; HEIGHT: 80px; BORDER-TOP: #e2e8ee 1px solid; BORDER-RIGHT: #e2e8ee 1px solid; PADDING-TOP: 1px
+}
+.art-comment-avatar > IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: 0px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.art-comment-content {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #404040; PADDING-TOP: 10px
+}
+.art-comment {
+	MARGIN-TOP: 6px
+}
+.art-comment:first-child {
+	MARGIN-TOP: 0px
+}
+.art-comment-header {
+	LINE-HEIGHT: 100%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #1a2f37
+}
+.art-comment-header A {
+	LINE-HEIGHT: 100%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-header A:link {
+	LINE-HEIGHT: 100%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-header A:visited {
+	LINE-HEIGHT: 100%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-header A.visited {
+	LINE-HEIGHT: 100%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-header A:hover {
+	LINE-HEIGHT: 100%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-header A.hovered {
+	LINE-HEIGHT: 100%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-header A {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2
+}
+.art-comment-header A:link {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2
+}
+.art-comment-header A:visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2
+}
+.art-comment-header A.visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2
+}
+.art-comment-header A:hover {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2
+}
+.art-comment-header A.hovered {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #5c9ab2
+}
+.art-comment-content A {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-content A:link {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-content A:visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-content A.visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-content A:hover {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-content A.hovered {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif
+}
+.art-comment-content A {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #75a52c
+}
+.art-comment-content A:link {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #75a52c
+}
+.art-comment-content A:visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #545454
+}
+.art-comment-content A.visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #545454
+}
+.art-comment-content A:hover {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #75a52c
+}
+.art-comment-content A.hovered {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #75a52c
+}
+.art-pager {
+	BORDER-BOTTOM: #8db8c9 1px solid; BORDER-LEFT: #8db8c9 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #eff2f5; BORDER-TOP: #8db8c9 1px solid; BORDER-RIGHT: #8db8c9 1px solid; PADDING-TOP: 5px; -svg-background: linear-gradient(top, #FFFFFF 0, #93A8BE 100%) no-repeat; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px
+}
+.art-pager > SPAN {
+	CURSOR: default
+}
+.art-pager > * {
+	BORDER-BOTTOM: #eaf2f5 1px solid; POSITION: relative; BORDER-LEFT: #eaf2f5 1px solid; PADDING-BOTTOM: 7px; LINE-HEIGHT: normal; MARGIN: 0px 4px 0px 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; DISPLAY: inline-block; BACKGROUND: #eaf2f5; BORDER-TOP: #eaf2f5 1px solid; BORDER-RIGHT: #eaf2f5 1px solid; PADDING-TOP: 7px; -svg-background: linear-gradient(top, #FFFFFF 0, #89B6C8 100%) no-repeat; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px
+}
+.art-pager A:link {
+	LINE-HEIGHT: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #182c34; TEXT-DECORATION: none
+}
+.art-pager A:visited {
+	LINE-HEIGHT: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #182c34; TEXT-DECORATION: none
+}
+.art-pager .active {
+	LINE-HEIGHT: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #182c34; TEXT-DECORATION: none
+}
+.art-pager .active {
+	BORDER-BOTTOM: #eaf2f5 1px solid; BORDER-LEFT: #eaf2f5 1px solid; PADDING-BOTTOM: 7px; MARGIN: 0px 4px 0px auto; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND: #b6bfc9; COLOR: #ffffff; BORDER-TOP: #eaf2f5 1px solid; BORDER-RIGHT: #eaf2f5 1px solid; PADDING-TOP: 7px; -svg-background: linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat
+}
+.art-pager .more {
+	BORDER-BOTTOM: #eaf2f5 1px solid; BORDER-LEFT: #eaf2f5 1px solid; MARGIN: 0px 4px 0px auto; BACKGROUND: #eaf2f5; BORDER-TOP: #eaf2f5 1px solid; BORDER-RIGHT: #eaf2f5 1px solid; -svg-background: linear-gradient(top, #FFFFFF 0, #89B6C8 100%) no-repeat
+}
+.art-pager A.more:link {
+	COLOR: #2b3c10
+}
+.art-pager A.more:visited {
+	COLOR: #2b3c10
+}
+.art-pager A:hover {
+	BORDER-BOTTOM: #eaf2f5 1px solid; BORDER-LEFT: #eaf2f5 1px solid; PADDING-BOTTOM: 7px; MARGIN: 0px 4px 0px auto; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND: #b6d2dd; BORDER-TOP: #eaf2f5 1px solid; BORDER-RIGHT: #eaf2f5 1px solid; PADDING-TOP: 7px; -svg-background: linear-gradient(top, #EEF4F7 0, #7FAFC3 100%) no-repeat
+}
+.art-pager A:hover {
+	COLOR: #1a2f37
+}
+.art-pager A.more:hover {
+	COLOR: #1a2f37
+}
+.art-pager > *:after {
+	POSITION: absolute; MARGIN: 0px 0px 0px auto; WIDTH: 0px; DISPLAY: inline-block; HEIGHT: 100%; CONTENT: ' '; TOP: 0px; RIGHT: 0px; TEXT-DECORATION: none
+}
+.art-commentsform {
+	PADDING-BOTTOM: 10px; MARGIN: 25px auto 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #1a2f37; PADDING-TOP: 10px
+}
+.art-commentsform H2 {
+	PADDING-BOTTOM: 10px; MARGIN: 0px; COLOR: #1a2f37
+}
+.art-commentsform LABEL {
+	LINE-HEIGHT: 25px; DISPLAY: inline-block
+}
+.art-commentsform .form-submit {
+	MARGIN-TOP: 10px
+}
+A IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.art-article IMG {
+	MARGIN: 7px
+}
+IMG.art-article {
+	MARGIN: 7px
+}
+.art-block IMG {
+	MARGIN: 7px
+}
+.art-footer IMG {
+	MARGIN: 7px
+}
+.art-metadata-icons IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: 2px; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.art-article TABLE {
+	MARGIN: 1px; BORDER-COLLAPSE: collapse
+}
+TABLE.art-article {
+	MARGIN: 1px; BORDER-COLLAPSE: collapse
+}
+.art-post .art-content-layout-br {
+	HEIGHT: 0px
+}
+.art-article TH {
+	BORDER-BOTTOM: #949494 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #949494 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; VERTICAL-ALIGN: top; BORDER-TOP: #949494 1px solid; BORDER-RIGHT: #949494 1px solid; PADDING-TOP: 2px
+}
+.art-article TD {
+	BORDER-BOTTOM: #949494 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #949494 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; VERTICAL-ALIGN: top; BORDER-TOP: #949494 1px solid; BORDER-RIGHT: #949494 1px solid; PADDING-TOP: 2px
+}
+.art-article TH {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 7px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; VERTICAL-ALIGN: middle; PADDING-TOP: 7px
+}
+PRE {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.1em; PADDING-RIGHT: 0.1em; OVERFLOW: auto; PADDING-TOP: 0.1em
+}
+.preview-cms-logo {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 1em 1em 0px 0px; FLOAT: left; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.image-caption-wrapper {
+	BOX-SIZING: border-box; PADDING-BOTTOM: 7px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; PADDING-TOP: 7px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.image-caption-wrapper IMG {
+	BOX-SIZING: border-box; MARGIN: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.image-caption-wrapper DIV.art-collage {
+	BOX-SIZING: border-box; MARGIN: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.image-caption-wrapper P {
+	TEXT-ALIGN: right; MARGIN: 0px; FONT-SIZE: 80%
+}
+.art-postheader {
+	FONT-STYLE: normal; MARGIN: 5px 10px 5px 15px; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #696969; FONT-SIZE: 24px; FONT-WEIGHT: bold
+}
+.art-postheader A {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 24px; FONT-WEIGHT: bold
+}
+.art-postheader A:link {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 24px; FONT-WEIGHT: bold
+}
+.art-postheader A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 24px; FONT-WEIGHT: bold
+}
+.art-postheader A.visited {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 24px; FONT-WEIGHT: bold
+}
+.art-postheader A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 24px; FONT-WEIGHT: bold
+}
+.art-postheader A.hovered {
+	FONT-STYLE: normal; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; FONT-SIZE: 24px; FONT-WEIGHT: bold
+}
+.art-postheader A {
+	TEXT-ALIGN: left; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a9d666; TEXT-DECORATION: none
+}
+.art-postheader A:link {
+	TEXT-ALIGN: left; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a9d666; TEXT-DECORATION: none
+}
+.art-postheader A:visited {
+	TEXT-ALIGN: left; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #8c8c8c; TEXT-DECORATION: none
+}
+.art-postheader A.visited {
+	TEXT-ALIGN: left; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #8c8c8c; TEXT-DECORATION: none
+}
+.art-postheader A:hover {
+	TEXT-ALIGN: left; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a7d562; TEXT-DECORATION: none
+}
+.art-postheader A.hovered {
+	TEXT-ALIGN: left; FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a7d562; TEXT-DECORATION: none
+}
+.art-postheadericons {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #696969
+}
+.art-postheadericons A {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #696969
+}
+.art-postheadericons A:link {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #696969
+}
+.art-postheadericons A:visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #696969
+}
+.art-postheadericons A:hover {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #696969
+}
+.art-postheadericons {
+	PADDING-BOTTOM: 1px; MARGIN: 0px 0px 0px 10px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px
+}
+.art-postheadericons A {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a0d256; TEXT-DECORATION: none
+}
+.art-postheadericons A:link {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a0d256; TEXT-DECORATION: none
+}
+.art-postheadericons A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #757575; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.art-postheadericons A.visited {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #757575; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.art-postheadericons A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #83b931; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.art-postheadericons A.hover {
+	FONT-STYLE: normal; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #83b931; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.art-postdateicon:before {
+	POSITION: relative; LINE-HEIGHT: 0; BOTTOM: auto; DISPLAY: inline-block; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; CONTENT: url('images/postdateicon.png'); MARGIN-RIGHT: 6px
+}
+.opera .art-postdateicon:before {
+	BOTTOM: 0px
+}
+.art-postauthoricon:before {
+	POSITION: relative; LINE-HEIGHT: 0; BOTTOM: auto; DISPLAY: inline-block; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; CONTENT: url('images/postauthoricon.png'); MARGIN-RIGHT: 6px
+}
+.opera .art-postauthoricon:before {
+	BOTTOM: 0px
+}
+.art-postediticon:before {
+	POSITION: relative; LINE-HEIGHT: 0; BOTTOM: 2px; DISPLAY: inline-block; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; CONTENT: url('images/postediticon.png'); MARGIN-RIGHT: 6px
+}
+.opera .art-postediticon:before {
+	BOTTOM: 0px
+}
+.art-postcontent UL > LI:before {
+	POSITION: relative; LINE-HEIGHT: 0; BOTTOM: 2px; DISPLAY: inline-block; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; CONTENT: url('images/postbullets.png'); MARGIN-RIGHT: 6px
+}
+.art-post UL > LI:before {
+	POSITION: relative; LINE-HEIGHT: 0; BOTTOM: 2px; DISPLAY: inline-block; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; CONTENT: url('images/postbullets.png'); MARGIN-RIGHT: 6px
+}
+.art-textblock UL > LI:before {
+	POSITION: relative; LINE-HEIGHT: 0; BOTTOM: 2px; DISPLAY: inline-block; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; CONTENT: url('images/postbullets.png'); MARGIN-RIGHT: 6px
+}
+.opera .art-postcontent UL > LI:before {
+	BOTTOM: 0px
+}
+.opera .art-post UL > LI:before {
+	BOTTOM: 0px
+}
+.opera .art-textblock UL > LI:before {
+	BOTTOM: 0px
+}
+.art-postcontent LI {
+	MARGIN: 3px 0px 0px 11px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #294a57
+}
+.art-post LI {
+	MARGIN: 3px 0px 0px 11px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #294a57
+}
+.art-textblock LI {
+	MARGIN: 3px 0px 0px 11px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #294a57
+}
+.art-postcontent UL > LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-post UL > LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-textblock UL > LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-postcontent OL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-post OL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-textblock OL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-postcontent UL > LI {
+	PADDING-LEFT: 19px
+}
+.art-post UL > LI {
+	PADDING-LEFT: 19px
+}
+.art-textblock UL > LI {
+	PADDING-LEFT: 19px
+}
+.art-postcontent UL > LI:before {
+	MARGIN-LEFT: -19px
+}
+.art-post UL > LI:before {
+	MARGIN-LEFT: -19px
+}
+.art-textblock UL > LI:before {
+	MARGIN-LEFT: -19px
+}
+.art-postcontent OL {
+	MARGIN: 1em 0px 1em 11px
+}
+.art-post OL {
+	MARGIN: 1em 0px 1em 11px
+}
+.art-textblock OL {
+	MARGIN: 1em 0px 1em 11px
+}
+.art-postcontent UL {
+	MARGIN: 1em 0px 1em 11px
+}
+.art-post UL {
+	MARGIN: 1em 0px 1em 11px
+}
+.art-textblock UL {
+	MARGIN: 1em 0px 1em 11px
+}
+.art-postcontent LI OL {
+	MARGIN: 0.5em 0px 0.5em 11px
+}
+.art-post LI OL {
+	MARGIN: 0.5em 0px 0.5em 11px
+}
+.art-textblock LI OL {
+	MARGIN: 0.5em 0px 0.5em 11px
+}
+.art-postcontent LI UL {
+	MARGIN: 0.5em 0px 0.5em 11px
+}
+.art-post LI UL {
+	MARGIN: 0.5em 0px 0.5em 11px
+}
+.art-textblock LI UL {
+	MARGIN: 0.5em 0px 0.5em 11px
+}
+.art-postcontent LI {
+	MARGIN: 3px 0px 0px
+}
+.art-post LI {
+	MARGIN: 3px 0px 0px
+}
+.art-textblock LI {
+	MARGIN: 3px 0px 0px
+}
+.art-postcontent OL > LI {
+	OVERFLOW: visible
+}
+.art-post OL > LI {
+	OVERFLOW: visible
+}
+.art-textblock OL > LI {
+	OVERFLOW: visible
+}
+.art-postcontent UL > LI {
+	OVERFLOW-X: visible; OVERFLOW-Y: hidden
+}
+.art-post UL > LI {
+	OVERFLOW-X: visible; OVERFLOW-Y: hidden
+}
+.art-textblock UL > LI {
+	OVERFLOW-X: visible; OVERFLOW-Y: hidden
+}
+BLOCKQUOTE {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 10px; FONT-STYLE: italic; MARGIN: 10px 0px 0px 25px; PADDING-LEFT: 47px; PADDING-RIGHT: 10px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; BACKGROUND: url(images/postquote.png) #eef4f7 no-repeat; COLOR: #121212; CLEAR: both; OVERFLOW: auto; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+BLOCKQUOTE A {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-postcontent BLOCKQUOTE A {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-blockcontent BLOCKQUOTE A {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-footer BLOCKQUOTE A {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+BLOCKQUOTE A:link {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-postcontent BLOCKQUOTE A:link {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-blockcontent BLOCKQUOTE A:link {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-footer BLOCKQUOTE A:link {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+BLOCKQUOTE A:visited {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-postcontent BLOCKQUOTE A:visited {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-blockcontent BLOCKQUOTE A:visited {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-footer BLOCKQUOTE A:visited {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+BLOCKQUOTE A:hover {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-postcontent BLOCKQUOTE A:hover {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-blockcontent BLOCKQUOTE A:hover {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+.art-footer BLOCKQUOTE A:hover {
+	TEXT-ALIGN: left; FONT-STYLE: italic; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #121212; FONT-WEIGHT: normal
+}
+BLOCKQUOTE P {
+	MARGIN: 5px 0px
+}
+.art-postcontent BLOCKQUOTE P {
+	MARGIN: 5px 0px
+}
+.art-blockcontent BLOCKQUOTE P {
+	MARGIN: 5px 0px
+}
+.art-footer BLOCKQUOTE P {
+	MARGIN: 5px 0px
+}
+.art-footer {
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 25px; LINE-HEIGHT: 175%; MARGIN: 20px auto 0px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; BACKGROUND: #1f3842; COLOR: #ffffff; FONT-SIZE: 13px; BORDER-TOP: #bfbfbf 1px dotted; PADDING-TOP: 25px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.art-footer A {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #ffffff; FONT-SIZE: 13px
+}
+.art-footer A:link {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #ffffff; FONT-SIZE: 13px
+}
+.art-footer A:visited {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #ffffff; FONT-SIZE: 13px
+}
+.art-footer A:hover {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #ffffff; FONT-SIZE: 13px
+}
+.art-footer TD {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #ffffff; FONT-SIZE: 13px
+}
+.art-footer TH {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #ffffff; FONT-SIZE: 13px
+}
+.art-footer CAPTION {
+	LINE-HEIGHT: 175%; FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #ffffff; FONT-SIZE: 13px
+}
+.art-footer P {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-footer A {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a8a8a8; TEXT-DECORATION: none
+}
+.art-footer A:link {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #a8a8a8; TEXT-DECORATION: none
+}
+.art-footer A:visited {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #919191; TEXT-DECORATION: none
+}
+.art-footer A:hover {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #b2db76; TEXT-DECORATION: underline
+}
+.art-footer H1 {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #639eb6
+}
+.art-footer H2 {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #8db8c9
+}
+.art-footer H3 {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #95cd42
+}
+.art-footer H4 {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #bfbfbf
+}
+.art-footer H5 {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #bfbfbf
+}
+.art-footer H6 {
+	FONT-FAMILY: Oswald, Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #bfbfbf
+}
+.art-footer IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: 0px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.art-rss-tag-icon {
+	MIN-WIDTH: 25px; TEXT-INDENT: 28px; MARGIN: 0px auto; MIN-HEIGHT: 25px; DISPLAY: inline-block; BACKGROUND: url(images/footerrssicon.png) no-repeat left center; VERTICAL-ALIGN: middle
+}
+.art-facebook-tag-icon {
+	MIN-WIDTH: 32px; TEXT-INDENT: 35px; MARGIN: 0px auto; MIN-HEIGHT: 32px; DISPLAY: inline-block; BACKGROUND: url(images/footerfacebookicon.png) no-repeat left center; VERTICAL-ALIGN: middle
+}
+.art-twitter-tag-icon {
+	MIN-WIDTH: 32px; TEXT-INDENT: 35px; MARGIN: 0px auto; MIN-HEIGHT: 32px; DISPLAY: inline-block; BACKGROUND: url(images/footertwittericon.png) no-repeat left center; VERTICAL-ALIGN: middle
+}
+.art-tumblr-tag-icon {
+	MIN-WIDTH: 32px; TEXT-INDENT: 35px; MARGIN: 0px auto; MIN-HEIGHT: 32px; DISPLAY: inline-block; BACKGROUND: url(images/tumblricon.png) no-repeat left center; VERTICAL-ALIGN: middle
+}
+.art-pinterest-tag-icon {
+	MIN-WIDTH: 32px; TEXT-INDENT: 35px; MARGIN: 0px auto; MIN-HEIGHT: 32px; DISPLAY: inline-block; BACKGROUND: url(images/pinteresticon.png) no-repeat left center; VERTICAL-ALIGN: middle
+}
+.art-vimeo-tag-icon {
+	MIN-WIDTH: 32px; TEXT-INDENT: 35px; MARGIN: 0px auto; MIN-HEIGHT: 33px; DISPLAY: inline-block; BACKGROUND: url(images/vimeoicon.png) no-repeat left center; VERTICAL-ALIGN: middle
+}
+.art-youtube-tag-icon {
+	MIN-WIDTH: 32px; TEXT-INDENT: 35px; MARGIN: 0px auto; MIN-HEIGHT: 32px; DISPLAY: inline-block; BACKGROUND: url(images/youtubeicon.png) no-repeat left center; VERTICAL-ALIGN: middle
+}
+.art-linkedin-tag-icon {
+	MIN-WIDTH: 32px; TEXT-INDENT: 35px; MARGIN: 0px auto; MIN-HEIGHT: 32px; DISPLAY: inline-block; BACKGROUND: url(images/linkedinicon.png) no-repeat left center; VERTICAL-ALIGN: middle
+}
+.art-footer UL > LI:before {
+	POSITION: relative; LINE-HEIGHT: 0; BOTTOM: 2px; DISPLAY: inline-block; MARGIN-LEFT: -13px; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; CONTENT: url('images/footerbullets.png'); MARGIN-RIGHT: 6px
+}
+.opera .art-footer UL > LI:before {
+	BOTTOM: 0px
+}
+.art-footer LI {
+	FONT-FAMILY: "Droid Sans", Arial, "Arial Unicode MS", Helvetica, Sans-Serif; COLOR: #e4f2cf; FONT-SIZE: 13px
+}
+.art-footer UL > LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-footer OL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.art-footer UL > LI {
+	PADDING-LEFT: 13px
+}
+.art-page-footer {
+	FONT-STYLE: normal; FONT-FAMILY: Arial; LETTER-SPACING: normal; COLOR: #467f95; FONT-SIZE: 10px; FONT-WEIGHT: normal; WORD-SPACING: normal; TEXT-DECORATION: underline
+}
+.art-page-footer A {
+	FONT-STYLE: normal; FONT-FAMILY: Arial; LETTER-SPACING: normal; COLOR: #467f95; FONT-SIZE: 10px; FONT-WEIGHT: normal; WORD-SPACING: normal; TEXT-DECORATION: underline
+}
+.art-page-footer A:link {
+	FONT-STYLE: normal; FONT-FAMILY: Arial; LETTER-SPACING: normal; COLOR: #467f95; FONT-SIZE: 10px; FONT-WEIGHT: normal; WORD-SPACING: normal; TEXT-DECORATION: underline
+}
+.art-page-footer A:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Arial; LETTER-SPACING: normal; COLOR: #467f95; FONT-SIZE: 10px; FONT-WEIGHT: normal; WORD-SPACING: normal; TEXT-DECORATION: underline
+}
+.art-page-footer A:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Arial; LETTER-SPACING: normal; COLOR: #467f95; FONT-SIZE: 10px; FONT-WEIGHT: normal; WORD-SPACING: normal; TEXT-DECORATION: underline
+}
+.art-page-footer {
+	Z-INDEX: auto !important; POSITION: relative; TEXT-ALIGN: center !important; PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; COLOR: #525252; TEXT-DECORATION: none; PADDING-TOP: 1em
+}
+.art-lightbox-wrapper {
+	Z-INDEX: 1000000; POSITION: fixed; TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 100px; BOTTOM: 0px; PADDING-RIGHT: 100px; BACKGROUND: #333; TOP: 0px; RIGHT: 0px; PADDING-TOP: 0px; LEFT: 0px
+}
+.art-lightbox {
+	CURSOR: pointer
+}
+.art-lightbox-wrapper .art-lightbox-image {
+	CURSOR: pointer
+}
+.art-lightbox-wrapper .art-lightbox-image {
+	BORDER-BOTTOM: #fff 6px solid; BORDER-LEFT: #fff 6px solid; DISPLAY: none; MAX-WIDTH: 100%; VERTICAL-ALIGN: middle; BORDER-TOP: #fff 6px solid; BORDER-RIGHT: #fff 6px solid; border-radius: 3px
+}
+.art-lightbox-wrapper .active.art-lightbox-image {
+	DISPLAY: inline-block
+}
+.art-lightbox-wrapper .lightbox-error {
+	Z-INDEX: 100; BORDER-BOTTOM: #b4b4b4 1px solid; POSITION: fixed; BORDER-LEFT: #b4b4b4 1px solid; PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; WIDTH: 300px; PADDING-RIGHT: 20px; BACKGROUND: #fff; HEIGHT: 80px; BORDER-TOP: #b4b4b4 1px solid; BORDER-RIGHT: #b4b4b4 1px solid; PADDING-TOP: 20px; border-radius: 10px; box-shadow: 0 2px 5px #333; opacity: .95
+}
+.art-lightbox-wrapper .loading {
+	Z-INDEX: 10100; BORDER-BOTTOM: #b4b4b4 1px solid; POSITION: fixed; BORDER-LEFT: #b4b4b4 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 32px; PADDING-RIGHT: 10px; BACKGROUND: url(images/preloader-01.gif) #fff no-repeat center center; HEIGHT: 32px; BORDER-TOP: #b4b4b4 1px solid; BORDER-RIGHT: #b4b4b4 1px solid; PADDING-TOP: 10px; border-radius: 10px; box-shadow: 0 2px 5px #333; opacity: .5
+}
+.art-lightbox-wrapper .arrow {
+	Z-INDEX: 10003; POSITION: fixed; FILTER: alpha(opacity=50); WIDTH: 82px; HEIGHT: 100px; CURSOR: pointer; opacity: .5
+}
+.art-lightbox-wrapper .left.arrow {
+	LEFT: 9px
+}
+.art-lightbox-wrapper .right.arrow {
+	RIGHT: 9px
+}
+.art-lightbox-wrapper .arrow:hover {
+	FILTER: alpha(opacity=100); opacity: 1
+}
+.art-lightbox-wrapper .disabled.arrow {
+	DISPLAY: none
+}
+.art-lightbox-wrapper .arrow-t {
+	POSITION: relative; BACKGROUND-COLOR: #fff; WIDTH: 30px; HEIGHT: 6px; LEFT: 26px; border-radius: 3px
+}
+.art-lightbox-wrapper .arrow-b {
+	POSITION: relative; BACKGROUND-COLOR: #fff; WIDTH: 30px; HEIGHT: 6px; LEFT: 26px; border-radius: 3px
+}
+.art-lightbox-wrapper .arrow-t {
+	TOP: 38px
+}
+.art-lightbox-wrapper .arrow-b {
+	TOP: 50px
+}
+.art-lightbox-wrapper .close {
+	Z-INDEX: 10003; POSITION: fixed; FILTER: alpha(opacity=50); WIDTH: 22px; HEIGHT: 22px; TOP: 30px; CURSOR: pointer; RIGHT: 39px; opacity: .5
+}
+.art-lightbox-wrapper .close:hover {
+	FILTER: alpha(opacity=100); opacity: 1
+}
+.art-lightbox-wrapper .close .cw {
+	POSITION: absolute; BACKGROUND-COLOR: #fff; WIDTH: 30px; HEIGHT: 6px; TOP: 8px; LEFT: -4px; border-radius: 3px
+}
+.art-lightbox-wrapper .close .ccw {
+	POSITION: absolute; BACKGROUND-COLOR: #fff; WIDTH: 30px; HEIGHT: 6px; TOP: 8px; LEFT: -4px; border-radius: 3px
+}
+.art-lightbox-wrapper .cw {
+	-webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg)
+}
+.art-lightbox-wrapper .ccw {
+	-webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg)
+}
+.art-lightbox-wrapper .close-alt {
+	LINE-HEIGHT: 100%; DISPLAY: none; COLOR: #fff; FONT-SIZE: 2.5em
+}
+.art-lightbox-wrapper .arrow-right-alt {
+	LINE-HEIGHT: 100%; DISPLAY: none; COLOR: #fff; FONT-SIZE: 2.5em
+}
+.art-lightbox-wrapper .arrow-left-alt {
+	LINE-HEIGHT: 100%; DISPLAY: none; COLOR: #fff; FONT-SIZE: 2.5em
+}
+.ie8 .art-lightbox-wrapper .close-alt {
+	DISPLAY: block
+}
+.ie8 .art-lightbox-wrapper .arrow-right-alt {
+	DISPLAY: block
+}
+.ie8 .art-lightbox-wrapper .arrow-left-alt {
+	DISPLAY: block
+}
+.ie8 .art-lightbox-wrapper .cw {
+	DISPLAY: none
+}
+.ie8 .art-lightbox-wrapper .ccw {
+	DISPLAY: none
+}
+.art-content-layout .art-content {
+	MARGIN: 0px auto
+}

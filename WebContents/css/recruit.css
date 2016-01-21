@@ -1,0 +1,207 @@
+.recruitContainer {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; WIDTH: 695px; PADDING-RIGHT: 0px; MARGIN-LEFT: 37px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.recruitContainer .topContentImg {
+	
+}
+.recruitContainer .leftSubTitle {
+	MARGIN-TOP: 50px; WIDTH: 180px; FLOAT: left
+}
+.recruitContainer .leftSubTitle .h2Title {
+	LINE-HEIGHT: 30px; DISPLAY: block; MARGIN-BOTTOM: 30px; BACKGROUND: url(/kor/_images/common/bg_subTitle_line01.gif) no-repeat 0px top; COLOR: #0552a9; FONT-SIZE: 30px; FONT-WEIGHT: normal; PADDING-TOP: 14px
+}
+.recruitContainer .rightSubInfo {
+	MARGIN-TOP: 30px; WIDTH: 480px; FLOAT: left; MARGIN-LEFT: 34px
+}
+.recruitContainer .rightSubInfo .h3Title {
+	LINE-HEIGHT: 1.2; MARGIN-TOP: 20px; COLOR: #333; FONT-SIZE: 24px; FONT-WEIGHT: normal
+}
+.recruitContainer .rightSubInfo .h4title {
+	LINE-HEIGHT: 1.5; MARGIN-TOP: 20px; COLOR: #0552a9; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.recruitContainer .rightSubInfo P.subj {
+	MARGIN-TOP: 20px; MARGIN-BOTTOM: 150px; COLOR: #666; FONT-SIZE: 14px; WORD-BREAK: break-all
+}
+.recruitContainer .subj {
+	LINE-HEIGHT: 1.7; COLOR: #333; FONT-SIZE: 14px
+}
+.recruitContainer .processBox {
+	MARGIN-TOP: 20px; MARGIN-BOTTOM: 150px
+}
+.recruitContainer .processBox UL LI {
+	MARGIN-TOP: 10px; DISPLAY: inline-block
+}
+.recruitContainer .processBox UL LI .subjBox {
+	WIDTH: 150px; FLOAT: left
+}
+.recruitContainer .processBox UL LI .commentBox {
+	WIDTH: 524px; BACKGROUND: url(/kor/_images/common/bg_sub_rect01.gif) no-repeat 0px 0px; FLOAT: right; HEIGHT: 66px; MARGIN-LEFT: 20px
+}
+.recruitContainer .processBox UL LI .commentBox P {
+	TEXT-ALIGN: left; LINE-HEIGHT: 1em; MARGIN: 26px 0px 0px 20px; COLOR: #555; FONT-SIZE: 13px; WORD-BREAK: break-all; FONT-WEIGHT: bold
+}
+.recruitContainer .list {
+	DISPLAY: block; BORDER-TOP: #0552a9 3px solid
+}
+.recruitContainer .list .qa {
+	BORDER-BOTTOM: #e5e5e5 1px solid; BACKGROUND: url(/kor/_images/common/bg_f_q.png) no-repeat 10px 6px
+}
+.recruitContainer .list .on.qa {
+	BORDER-BOTTOM: 0px
+}
+.recruitContainer .list .qa .title {
+	LINE-HEIGHT: 3; PADDING-LEFT: 50px; HEIGHT: 50px; COLOR: #333
+}
+.recruitContainer .list .qa .on.title {
+	COLOR: #0552a9 !important; FONT-WEIGHT: bold
+}
+.recruitContainer .list .title.qa:hover {
+	COLOR: #0552a9 !important
+}
+.recruitContainer .list .ans {
+	BORDER-BOTTOM: #e5e5e5 1px solid; DISPLAY: none; BACKGROUND: url(/kor/_images/common/bg_f_q.png) #f8f8f8 no-repeat 10px -38px; BORDER-TOP: #e5e5e5 1px dashed
+}
+.recruitContainer .list .on.ans {
+	DISPLAY: block !important
+}
+.recruitContainer .list .ans .title {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 2em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #666; MARGIN-LEFT: 50px; WORD-BREAK: break-all; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.recruitContainer .list .ans .title:hover {
+	COLOR: #666
+}
+.recruitContainer .list .ans .title UL.answerList {
+	
+}
+.recruitContainer .list .ans .title UL.answerList LI {
+	MARGIN-BOTTOM: 20px
+}
+.recruitContainer .list .ans .title UL.answerList LI.end {
+	MARGIN-BOTTOM: 0px !important
+}
+.tableType05 {
+	PADDING-BOTTOM: 20px; MARGIN: 10px 0px 0px 50px; WIDTH: 600px; BORDER-TOP: #9ea4b2 2px solid
+}
+.tableType05 TABLE {
+	WIDTH: 100%; BACKGROUND: #fff
+}
+.tableType05 TH {
+	BORDER-BOTTOM: #efefef 1px solid; TEXT-ALIGN: center; HEIGHT: 36px; COLOR: #000; BORDER-RIGHT: #efefef 1px solid
+}
+.tableType05 TH.boldNone {
+	FONT-WEIGHT: normal
+}
+.tableType05 TD {
+	BORDER-BOTTOM: #efefef 1px solid; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.5; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 22px; COLOR: #666; BORDER-RIGHT: #efefef 1px solid; PADDING-TOP: 10px
+}
+.tableType05 .rightLineNone {
+	BORDER-RIGHT: 0px
+}
+.tableType05 .leftLineNone {
+	BORDER-LEFT: 0px
+}
+.tableType05 .alignLeft {
+	TEXT-ALIGN: left; PADDING-LEFT: 10px
+}
+.tableType05 .cir {
+	BACKGROUND: url(/kor/_images/common/bg_circle01.png) no-repeat center 0px; HEIGHT: 10px
+}
+.tableType06 {
+	PADDING-BOTTOM: 20px; MARGIN: 10px 0px 0px 37px; WIDTH: 695px; BORDER-TOP: #0552a9 3px solid
+}
+.tableType06 TABLE {
+	WIDTH: 100%; BACKGROUND: #fff
+}
+.tableType06 TH {
+	BORDER-BOTTOM: #707580 1px solid; TEXT-ALIGN: center; HEIGHT: 36px; COLOR: #000
+}
+.tableType06 TD {
+	BORDER-BOTTOM: #e5e5e5 1px solid; TEXT-ALIGN: center; HEIGHT: 36px; COLOR: #666
+}
+.tableType06 .alignLeft {
+	TEXT-ALIGN: left; PADDING-LEFT: 15px !important
+}
+.tableType06 .alignVertical {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 50px; LINE-HEIGHT: 1.6; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; WORD-BREAK: break-all; PADDING-TOP: 50px
+}
+.tableType06 .end {
+	BORDER-BOTTOM: #707580 1px solid
+}
+.tableType06 .rightLine {
+	BACKGROUND: url(/kor/_images/common/bul_th_bar01.gif) no-repeat right center
+}
+.tableType06 .btmPadding5 {
+	PADDING-BOTTOM: 10px
+}
+.tableType06 .btmPadding20 {
+	PADDING-BOTTOM: 20px
+}
+.tableType06 TD.fileadd {
+	TEXT-ALIGN: right; PADDING-RIGHT: 20px
+}
+.tableType06 TD.fileadd IMG {
+	MARGIN-BOTTOM: -3px; MARGIN-RIGHT: 5px
+}
+.tableType06 TD.fileadd A {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.listBtn {
+	TEXT-ALIGN: right; MARGIN-TOP: 20px; HEIGHT: 29px
+}
+.pageBtns {
+	TEXT-ALIGN: center; MARGIN-TOP: 16px; HEIGHT: 26px; FONT-SIZE: 12px
+}
+.pageBtns A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 26px; MARGIN: 0px 1px; WIDTH: 26px; DISPLAY: inline-block; HEIGHT: 26px; VERTICAL-ALIGN: top
+}
+.pageBtns A:hover {
+	BACKGROUND-POSITION: 0px -36px; TEXT-DECORATION: none
+}
+.pageBtns A.on {
+	BACKGROUND-POSITION: 0px 0px; COLOR: #fff; FONT-WEIGHT: bold
+}
+.pageBtns .prevBtn {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(/kor/_images/common/btn_pageNextPrev.png) no-repeat 0px 0px; MARGIN-RIGHT: 16px; PADDING-TOP: 0px
+}
+.pageBtns .prevBtn:hover {
+	BACKGROUND-POSITION: 0px -36px
+}
+.pageBtns .nextBtn {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(/kor/_images/common/btn_pageNextPrev.png) no-repeat -36px 0px; MARGIN-LEFT: 16px; PADDING-TOP: 0px
+}
+.pageBtns .nextBtn:hover {
+	BACKGROUND-POSITION: -36px -36px
+}
+.pageBtns .numBtn {
+	BACKGROUND: url(/kor/_images/common/btn_pageNum.png) no-repeat 0px -72px
+}
+.recruitContainer .rightSubInfo .addressInfoGroup {
+	MARGIN-TOP: 20px; ZOOM: 1; COLOR: #333; CLEAR: both
+}
+.recruitContainer .rightSubInfo .addressInfoGroup .infoTop {
+	BACKGROUND: url(/kor/_images/common/bg_sub_top_rect3.gif) no-repeat 0px 0px; HEIGHT: 9px
+}
+.recruitContainer .rightSubInfo .addressInfoGroup .infoMiddle {
+	BORDER-LEFT: #ddd 1px solid; WIDTH: 478px; DISPLAY: block; BORDER-RIGHT: #ddd 1px solid
+}
+.recruitContainer .rightSubInfo .addressInfoGroup .infoMiddle UL.infoList {
+	LINE-HEIGHT: 1.8; MARGIN-LEFT: 25px
+}
+.recruitContainer .rightSubInfo .addressInfoGroup .infoMiddle UL.infoList LI.innerTxt {
+	PADDING-LEFT: 5px; BACKGROUND: url(/kor/_images/common/bul_box01.gif) no-repeat 0px 11px
+}
+.recruitContainer .rightSubInfo .addressInfoGroup .infoMiddle UL.infoList LI.h40.innerTxt {
+	HEIGHT: 40px !important
+}
+.recruitContainer .rightSubInfo .addressInfoGroup .infoBottom {
+	BACKGROUND: url(/kor/_images/common/bg_sub_bottom_rect3.gif) no-repeat 0px 0px; HEIGHT: 9px
+}
+.recruitContainer .rightSubInfo .addressInfoGroup .infoMiddle SPAN.definedTxt {
+	WIDTH: 90px; DISPLAY: inline-block; COLOR: #333; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.recruitContainer .rightSubInfo .addressInfoGroup .infoMiddle .float_left {
+	FLOAT: left
+}
+.recruitContainer .rightSubInfo .addressInfoGroup .infoMiddle .float_clear {
+	ZOOM: 1; CLEAR: both
+}
