@@ -8,10 +8,22 @@
 	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/pos-common-security-util.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/ckeditor-java-core-3.5.3-javadoc.jar"/>
-	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/ckeditor-java-core-3.5.3-sources.jar"/>
 	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/ckeditor-java-core-3.5.3.jar"/>
 	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/CKFinder-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/CKFinderPlugin-FileEditor-2.4.2.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/CKFinderPlugin-ImageResize-2.4.2.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/CKFinderPlugin-Watermark-2.4.2.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/common-lang3.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/jboss-logging-3.0.0.CR1.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/jboss-vfs-3.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/mail-1.4.1.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/mysql-connector-java-5.1.0-bin.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/thumbnailator-0.4.5.jar"/>
+	<classpathentry kind="lib" path="WebContents/WEB-INF/lib/CKFinder-2.4.2.jar"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+        
+    <!-- # JDBC url for MYSQL : jdbc:mysql://host:port/database -->
+    <bean id="dataSource" class="com.posco.ict.hp.common.util.CustomBasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="connectionProperties">
+        	<props>
+        		<prop key="useUnicode">true</prop>
+        		<prop key="characterEncoding">utf8</prop>
+        	</props>
+        </property>
+        
+        <property name="url" value="jdbc:mysql://172.27.26.62/homepage"/>
+        <property name="username" value="root"/>
+        <property name="password" value ="su123"/>
+        <property name="defaultAutoCommit" value = "false"/>
+    </bean>  
+	
+	<bean id="dao" class="com.posdata.glue.dao.PosJdbcDao">
+        <property name="dataSource"><ref local="dataSource"/></property>
+        <property name="queryManager"><ref local="queryManager"/></property>
+		<property name="columnDefCache" value="true"/>
+    </bean>
+    
+    <bean id="queryManager" class="com.posdata.glue.dao.manager.PosQueryManagerImpl">
+        <constructor-arg><ref local="cacheManager"/></constructor-arg>
+        <constructor-arg><ref local="queryLoader"/></constructor-arg>
+    </bean>
+
+    <bean id="cacheManager" class="com.posdata.glue.cache.PosCacheManagerJCS"/>
+    <bean id="queryLoader" class="com.posdata.glue.dao.manager.PosQueryLoader"/>
+
+    <bean id="tx" class="com.posdata.glue.transaction.PosDataSourceTransactionManager">
+        <property name="dataSource">
+            <ref local="dataSource"/>
+        </property>
+    </bean>
+    <!-- NUI Message Layout -->
+	<!-- <bean id="layout" class="com.poscoict.glue.ucube4.layout.UCube4MessageLayout" lazy-init="default" autowire="default" dependency-check="default"/> -->	
+	
+</beans>

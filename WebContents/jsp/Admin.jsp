@@ -15,8 +15,6 @@
 <%@ page import = "com.posdata.glue.web.control.PosWebConstants" %>
 <%@ page import = "com.posdata.glue.dao.vo.PosRowSet" %>
 <%@ page import = "com.posdata.glue.dao.vo.PosRow" %>
-<%@ page import = "com.posdata.glue.xplatform.common.Converter" %>
-<%@ page import = "com.tobesoft.xplatform.data.DataSet" %>
 <%@ page import="java.io.*" %>
 <%@ page import="com.posco.ict.hp.resource.HPageContent"%>
 
@@ -238,7 +236,7 @@
 					<p></br></p>
 					<label class="ad_title">Content : </label>
 					<p></br></p>
-					<ckfinder:setupCKEditor basePath="../ckfinder/ckfinder/" editor="contentEn" />
+					<ckfinder:setupCKEditor basePath="./ckfinder/ckfinder/" editor="contentEn" />
 					<ckeditor:editor basePath="./ckeditor/" config="${settings}" editor="contentEn"/>
 					<p></br></p>
 					<div class="divSave">
@@ -253,7 +251,7 @@
 					<p></br></p>
 					<label class="ad_title">Content : </label>
 					<p></br></p>
-					<ckfinder:setupCKEditor basePath="../ckfinder/ckfinder/" editor="contentVi" />
+					<ckfinder:setupCKEditor basePath="./ckfinder/ckfinder/" editor="contentVi" />
 					<ckeditor:editor basePath="./ckeditor/" config="${settings}" editor="contentVi"/>
 					<p></br></p>
 					<div class="divSave">
@@ -268,7 +266,7 @@
 					<p></br></p>
 					<label class="ad_title">Content : </label>
 					<p></br></p>
-					<ckfinder:setupCKEditor basePath="../ckfinder/ckfinder/" editor="contentKr" />
+					<ckfinder:setupCKEditor basePath="./ckfinder/ckfinder/" editor="contentKr" />
 					<ckeditor:editor basePath="./ckeditor/" config="${settings}" editor="contentKr"/>
 					<p></br></p>
 					<div class="divSave">
@@ -421,7 +419,7 @@
 				<label class="validateTips">Title : </label><input id="title_recruit" name="title" type="text" >
 				<p></br></p>
 				<label class="validateTips">Content : </label>
-				<ckfinder:setupCKEditor basePath="../ckfinder/ckfinder/" editor="recruit" />
+				<ckfinder:setupCKEditor basePath="./ckfinder/ckfinder/" editor="recruit" />
 				<ckeditor:editor basePath="./ckeditor/" config="${settings2}" editor="recruit"/>
 			</form>
 			<p></br></p>
@@ -438,7 +436,7 @@
 				<label class="validateTips">Image : </label><input id="image_news" name="image_news" type="text" class="popup_content">
 				<p></br></p>
 				<label class="validateTips">Content : </label>
-				<ckfinder:setupCKEditor basePath="../ckfinder/ckfinder/" editor="news" />
+				<ckfinder:setupCKEditor basePath="./ckfinder/ckfinder/" editor="news" />
 				<ckeditor:editor basePath="./ckeditor/" config="${settings2}" editor="news"/>
 			</form>
 			<p></br></p>
@@ -537,7 +535,7 @@
 		var reqTp = '${reqTp}';
 		
 		//edit recruitment information
-		if(reqTp=='RC'){
+		if(reqTp=='RC'||reqTp=='CI'){
 			dialog_recruit.dialog( "open" );
 			var myDialogX = $(this).position().left - $(this).outerWidth();
 			var myDialogY =  ( $(document).scrollTop() + $('.ui-dialog').outerHeight() )-350;

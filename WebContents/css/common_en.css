@@ -57,7 +57,7 @@ BODY {
 	MAX-WIDTH: 964px; 
 }
 .content {
-	POSITION: relative; WIDTH: 100%; MAX-WIDTH: 718px; FLOAT: left; MARGIN-LEFT: 50px
+	POSITION: relative; WIDTH: 100%; FLOAT: left; MARGIN-LEFT: 50px
 }
 .sidebar_w {
 	WIDTH: 100%; MAX-WIDTH: 196px; FLOAT: left

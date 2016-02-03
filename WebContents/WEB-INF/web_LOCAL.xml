@@ -43,7 +43,7 @@
 		</init-param>
 	</servlet>
 	
-	<!-- <servlet>
+	<servlet>
 		<servlet-name>ConnectorServlet</servlet-name>
 		<servlet-class>com.ckfinder.connector.ConnectorServlet</servlet-class>
 		<init-param>
@@ -52,13 +52,8 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-	<servlet-mapping>
-		<servlet-name>ConnectorServlet</servlet-name>
-		<url-pattern>
-			/ckfinder/core/connector/java/connector.java
-		</url-pattern>
-	</servlet-mapping> -->
 	
+	<!-- Servlet mapping -->
 	<servlet-mapping>
 	    <servlet-name>action</servlet-name>
 	    <url-pattern>*.do</url-pattern>
@@ -67,6 +62,13 @@
 		<servlet-name>cache</servlet-name>
 		<url-pattern>*.cache</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConnectorServlet</servlet-name>
+		<url-pattern>
+			/ckfinder/ckfinder/core/connector/java/connector.java
+		</url-pattern>
+	</servlet-mapping>
+	
 	<session-config>
 		<session-timeout>30</session-timeout>
 	</session-config>

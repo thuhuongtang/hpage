@@ -48,35 +48,39 @@
 		</copy>
 	</target>
 	
-	<!-- ReDeploy DEV Server -->
-	<target name="ReDeployPoscossVina_DEV" depends="bulidPoscossVina_DEV" description="ReDeploy POSCOSS VINA Project">		
-		<echo>Complete Build ${WEB_NAME}.war file. Please Copy ${WEB_NAME}.war file to Dev Server</echo>		
+	<!-- Build Server -->
+	<target name="ReDeployHomePage_SERVER" depends="buildHomePage_SERVER" description="ReDeploy Home Page">		
+		<echo>Complete Build ${WEB_NAME}.war file. Please Copy ${WEB_NAME}.war file to Server</echo>		
 	</target>
 	
-	<!-- Create the WAR file on DEV Server -->
-	<target name="bulidPoscossVina_DEV" depends="compile" description="Create the WAR file">
+	<!-- Create the WAR file on Server -->
+	<target name="buildHomePage_SERVER" depends="compile" description="Create the WAR file">
 		<echo>Start Build WAR to ${build.dir} WAR Name is ${WEB_NAME}.war</echo>
-		<copy file="${src.dir}/applicationContext.xml" tofile="${WebContent.class.dir}/applicationContext.xml" overwrite="true"/>
-		<copy file="${src.dir}/log4j_TST.xml" tofile="${WebContent.class.dir}/log4j.xml" overwrite="true"/>
-		<copy file="${WebContent.dir}/WEB-INF/web_TST.xml" tofile="${WebContent.dir}/WEB-INF/web.xml" overwrite="true"/>
+		<copy file="${src.dir}/applicationContext_SERVER.xml" tofile="${WebContent.class.dir}/applicationContext.xml" overwrite="true"/>
+		<copy file="${src.dir}/log4j_SERVER.xml" tofile="${WebContent.class.dir}/log4j.xml" overwrite="true"/>
+		<copy file="${WebContent.dir}/WEB-INF/web_SERVER.xml" tofile="${WebContent.dir}/WEB-INF/web.xml" overwrite="true"/>
 		
 		
 		<war destfile="${build.dir}/${WEB_NAME}.war" webxml="${WebContent.dir}/WEB-INF/web.xml">
 			<fileset dir="${WebContent.dir}">
 				<patternset>
 					<include name="*.*"/>
-					<include name="**/*.jsp"/>
+                    <include name="**/*.jsp"/>
                     <include name="css/**"/>
-					<include name="fonts/*.*"/>
-                    <include name="js/*.js"/>
-                    <include name="img/*.*"/>					
+                	<include name="fonts/*.*"/>
+                	<include name="js/*.js"/>
+                    <include name="img/*.*"/>
+                	<include name="/*.*"/>
+                	<include name="ckeditor/**"/>
+                	<include name="ckfinder/**"/>				
 				</patternset>
 			</fileset>
 			<webinf dir="${WebContent.dir}/WEB-INF/">
 				<patternset>
 					<include name="*.*"/>
+					<include name="tags/*.*"/>
 					<exclude name="web_LOCAL.xml"/>
-					<exclude name="web_TST.xml"/>
+					<exclude name="web_SERVER.xml"/>
 				</patternset>
 			</webinf>
 			<classes dir="${WebContent.class.dir}">
@@ -113,7 +117,6 @@
 				<include name="spring.jar"/>
 				<include name="struts.jar"/>
 				<include name="xmlbeans-2.4.0.jar"/>
-				<include name="xplatform-xapi-1.0.jar"/>
 			</lib>
 			<lib dir="${GlueSDK.dir}/lib/gluelib">
 				<include name="glue-globaltag-jdk1.6.jar"/>
@@ -121,14 +124,13 @@
 				<include name="glue-master-jdk1.6.jar"/>
 				<include name="glue-security-jdk1.6.jar"/>
 				<include name="glue-tag-jdk1.6.jar"/>
-				<include name="glue-xplatform.jar"/>
 			</lib>
 		</war>
 		<echo>Create Complete the WAR file</echo>
 	</target>
 	
 	<!-- ReDeploy LOCAL Server -->
-	<target name="ReDeployPoscossVina_LOCAL" depends="buildPoscossVina_LOCAL" description="ReDeploy POSCOSS VINA Project">
+	<target name="ReDeployHomePage_LOCAL" depends="buildHomePage_LOCAL" description="ReDeploy Home Page">
 		<echo>Start Copy ${WEB_NAME}.war file from ${build.dir} to ${target.WebContent.dir}</echo>
 		<copy todir="${target.WebContent.dir}">
 			<fileset dir="${build.dir}">
@@ -138,9 +140,9 @@
 	</target>
 	
 	<!-- Create the WAR file on LOCAL Server -->
-	<target name="buildPoscossVina_LOCAL" depends="clean,compile" description="Create the WAR file">
+	<target name="buildHomePage_LOCAL" depends="clean,compile" description="Create the WAR file">
 		<echo>Start Build WAR to ${build.dir} WAR Name is ${WEB_NAME}.war</echo>
-		<copy file="${src.dir}/applicationContext.xml" tofile="${WebContent.class.dir}/applicationContext.xml" overwrite="true"/>
+		<copy file="${src.dir}/applicationContext_LOCAL.xml" tofile="${WebContent.class.dir}/applicationContext.xml" overwrite="true"/>
 		<copy file="${src.dir}/log4j_LOCAL.xml" tofile="${WebContent.class.dir}/log4j.xml" overwrite="true"/>
 		<copy file="${WebContent.dir}/WEB-INF/web_LOCAL.xml" tofile="${WebContent.dir}/WEB-INF/web.xml" overwrite="true"/>
 		<war destfile="${build.dir}/${WEB_NAME}.war" webxml="${WebContent.dir}/WEB-INF/web.xml">
@@ -155,6 +157,7 @@
                     <include name="img/*.*"/>
                 	<include name="/*.*"/>
                 	<include name="ckeditor/**"/>
+                	<include name="ckfinder/**"/>
                 </patternset>
             </fileset>
 			<webinf dir="${WebContent.dir}/WEB-INF/">
@@ -162,6 +165,7 @@
 					<include name="*.*"/>
 					<include name="tags/*.*"/>
 					<exclude name="web_LOCAL.xml"/>
+					<exclude name="web_SERVER.xml"/>
 				</patternset>
 			</webinf>
 			<classes dir="${WebContent.class.dir}">
@@ -172,6 +176,7 @@
 			</classes>
 			<lib dir="${WebContent.lib.dir}">
 				<include name="*.*"/>
+				<exclude name="jasper.jar"/>
 			</lib>
 			<lib dir="${GlueSDK.dir}/lib/gluestd">
 				<include name="backport-util-concurrent.jar"/>
@@ -198,7 +203,6 @@
 				<include name="spring.jar"/>
 				<include name="struts.jar"/>
 				<include name="xmlbeans-2.4.0.jar"/>
-				<include name="xplatform-xapi-1.0.jar"/>
 			</lib>
 			<lib dir="${GlueSDK.dir}/lib/gluelib">
 				<include name="glue-globaltag-jdk1.6.jar"/>
@@ -206,7 +210,6 @@
 				<include name="glue-master-jdk1.6.jar"/>
 				<include name="glue-security-jdk1.6.jar"/>
 				<include name="glue-tag-jdk1.6.jar"/>
-				<include name="glue-xplatform.jar"/>
 			</lib>
 		</war>
 		<echo>Create Complete the WAR file</echo>

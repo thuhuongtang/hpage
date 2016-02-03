@@ -106,8 +106,8 @@
 			//set value
 			$("#userId").val("${userId}");
 			$("#usernm").val("${userNm}");
-			$("#passwd").val("${passWd}");
-			$("#cfmpasswd").val("${passWd}");
+			//$("#passwd").val("${passWd}");
+			//$("#cfmpasswd").val("${passWd}");
 		} else{
 			$("#normalEdit").hide();
 			$("#gridEdit_NN").hide();	

@@ -13,8 +13,6 @@
 <%@ page import = "com.posdata.glue.dao.vo.PosRowSet" %>
 <%@ page import = "com.posdata.glue.dao.vo.PosRow" %>
 <%@ page import = "java.util.*" %>
-<%@ page import = "com.posdata.glue.xplatform.common.Converter" %>
-<%@ page import = "com.tobesoft.xplatform.data.DataSet" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="java.io.*,java.util.*" %>
 <%
@@ -54,72 +52,86 @@
 		}
 	}
 %>
-<LINK rel=stylesheet href="css/login.css">
-<LINK rel="shortcut icon" type=image/x-icon href="img/favicon.ico">
-<script src="js/md5.js"></script>
-<SCRIPT src="js/jquery-1.9.1.min.js"></SCRIPT>
-<script type="text/javascript">
-function editNews() {
-	//encrypt password
-	var passhash = CryptoJS.MD5($("#passwd").val());
-	$("#passwd").val(passhash);	
-}
-
-</script>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<form name="form" action="login.do" method="post">
-	<html>
+<html>
+	<head>
 		<title>Login</title>
-		<body class="small login">
-			<div id="header">
-				
-					<h1><a>POSCO ICT VIETNAM</a></h1>
-				
-			</div>
+		<LINK rel=stylesheet href="css/login.css">
+		<LINK rel="shortcut icon" type=image/x-icon href="img/favicon.ico">
+		<script src="js/md5.js"></script>
+		<SCRIPT src="js/jquery-1.9.1.min.js"></SCRIPT>
+		<script type="text/javascript">
+			function editNews() {
+				//encrypt password
+				var passhash = CryptoJS.MD5($("#passwd").val());
+				$("#passwd").val(passhash);	
+			}
+		</script>
+		<SCRIPT>
+			window.onload = function () {
+				if('${chk}'==""){
+					$("#lg_table").css("padding-top","42px");
+				}else{
+					$("#lg_table").css("padding-top","25px");
+				}
+			}
+		</script>
+	</head>
+	<body class="small login">
+		<form name="form" action="login.do" method="post">			
 			<input type="hidden" value="Login-service" id="ServiceName" name="ServiceName">
-			<div id="container">
-				<div id="content" style="height: 187px;color:#515348;" >
-					<div class="wrapper">
-						<table class="login" style="margin-left: auto; margin-right: auto;">
-						<tbody><tr>
-							<td><p class="mtop0 mbottom025"><strong><label id="label_log" >Username</label></strong></p><input id="username" class="inputtext" name="username" type="text" value="<%=username%>"></td>
-						</tr>
-						<tr>
-							<td><p class="mtop05 mbottom025"><strong><label id="label_log" >Password</label></strong></p><input id="passwd" class="inputtext" name="passwd" type="password" value="<%=passwd%>"></td>
-						<tr  style="height: 30px;">
-							<td>
-								<c:if test="${chk == '0'}">
-									<p id="p_error">
-										<c:out value="Wrong account"/>
-									</p>
-								</c:if>
-								<c:if test="${chk == '1'}">
-								<%
-								// New location to be redirected
-							   String site = new String("./admin.do");
-							   response.setStatus(response.SC_MOVED_TEMPORARILY);
-							   response.setHeader("Location", site); 
-								%>
-								</c:if>
-							</td>
-						</tr>
-						<tr>
-							<td><input class="public-button" type="submit" value="Log in" onclick="editNews()" /></td>
-						</tr>
-						
-						</tbody></table>
-					</div> <!-- wrapper -->
-				</div> <!-- content -->
-			</div> <!-- container -->
+				<div class="div_1">
+				</div>
+				<div class="div_2">
+					<h1 class="h1_wel"><a>WELCOME</a></h1>
+				</div>
+				<div class="div_3">
+					<div style="div_3_ct">
+						<table id="lg_table" class="login" style="margin-left: auto; margin-right: auto;>
+							<tbody>
+								<tr  style="height: 16px;">
+									<td>
+										<c:if test="${chk == '0'}">
+											<p id="p_error">
+												<c:out value="Authentication denied"/>
+											</p>
+										</c:if>
+										<c:if test="${chk == '1'}">
+										<%
+										// New location to be redirected
+									   String site = new String("./admin.do");
+									   response.setStatus(response.SC_MOVED_TEMPORARILY);
+									   response.setHeader("Location", site); 
+										%>
+										</c:if>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label class="lbl_item">Username</label>
+										<input id="username" class="inputtext" name="username" type="text" value="<%=username%>">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label class="lbl_item">Password&nbsp;</label>
+										<input id="passwd" class="inputtext" name="passwd" type="password" value="<%=passwd%>">
+									</td>
+								<tr>
+									<td><input class="public-button" type="submit" value="Log in" onclick="editNews()" /></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>					
+				</div>
+				<div class="div_4">
+					<label class="lbl_slogan">Be yourself - We will create tomorrow together - POSCO ICT Viet Nam</label>
+				</div>
+			<!--
 			<div id="img_login">
 				<IMG src="img/global.png">
 			</div>
-			<DIV id="copyright"">
-				<P>
-					<IMG alt="COPYRIGHT(C) 2013 POSCO ICT VIETNAM. ALL RIGHTS RESERVED"
-						style="margin-top: 10px" src="img/copyright.gif">
-				</P>
-			</DIV>
-		</body>
-	</html>
-</form>
+			-->
+		</form>
+	</body>
+</html>

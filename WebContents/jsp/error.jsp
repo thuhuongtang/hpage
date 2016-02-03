@@ -6,7 +6,9 @@
 </head>
 <body>
 	<form name="form" action="index.do" method="post">
-	<IMG src="img/oops.png">
+	<div style="color: white;">
+	welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcomewelcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome  welcome welcome
+	</div> 
 	</form>
 </body>
 </html>

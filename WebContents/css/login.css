@@ -4,9 +4,8 @@ body {
 padding: 0;
 margin: 0;
 text-align: center;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: Arial;
 font-size: 13px;
-line-height: 20px;
 }
 
 /*
@@ -1945,27 +1944,24 @@ transition: background 0.05s linear;
 
 
 input.public-button {
-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-size: 13px;
+font-family: Arial;
+font-size: 16px;
 vertical-align: top;
 padding: 6px 14px 6px 14px;
-border: 1px solid #1874CD;
+border: 1px solid #659CEF;
 color: #fff;
 cursor: pointer;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 2px;
-background: -webkit-linear-gradient(#fff, #e5e5e5);
-background: -moz-linear-gradient(#fff, #e5e5e5);
-background: -ms-linear-gradient(#fff, #e5e5e5);
-background: -o-linear-gradient(#fff, #e5e5e5);
-background: #1874CD;
--pie-background: linear-gradient(#fff, #e5e5e5);
+background: #659CEF;
 position: relative;
 behavior: url(/_pie/PIE.htc);
+float:right;
 }
 input.public-button:hover {
-background: #e5e5e5;
+background: white;
+color:#659CEF;
 transition: background 0.05s linear;
 }
 input.public-button:active {
@@ -2912,38 +2908,52 @@ body.home #content { background: #fff; }
 
 #label_log {
 color: #515348;
-font-size: 13px;
+font-size: 16px;
 }
 #p_error {
-color: red;
-font-size: 13px;
+color: #FF5B00;
+font-size: 16px;
 margin-top: 10px;
+text-align:left;
+font-weight:bold;
 }
-#img_login {
-width: 475px;
-margin-top: -300px;
-margin-left: 150px;
+
+.h1_wel{
+font-family:Arial;
+color:#00457C;
+font-size:54px;
+font-weight:bold;
 }
-#copyright {
-width: 475px;
-margin-left: 615px;
+.div_1{
+height:100px;
 }
-/*
-
-
-+75 light  #fdfcfb
-+50 light  #faf9f7
-+25 light  #f8f7f3
-0   #f6f4ef
--5  #f1efea
--10 #eceae5
-    old border #eae9db
--15 #e7e5e0
--20 #e2e0db
-    #e1dfd4 (usado p/ border)
-
-
-*/
-
-
-
+.div_2{
+height:100px;
+}
+.div_3{
+background:#00457C;
+height:200px;
+}
+.div_4{
+background:#7DBD00;
+height:100px;
+}
+.div_3_ct{
+width:355px;
+margin-left: auto;
+margin-right: auto;
+height:200px;
+}
+.lbl_item{
+font-family:Arial;
+font-size:16px;
+color:white;
+}
+.lbl_slogan{
+font-family:Arial;
+font-size:16px;
+color:white;
+font-style: italic;
+top:40%;
+position: relative;
+}

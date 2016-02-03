@@ -608,31 +608,19 @@ cursor: pointer;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 2px;
-background: -webkit-linear-gradient(#fff, #3489C0);
-background: -moz-linear-gradient(#fff, #3489C0);
-background: -ms-linear-gradient(#fff, #3489C0);
-background: -o-linear-gradient(#fff, #3489C0);
 background: #3489C0;
--pie-background: linear-gradient(#fff, #3489C0);
 position: relative;
-behavior: url(/_pie/PIE.htc);
 width:50px;
 }
 .btnSave:hover {
-background: #1874CD;
+background: white;
 border: 1px solid #1874CD;
 transition: background 0.05s linear;
+color:#3489C0;
 }
 .btnSave:active {
 /*padding: 7px 14px 5px 14px;*/
 padding: 6px 14px 6px 14px;
-background: -webkit-linear-gradient(#3489C0, #fff);
-background: -moz-linear-gradient(#3489C0, #fff);
-background: -ms-linear-gradient(#3489C0, #fff);
-background: -o-linear-gradient(#3489C0, #fff);
-background: linear-gradient(#3489C0, #fff);
--pie-background: linear-gradient(#3489C0, #fff);
-behavior: url(/_pie/PIE.htc);
 }
 .divSave{
 margin-top: 10px;

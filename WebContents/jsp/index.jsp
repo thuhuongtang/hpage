@@ -19,7 +19,7 @@
 	</jsp:attribute>
 	<jsp:attribute name="content">
 	<DIV class=container1 style="margin-top: -40px;"></DIV>
-	<DIV id=content style ="margin-left: -40px;">
+	<DIV id=content style ="margin-left: -40px;width:135%;">
 		<DIV>
 			<UL class="bxslider">
 			  <li><img style="width: 964px; height: 500px;" src="img/main_slide1.jpg"/>

@@ -1,14 +1,14 @@
 #content {
 	/* POSITION: relative; MARGIN: 0px auto; WIDTH: 963px */ 
-	POSITION: relative;  WIDTH: 963px 
+	POSITION: relative;  WIDTH: 74%
 }
 .mainSlider {
 	/* Z-INDEX: 0; POSITION: relative; WIDTH: 963px; HEIGHT: 553px; OVERFLOW: hidden */
-	Z-INDEX: 0; POSITION: relative; WIDTH: 963px; HEIGHT: 443px; OVERFLOW: hidden; vertical-align: middle
+	Z-INDEX: 0; POSITION: relative; WIDTH: 100%; HEIGHT: 443px; OVERFLOW: hidden; vertical-align: middle
 }
 .submainSlider {
 	/* Z-INDEX: 0; POSITION: relative; WIDTH: 963px; HEIGHT: 553px; OVERFLOW: hidden */
-	Z-INDEX: 0; POSITION: relative; WIDTH: 1010px; HEIGHT: 152px; OVERFLOW: hidden;LEFT: 190px; vertical-align: middle
+	Z-INDEX: 0; POSITION: relative; WIDTH: 100%; HEIGHT: 152px; OVERFLOW: hidden;LEFT: 190px; vertical-align: middle
 }
 #slideImgs {
 	POSITION: absolute; HEIGHT: 1659px
